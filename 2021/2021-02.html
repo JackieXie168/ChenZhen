@@ -5,35 +5,453 @@
   <meta http-equiv="Content-Style-Type" content="text/css">
   <title></title>
   <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1187.4">
+  <meta name="CocoaVersion" content="1561.61">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'LiHei Pro'; min-height: 12.0px}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Heiti TC Light'; background-color: #989898}
-    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Heiti TC Light'; background-color: #f0f0f0}
-    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Heiti TC Light'; background-color: #e6e6e6}
-    p.p5 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; background-color: #f0f0f0}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 12.0px Times; color: #000000; background-color: #989898}
-    p.p7 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 12.0px 'LiSong Pro Light'; color: #000000; background-color: #f0f0f0}
-    p.p8 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 12.0px 'LiSong Pro Light'; color: #000000; background-color: #e6e6e6}
-    p.p9 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 12.0px Times; color: #000000; background-color: #e6e6e6}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 12.0px Times; color: #000000; background-color: #e6e6e6; min-height: 14.0px}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 12.0px Times; color: #000000; background-color: #f0f0f0; min-height: 14.0px}
-    span.s1 {color: #003333}
-    span.s2 {font: 12.0px Times}
-    span.s3 {font: 12.0px 'Heiti TC Light'}
-    span.s4 {font: 12.0px 'LiSong Pro Light'; letter-spacing: 0.0px}
-    span.s5 {letter-spacing: 0.0px}
-    span.s6 {letter-spacing: 0.0px; color: #003333}
-    span.s7 {font: 12.0px Times; letter-spacing: 0.0px}
-    span.s8 {letter-spacing: 0.0px; background-color: #e6e6e6}
-    span.s9 {font: 12.0px 'LiSong Pro Light'; letter-spacing: 0.0px; background-color: #e6e6e6}
-    span.s10 {font: 12.0px STSong; letter-spacing: 0.0px}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 12.0px 'PingFang TC'; color: #000000; background-color: #989898}
+    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 12.0px 'PingFang TC'; color: #000000; background-color: #f0f0f0}
+    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 12.0px 'PingFang TC'; color: #000000; background-color: #e6e6e6}
+    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 12.0px Times; color: #000000; background-color: #e6e6e6}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Heiti TC Light'; background-color: #989898}
+    p.p6 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Heiti TC Light'; background-color: #f0f0f0}
+    p.p7 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Heiti TC Light'; background-color: #e6e6e6}
+    p.p8 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; background-color: #f0f0f0}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 12.0px Times; color: #000000; background-color: #989898}
+    p.p10 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 12.0px 'LiSong Pro Light'; color: #000000; background-color: #f0f0f0}
+    p.p11 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 12.0px 'LiSong Pro Light'; color: #000000; background-color: #e6e6e6}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 12.0px Times; color: #000000; background-color: #e6e6e6; min-height: 14.0px}
+    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 17.0px; font: 12.0px Times; color: #000000; background-color: #f0f0f0; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #003333}
+    span.s3 {font: 12.0px 'Lucida Grande'; font-kerning: none}
+    span.s4 {font: 12.0px Times; font-kerning: none; background-color: #e6e6e6}
+    span.s5 {font: 12.0px Times; font-kerning: none; background-color: #f0f0f0}
+    span.s6 {font: 12.0px 'PingFang TC'; font-kerning: none}
+    span.s7 {font: 12.0px Times; font-kerning: none}
+    span.s8 {color: #013333}
+    span.s9 {font: 12.0px Times}
+    span.s10 {color: #003333}
+    span.s11 {font: 12.0px 'Heiti TC Light'}
+    span.s12 {font: 12.0px 'LiSong Pro Light'; font-kerning: none}
+    span.s13 {font: 12.0px Times; font-kerning: none; color: #003333}
+    span.s14 {font: 12.0px 'LiSong Pro Light'; font-kerning: none; background-color: #e6e6e6}
+    span.s15 {font-kerning: none; background-color: #f0f0f0}
+    span.s16 {font: 12.0px STSong; font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1"><br></p>
-<p class="p2">陳真   |  2021.02.23 02:28   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40332"><span class="s1">#</span></a></p>
-<p class="p3">話語到底還有多少力量？ <br>
+<p class="p1"><span class="s1">陳真   |  2021.02.28 01:24   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40352"><span class="s2">#</span></a></span></p>
+<p class="p2"><span class="s1">今天的台北街頭，略寒，細雨。警察比我們早到，我遠遠看到他們在 AIT 前面，一字排開，像在演練。來參加靜站的人，一共八位，警察、便衣及特務人數每次總是我們的好幾倍。<br>
+<br>
+回程途中，我知道了壞消息，達叔(吳孟達)走了。稍早前，金基德也走了，還有Milo</span><span class="s3">š</span><span class="s1"> Forman和Theodoros Angelopoulos以及戴振耀等等等一些我喜歡的人也都走了。有一天，周星馳也會走。當那一天來臨，我很難想像這世界豈有可能依舊紋風不動？<br>
+<br>
+忘了在哪看到的一句話：「一年一影帝，百年周星馳」。其實何止百年，說千年也不為過，難道你能想像人間還會出現一顆跟周星馳一樣動人的星？<br>
+<br>
+別說廉價如影帝，即便高貴如偉大藝術家或各種家，例如哲學家、畫家、音樂家、革命家、作家、科學家、社會活動家等等等，沒有上萬，也有幾千，每個國家或地區總會出現至少一兩個不凡者。但是，真正能贏得永恆的，卻如鳳毛麟角。<br>
+<br>
+還有個人走得更早，在我成年之際剛從電影之中認識他時，他就走了，叫做Orson Welles，電影《大國民》的導演；生前寂寞，死後孤單，但他相信 "They'll love me when I'm dead." (我死了之後，他們就會愛我了)。也許人們在他生前就已熱愛，只是無從表達。<br>
+<br>
+想到Orson Welles，不知道為什麼我常會想到馬龍白蘭度。我對馬龍白蘭度知之甚詳，宛若家人一般；與其說我仰慕他，不如說我憐憫我自己，我似乎能明白他們生命裏頭的某種「自毀機制」之從何而來。<br>
+<br>
+有了小孩之後，就很難有時間看電影。但我前幾天還是跟小孩「請了假」，說「把拔晚上九點要去看電影」。她平常總是很好奇我喜歡些什麼、不喜歡些什麼。比方說電影，她都會很想知道我到底是在看些什麼樣的電影。前幾天去看的就是大島渚的《俘虜》，英文片名叫《Merry Christmas，Mr. Lawrence》。我跟小可愛說，「這電影把拔已經看過一百多次，但是距離上次看大銀幕卻已經是37年前」。<br>
+<br>
+小可愛很好奇它到底是有多好看，為什麼會看了一百多次？她很想知道這電影在演些什麼。我跟她說，「等妳再長大一點我再跟妳說」，畢竟可悲之事不用急著知道，每個人遲早都能嚐遍冷暖。<br>
+<br>
+將來，也許我會跟她說，如果妳想更了解妳的把拔，或是很久很久以後，如果還有人會問起妳把拔是個什麼樣的人，那妳也許就可以從《俘虜》或馬龍白蘭度的自傳或《大國民》或金基德的《聖殤》或Emir Kusturica 的《亞歷桑那夢遊》裏頭去尋找線索。<br>
+<br>
+也許，我們都是 "Orson Welles"，我們的「秘密」就像《大國民》裏頭那句謎一般的遺言："rosebud" (玫瑰花蕾)。你有你的rosebud，我有我的rosebud；這麼一點小東西，天下之大，卻沒有比之更大者；世上至微，卻也沒有比它更微小的了。它其實沒有那麼神祕，只是生命為其所困，魂縈夢牽，揮之不去。<br>
+<br>
+陳真<br>
+<br>
+寫於南下高鐵途中<br>
+<br>
+2021.02.27.</span></p>
+<p class="p1"><span class="s1">洋洋   |  2021.02.27 19:51   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40351"><span class="s2">#</span></a></span></p>
+<p class="p3"><span class="s1">報喜<br>
+<br>
+中國公佈2035年交通網規劃：跨海高鐵直通台灣，鐵路激活新疆西藏<br>
+原創虹軍事2021-02-27 11:18:26<br>
+<br>
+<br>
+據新華網報導，國務院發布了未來全國立體交通網絡規劃圖。根據規劃信息顯示，2035年以前將建成直達台灣省的高鐵線路；連接新疆和西藏的新藏線鐵路，也將在這個時間點前建成。<br>
+有圖:<a href="https://www.toutiao.com/a6933766943270928904/"><span class="s4"><i>https://www.toutiao.com/a6933766943270928904/</i></span></a><br>
+<br>
+<br>
+新規劃的立體交通網絡，兼具經濟價值和國防價值。京台高鐵，將會極大促進兩岸的經濟文化交流；圍繞我國新疆、西藏修建的新藏線鐵路，能夠將國內的物資快速轉運到邊境地區，能夠加強新疆、西藏跟中部、東部地區的交通物流聯繫，十分有利於西部的經濟發展。<br>
+<br>
+修建鐵路困難重重，“基建狂魔”不是白叫的<br>
+<br>
+早在2016年“十三五”規劃期間，中國就正式提出修建一條從首都北京直達台灣省的高鐵線路。跨海修建鐵路，需要解決的技術難點有很多；首先，台灣海峽的勘測資料目前還很缺乏，想要修建跨海的海底隧道，首先需要探明台灣海峽內海底地形和水文條件，精準把握海底施工珍貴的“窗口期”。<br>
+<br>
+目前中國在建造海底隧道方面，已經有了成功案例。中國南有港珠澳海底隧道，北有大連灣海底隧道；兩座海底隧道的研發團隊歷時多年的技術攻關，已經形成一套完整的施工作業流程。<br>
+<br>
+在我國西部邊陲的新藏鐵路修建難度也很高，幾乎與川藏線一致。這條鐵路要橫穿崑崙山、喜馬拉雅山，全線要經過長距離永久凍土，沿途還有數千公里的荒漠戈壁地帶。該線全線的海拔都在4500米以上，氣溫含氧量都不利於施工。<br>
+<br>
+中國目前已經有了川藏鐵路這一先例，修建新藏鐵路的重重困難並非難以克服。<br>
+<br>
+形成立體交通網，穩固邊境國防<br>
+<br>
+目前鐵路的修建重點還是川藏和滇藏鐵路，基本可以確定的是新藏鐵路將會在川藏鐵路完工後開建。新藏鐵路的工期也應該與川藏鐵路差不多，預計將會在2026年左右開工，並且在2035年前基本完工。<br>
+<br>
+新藏鐵路途徑阿里地區，其中就有廣為人知的班公湖；鐵路在運量方面，較公路運輸和航空運輸來說有明顯的優勢，西部的礦產等大宗貨物，可以直接通過鐵路實現資源變現，這點是其他運輸方式難以做到的。<br>
+<br>
+新藏鐵路將會是未來連接西北和西南地區大動脈，可作為新疆和西藏物資進出的要道，也可承擔國防運輸任務。<br>
+<br>
+完整鐵路網的背後，是中國基建能力的體現<br>
+<br>
+中國作為世界上擁有最先進鐵路網和高鐵網的國家，在營的鐵路無論從里程、規模還是技術上都已經領先世界一大步。目前我國的高鐵總里程佔世界總里程的七成，高鐵時速也遠超其他國家。<br>
+<br>
+鐵路網建設的背後是我國基建能力的體現。想要建成一條數千公里的鐵路，從規劃到施工需要涵蓋數百道工序，囊括了幾乎所有的工業領域。這不但需要在國家層面建立一套完整的計劃，更要在具體細節上協調好部門之間的配合。</span></p>
+<p class="p1"><span class="s1">洋洋   |  2021.02.27 18:34   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40350"><span class="s2">#</span></a></span></p>
+<p class="p2"><span class="s1">2021-02-14<br>
+以“中国”为媒人，陪伴我四十几年的“好朋友”离开了<br>
+<a href="https://www.ixigua.com/6928949364710703616"><span class="s5"><i>https://www.ixigua.com/6928949364710703616</i></span></a><br>
+潘維廉在蘇離開的四天後，拍了這段影片。<br>
+講著他倆的愛情，原來至痛的悲傷也能如此泰然自若。<br>
+<br>
+</span></p>
+<p class="p1"><span class="s1">陳真   |  2021.02.27 18:21   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40349"><span class="s2">#</span></a></span></p>
+<p class="p4"><span class="s6">達叔過世。<br>
+<br>
+<a href="https://bit.ly/3aZeCvp"><span class="s7"><i>https://bit.ly/3aZeCvp</i></span></a><br>
+<br>
+<a href="https://bit.ly/37SmufY"><span class="s7"><i>https://bit.ly/37SmufY</i></span></a></span></p>
+<p class="p1"><span class="s1">王修亮   |  2021.02.26 19:47   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40348"><span class="s2">#</span></a></span></p>
+<p class="p2"><span class="s1">欽孝幾乎都答對了^^<br>
+另兩題我稍作解說<br>
+<br>
+<br>
+四、止於前線，一同思念<br>
+射論語詞(兩字)<br>
+謎底為「正心」<br>
+<br>
+<br>
+七、斷一捨五中數合<br>
+射一字<br>
+謎底為「九」。<br>
+<br>
+因為一和五中間的二三四合起來是九，九為陽之極，揭底為「乾」未嘗不可，但謎面並沒有那麼深刻的意義。若是加上一句<br>
+<br>
+斷一捨五中數合<br>
+矯矯天行不可測<br>
+<br>
+這樣加深了謎面的意義，謎底就可是「乾」了，答「九」就太淺薄了。</span></p>
+<p class="p5">唐欽孝   |  2021.02.26 08:44   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40347"><span class="s8">#</span></a></p>
+<p class="p6">試答修亮老師的元宵燈謎： <br>
+<br>
+一、正脫帽，菸落草，到失刀，膳肉少。 <br>
+射大學一句(四字) <br>
+止於至善 <br>
+<br>
+二、忽見小草頭上生 <br>
+射一字 <br>
+葱 <br>
+<br>
+三、 <br>
+一丸無心主，一生不沾土 <br>
+一天失其大，一手反尾骨 <br>
+射成語一 <br>
+九牛一毛 <br>
+<br>
+四、止於前線，一同思念 <br>
+射論語詞(兩字) <br>
+歸心 <br>
+<br>
+五、 <br>
+水落草偃孤木修，左廂不得右為牛 <br>
+教者不孝何當至，口舌如箭慎所求 <br>
+射論語一句(四字) <br>
+格物致知 (禮記 大學) <br>
+<br>
+六、二人同立不出頭，此生相伴一心求 <br>
+射中庸名辭(二字) <br>
+天性 <br>
+<br>
+七、斷一捨五中數合 <br>
+射一字 <br>
+乾 <br>
+<br>
+八、 <br>
+鳳無其心，禹無衣帽，字無二分 <br>
+苦則喪身，訛則無語，文則一同 <br>
+露頭取之，虐足反之，合併成之 <br>
+明而入夜，閒而出門，兩者不異 <br>
+射成語一 <br>
+風花雪月 <br>
+<br>
+九、峰迷雲霧需緩行 <br>
+射一字 <br>
+逢 <br>
+<br>
+十、過失中而回首 <br>
+射一字 <br>
+道 <br>
+<br>
+十一、 <br>
+引水揮送鎮微塵，手執竹帚清亂痕 <br>
+問則有答揚聲語，一雙兩兩各為分 <br>
+車行連連復何載，隹居艮止二象存 <br>
+射論語一句(六字) <br>
+灑掃應對進退 <br>
+<br>
+十二、 <br>
+今謂虛空古謂圓，雲雷雪雨落此間 <br>
+八荒萬國各分據，承載萬物生滅焉 <br>
+射一詞(兩字) <br>
+天地 <br>
+<br>
+十三、 <br>
+倏忽千里花木喧，驚蟄一聲動九天 <br>
+天水迷濛行泥濘，因何失路罩寒煙 <br>
+射自然現象四種 <br>
+風雷雨霧 <br>
+<br>
+十四、 <br>
+天下兩離中，情思何處同 <br>
+刀禾其並立，斬卻金銀銅 <br>
+射易經兩句(八字，一節射兩字) <br>
+二人同心，其利斷金</p>
+<p class="p5">陳真   |  2021.02.26 02:03   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40346"><span class="s8">#</span></a></p>
+<p class="p7">中美終須一戰？ <br>
+<br>
+陳真 <br>
+<br>
+2021. 02. 26. <br>
+<br>
+<br>
+聲志，謝謝你的分析。我倒是沒有那麼樂觀，我不認為「中美大戰」「大局已定」，中國「已經」獲勝。我覺得，離「大戰」還很遠；不管是何種形式的鬥爭或戰爭，現在只是揭開「序幕」，勉強算是「第一回合」。看起來，第一回合是我方獲勝，比數約三七開，算是大勝，但是往後恐怕還有數十回合。 <br>
+<br>
+我常納悶，人雖是活物，卻似乎跟死物或數字一樣，在某種大數法則下，背後似乎仍然有個規律。我在島內看見一種似乎以三十年為一周期的主流思維更換規律，由藍轉綠，由統轉獨，並即將由綠轉紅，兩岸歸於一統。這當然不是任何人事先設定好的，奇妙的是眾人卻似乎潛藏某種默契，從而走出一輪又一輪的固定周期。 <br>
+<br>
+我認為2020是仇中反華的最高峰 (因為我沒法想像它還能「更」瘋狂)，如今高峰已過，將逐漸走下坡，揚棄瘋狂，走回現實，走回真實生活。因此，2021可以說是「兩岸統一元年」，而收割日則以十年計，也就是2030年，屆時統一問題將煙消雲散而成為一種常識與基本事實。 <br>
+<br>
+「期望」與「判斷」經常會混淆在一起。當我思考事情時，我會儘可能把這兩者分開，儘可能不以主觀期待來取代判斷。我的客觀判斷跟你一樣，也是認為我們會贏，美國將落敗，屈居老二或老三。不管美國人或西方人願不願意或高不高興，終究得面對「東風壓倒西方」這個事實，終究得承認「西方優越主義」或「白人至上主義」乃至「白人才是人的主義」都將成為過去。 <br>
+<br>
+很奇妙的是，島內的周期，似乎也恰好呼應了對岸的發展。眾所周知，中共有「兩個一百年」，涉及三個年限。頭一個「一百年」是中國共產黨成立一百年，亦即2021年，也就是今年。依中共向來極具實踐力的發展規劃，今年的目標是全面脫貧，全面建成小康社會。這個目標似乎已經達成。 <br>
+<br>
+第二個「一百年」就是中華人民共和國建國一百年，也就是2049年。依照中共的規劃，2049年將把中國全面建成「社會主義現代化強國」，至此不再仰人鼻息，更不再任人宰割，美國將不再是個高高在上的對手。 <br>
+<br>
+從2020到2049這三十年，從中設立一個時間點，分成前後兩期，各為15年。這個時間點也就是一般所熟知的「中國製造2035年」。 <br>
+<br>
+大家必須知道，這些年份都不是亂喊的，而是具有非常紮實的規劃與精算；中共的作風向來如此，言出必行，使命必達。 <br>
+<br>
+美國當然也一樣，甚至更厲害；他想搞你就是要搞你，絕非一時興起，而是長期精密規劃。你從「維基解密」所揭露的大量密件中可以看出，原來美國計畫侵略伊拉克及敘利亞和利比亞等等等，居然統統都是早在十多年前就開始規劃，按表操課逐步進行，非常邪惡，但也非常驚人，原來這一切都不是偶然，而是按照長期劇本進行。 <br>
+<br>
+至於在台灣，藍綠兩黨動輒高喊一些口號，例如什麼「2025非核家園」，你可以統統當成放屁，因為那些全是詐騙撈錢的低能口號，毫無意義，完全就是隨便亂喊的。但是，中國和美國可不是這樣的一種兒戲政治。 <br>
+<br>
+依我看，2035年會比2049年更為關鍵。因為，一旦過了2035年，即便中國仍未全面超越美國 (例如軍事與科技)，但也已經堅不可摧。因此，站在美國的立場，若要打垮中國，勢必得搶在他練成金剛不壞之身之前，而非之後。而這個時間點，就是2035年。換句話說，美國不可能等到2035年或2034年才突然想辦法弄死你，而是一定會在這之前就開始執行殲滅計畫。 <br>
+<br>
+這樣算起來，美國還有大約十年的機會。待十年一過，武林盟主就得準備換人。因此，往後十年將是個危險期。 <br>
+<br>
+前幾天，聯合國祕書長Antonio Guterres 在聯合國人權理事會上發出一項前所未有、非常不尋常的嚴厲警告。他說，「白人至上主義」(White supremacy)與新納粹運動正成為一項「跨國威脅」。他說，這股勢力在特定國家的支持下，藉由疫情發動族群仇恨動員與全球結盟。他說，這樣一種帶有國家色彩的「白人至上」極端勢力在過去是無法想像的。 <br>
+<br>
+我很訝異他居然敢講得這麼白，但其所言，其實只是一個再明顯也不過的事實。你看，在過去兩三年來，在美國與西方媒體無日無之的瘋狂抹黑與造謠下，仇中反華變成一種全球運動，拼命妖魔化中國人，一如當年之妖魔化塞爾維亞人或妖魔化回教世界、妖魔化阿富汗神學士政權與伊拉克、妖魔化敘利亞與利比亞等等等一樣，而且更加瘋狂齷齪與邪惡，完全不擇手段，進行全球性的妖魔化。 <br>
+<br>
+從各種民調中，你可以很清楚看見人們如何被強力洗腦。比方說，在許多國家，特別是西方國家，動輒七、八成以上的人民對中國或中國人懷有惡感。這在過去是不曾見到的。 <br>
+<br>
+我常舉伊拉克為例，在美國侵略之前，美國僅僅只有極少數人(大約2%或3%)認為伊拉克對世界是個威脅；絕大部份人連海珊是誰、連伊拉克在哪也不知道。但是，經過短短幾個月，在西方主流媒體與英、美政府的瘋狂造謠之下，居然有高達八、九成的美國人認為伊拉克將危害世人、毀滅全世界，因此熱烈支持美國對伊拉克發動戰爭。 <br>
+<br>
+中國與中國人目前所遭遇的妖魔化，就是類似這樣一種局面，而且是千百倍以上的惡劣與規模，是全球性的一種族群仇恨動員。美國搞這些當然不是搞好玩的，而是為將來的各種鬥爭或戰爭鋪路與動員。 <br>
+<br>
+你看，過去二十多年來，被美國鎖定的妖魔化對象，全部遭到侵略與屠殺，無一例外，殺害上千萬人，製造一億以上的難民。由此觀之，難道你會以為美國花那麼大力氣在抹黑中國、醜化華人，只是在鬧著玩？難道你以為美國真的有個什麼可以獨當一面、貫徹一己施政理念的總統？沒有這回事。 <br>
+<br>
+就如羅素在半個多世紀前所說，美國不是個民主國家，而是一個採取政治世襲制的帝國，更是一部戰爭機器，權力始終就牢牢掌握在真正的大老闆手裏，包括掌控金融與媒體的大資本家、軍工複合體及情治系統。美國的對外政治作為不會因為更換總統而有其本質上的改變。 <br>
+<br>
+這些事講不完，罄竹難書，但本質卻不複雜，而且權力結構十分穩定。西方所謂民主選舉，其實就像選左手或選右手一樣，選來選去都是同一個人。我們平常騙小孩也是這樣，你給她糖果，問她說「要用左手給或右手？可以讓妳選哦」。小孩聽了就很開心，覺得好好玩，好有成就感。 <br>
+<br>
+西式民主差不多就是這樣，其集權程度，相較於中國，更加嚴密百倍，更加滴水不漏，否則哪有可能強盛？CIA的「民主(輸出)基金會」(NED)，顧名思議，核心任務就是「輸出」民主，而非「輸入」。你覺得美國會不擇手段把一個美妙非凡的好東西硬要「輸出」給敵對國家嗎？ <br>
+<br>
+前幾天看到金燦榮接受韓國媒體採訪，提到上個世紀七零年代，美國有位著名歷史學家 Arthur M. Schlesinger，寫了一本書叫做《Imperial Presidency》(帝王總統)，裏頭提到：西方人自認為是上帝所揀選的子民，優越於其他所有人，因此，倘若有個國家想要和西方國家平起平坐，那麼，他「所犯下的將不僅僅是一種錯誤，而是一種罪行」("not only a mistake, but a crime")。 <br>
+<br>
+Schlesinger這話說得很精準，我在西方社會的長年觀察也是這樣。西方社會可以容許你以個人身份比其他西方人優秀，但他絕不會容許你的種族竟然膽敢不屈膝下跪，而竟然想要和「他們」平起平坐。中國不吃這一套，因此中國「罪大惡極」。聯合國祕書長Antonio Guterres 近日所提出警告的「白人至上主義」，基本心態就是這樣。 <br>
+<br>
+簡單說就是：西方人不可能乖乖接受「中國崛起」的事實，其統治階層一定會傾全力攻擊，捍衛西方人即將失去的至高無上之優秀種族地位。在過去，他們把非白人視為獸類，視為猿猴，後來讓他進化為狗，供其使喚差遣。沒想到有朝一日，當年被他們蹂躪屠殺一百年的中國，居然從廢墟中活了過來，而且快要和他們平起平坐。 <br>
+<br>
+我不認為西方能無痛轉型，接受事實，揚棄虛幻可笑的「白人至上主義」。因此，許多時候我常有這樣一種憂慮，我認為，以美國為首的西方世界，一定會藉由政治代理人之手，在中國大陸發動大規模的國家恐怖主義攻擊，或是策動比方說印度，對中國大陸發動戰爭，或是把台灣當成一顆人肉炸彈，攻擊大陸，挑起內戰，以坐收漁翁之利。 <br>
+<br>
+至於中美之間會不會爆發全面戰爭，這我就不敢說了。表面上「看起來」好像不會。但是，你有沒有想過，不管是第一次或第二次世界大戰，根本沒有人預料它會真的發生，而且持續多年，死傷規模以億計算。在戰前，人們甚至對爆發戰爭的可能性嗤之以鼻。直到戰爭發生後，仍然沒有人料想到它居然如此慘烈，而且戰火擴散如此迅速。 <br>
+<br>
+總之，凡事還是別太樂觀比較好，因為現實經常比我們所料想的更坎坷，更險惡，更何況我們面對的不是單一國家的政權更迭，不是一時一地的主權糾紛，更不是兩岸之間的雞毛蒜皮，而是涉及整個人類歷史與文明發展的一個轉捩點。在我看來，它無非就是人類文明是否能夠走上一條健康良善的和平發展道路之關鍵。 <br>
+<br>
+若干年後，倘若我們真的贏了，也許我們真能終結弱肉強食橫行世界數百年的血腥帝國主義，以一種嶄新的互助共榮思維與價值，濟弱扶傾，重新定義這個世界。</p>
+<p class="p5">吳聲志   |  2021.02.25 04:27   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40345"><span class="s8">#</span></a></p>
+<p class="p6">大家好，這篇是我半年前的預測， <br>
+<br>
+中美大戰這局我認爲我們中國人勝利了，大局已定， <br>
+有「德」者德天下，從德國總理梅克爾拒絕川普用G7對付中國開始， <br>
+以下是當時的報導： <br>
+<a href="https://udn.com/news/amp/story/6813/4602651"><span class="s9"><i>https://udn.com/news/amp/story/6813/4602651</i></span></a> <br>
+<br>
+有些人總認為德國親中，其實不然，在很多白人眼中，其他人總是低人一等， <br>
+這也是中國一直和平發展而美國處處侵略，但中國在國際（白人）上總得不到認同， <br>
+且德國之前也都聽命於美國，這就好像自家小弟投奔對手一樣， <br>
+賴岳謙老師的一篇分析也有類似見解： <br>
+<a href="https://youtu.be/i0BalZQTfeo"><span class="s9"><i>https://youtu.be/i0BalZQTfeo</i></span></a> <br>
+<br>
+現在連法國也正式拒絕美國了： <br>
+歐洲國家拒絕美國製裁伊朗的報導：<a href="https://udn.com/news/story/6809/4785066"><span class="s9"><i>https://udn.com/news/story/6809/4785066</i></span></a> <br>
+德法拒絕為美國改革世衛背書報導：<a href="https://udn.com/news/amp/story/6809/4767636"><span class="s9"><i>https://udn.com/news/amp/story/6809/4767636</i></span></a> <br>
+<br>
+我認為美國十年之內會退出西太平洋，兩岸應該不會開戰， <br>
+就算是美大選前（最危險時刻），中美應會避開修惜底德陷井。 <br>
+<br>
+至於美國總統不論誰當選，美國都會內部分裂，持續衰退， <br>
+拜登當選對兩岸、美國還有全世界都是好事。 <br>
+<br>
+目前我無法確認誰會當選，我只知道若川普當選，大家都會很痛苦， <br>
+但結局不會變。 <br>
+<br>
+十年之後地球會脫離幾百年來白人的殖民，我們中國人會再創一個 <br>
+盛世，富足、繁榮、有尊嚴。 <br>
+<br>
+這是我在去年8/31的預測，請大家多多指教，謝謝大家。 <br>
+<br>
+聲志 <br>
+<br>
+<br>
+<br>
+</p>
+<p class="p5">吳聲志   |  2021.02.25 03:47   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40344"><span class="s8">#</span></a></p>
+<p class="p7">大家好，好久不見，我是聲志，最近看國際局勢，我也覺得變化很快， <br>
+我的看法是十年之內美國會退出亞太地區（大概是第8年）， <br>
+<br>
+至於兩岸和平統一的時間我原本推估是（2～4年內），不過因為 <br>
+拜登的個人因素極有可能在1年半（2022/07/21）左右，兩岸統一的 <br>
+序曲則在拜登就職半年開始，約（2021/07/21）。 <br>
+<br>
+至於中美之爭從拜登勝一選那刻起勝負已分，修惜底德陷井也以安然渡過。 <br>
+<br>
+祝福大家都有美好的未來，我會再把半年前左右的預測貼上來供大家參考。 <br>
+<br>
+</p>
+<p class="p5">嘉靖   |  2021.02.24 21:28   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40343"><span class="s8">#</span></a></p>
+<p class="p6">猜政党的一查就知道了，人渣，用的不是狐狗，是百度。</p>
+<p class="p5">陳真   |  2021.02.24 19:17   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40342"><span class="s8">#</span></a></p>
+<p class="p7">謝謝同學，沒關係啊，不用刪。你可以補考，底下是五年前的有獎徵答考古題。 <br>
+<br>
+皇后潛入藍海 <br>
+舉刀 <br>
+把手放下 <br>
+尋找死對頭 <br>
+寧為雞首 <br>
+勿為牛後 <br>
+<br>
+提示：寧為雞首為虛詞，對仗用，可略。猜一種台灣特有的生物，危害巨大。 <br>
+<br>
+這題目是我自己瞎掰的，文學造旨程度相當高。答案請從巴勒網右上角搜尋。</p>
+<p class="p5">嗯呵   |  2021.02.24 18:52   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40341"><span class="s8">#</span></a></p>
+<p class="p6">拜託陳醫師把上一則與這一則都刪了。謝！ <br>
+<br>
+見獵心喜，沒有重新整理網頁就發文，這才看到有手更快的。</p>
+<p class="p5">陳真   |  2021.02.24 18:48   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40340"><span class="s8">#</span></a></p>
+<p class="p7">前一題猜一政黨，沒有人會嗎？ <br>
+<br>
+修亮姐的題，只能繳白卷，超過我的程度太多了。 <br>
+<br>
+我從小最熟練的一題是這樣： <br>
+<br>
+一個囝仔要死要死，揹兩斗米。(猜一器官) <br>
+<br>
+提示：屬意象題。我那年代的小孩每個都知道答案。 <br>
+<br>
+這題須台語發音才能押韻。"要死要死" 即國語的 "要死不活" 或 "垂頭喪氣"、"懶洋洋" 之意。 <br>
+<br>
+十八歲以下請勿作答。為淨化版面，我不會公布答案的。</p>
+<p class="p5">嗯呵   |  2021.02.24 18:39   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40339"><span class="s8">#</span></a></p>
+<p class="p6">毒我？ <br>
+<br>
+射蔡琴</p>
+<p class="p5">人民   |  2021.02.24 18:03   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40338"><span class="s8">#</span></a></p>
+<p class="p7">對得還行,但不算妙對。 <br>
+以後進口核食,也是毒你。</p>
+<p class="p5">Ethan   |  2021.02.24 17:00   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40337"><span class="s8">#</span></a></p>
+<p class="p6">讀你千遍也不厭倦</p>
+<p class="p5">陳真   |  2021.02.24 14:47   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40336"><span class="s8">#</span></a></p>
+<p class="p6">再考一題，送分題。孤狗沒用，要自己想。 <br>
+<br>
+進口萊豬。猜蔡琴一首老歌。</p>
+<p class="p5">秉叡   |  2021.02.24 05:20   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40335"><span class="s8">#</span></a></p>
+<p class="p7">前所未有的定居点扩张 2020人权观察报告：以色列对巴勒斯坦人实行有组织镇压和歧视 <br>
+<br>
+2021年1月15日 <br>
+<br>
+04:29 凌晨 (GMT) <br>
+<br>
+国际人权组织人权观察表示，以色列占领当局在过去一年中对巴勒斯坦人实行有组织镇压和歧视。 <br>
+<br>
+<br>
+人权观察组织在其关于巴勒斯坦和以色列2020年系列事件的报告中补充说，以色列占领当局经常做的很多行为超出了安全界限。 <br>
+<br>
+<br>
+人权观察的这份报告基于巴勒斯坦、以色列和国际人权组织统计数据，这些数据记录了以色列占领者在过去一年的行径。 <br>
+<br>
+<br>
+封锁加沙 <br>
+<br>
+人权观察组织报告中广泛谈及以色列政府对被占领加沙地带的巴勒斯坦人实行的封锁，这种封锁已持续了十三年之久，此外，以色列还严格限制货物进出。 <br>
+<br>
+<br>
+人权观察认为，以色列的限制剥夺了生活在加沙地带的200万巴勒斯坦人的行动自由权，限制了他们获得电力和水源的机会，并破坏了经济。 <br>
+<br>
+<br>
+人权观察组织报告中指出，埃及也严重限制与加沙相连的拉法过境点的人员和货物流动。 <br>
+<br>
+<br>
+<br>
+约旦河西岸的定居点 <br>
+<br>
+有关约旦河西岸地区消息，人权观察组织表示，以色列当局正在继续将更多以色列公民转移到被占领的约旦河西岸地区定居点，这是战争罪。 <br>
+<br>
+<br>
+人权观察组织援引以色列“立即和平（Peace Now）”组织说法称，2020年推进定居点建设计划已提前完成，截至10月15日至，完成12159套定居点住房的修建，自该组织2012年开始追踪这些统计数据以来，这一数字比以往任何时候都要多。 <br>
+<br>
+<br>
+以色列统计数据显示，截至2020年11月下旬，包括东耶路撒冷在内的约旦河西岸地区，存在66.1万名定居者、132个大型定居点和124个随机定居点（未经以色列政府授权）。 <br>
+<br>
+<br>
+以色列当局在2020年期间拆除了568套巴勒斯坦人的房屋和建筑物（半岛电视台） <br>
+<br>
+<br>
+拆除、驱逐和杀戮 <br>
+<br>
+<br>
+根据联合国人道主义事务协调办公室（OCHA）统计数据显示，截至2020年10月19日，国际组织表示，以色列当局以缺乏以色列建筑许可证为借口，拆除了568座巴勒斯坦房屋和建筑物，导致759人流离失所，而这些巴勒斯坦人几乎不可能获得以色列建筑许可证。 <br>
+<br>
+<br>
+联合国人道主义事务协调办公室报告中指出，截至2020年10月5日，有20名巴勒斯坦人被杀，至少2001名巴勒斯坦人受伤。 <br>
+<br>
+<br>
+人权观察组织还表示，以色列占领当局很少追究安全部队的责任，而这些安全部队过度使用武力或袭击生活在定居点区域内的巴勒斯坦人。 <br>
+<br>
+<br>
+人权观察指出，自2015年以来，以色列扣押了67名巴勒斯坦人尸体，以此作为施压手段，迫使伊斯兰抵抗运动（哈马斯）归还在2014年战斗中丧生的两名以色列士兵尸体。 <br>
+<br>
+<br>
+强迫驱逐 <br>
+<br>
+人权观察组织表示，由于以色列的任意政策，约旦河西岸的46个巴勒斯坦社区被迫转移至风险很高地区。 <br>
+<br>
+<br>
+该组织还表示，截至去年六月，以色列当局已在约旦河西岸地区设立了近600个检查点和永久检查站。 <br>
+<br>
+<br>
+有关耶路撒冷方面消息，人权观察组织表示，在多起案件中，以色列法院下令将巴勒斯坦家庭从他们在锡尔万（Silwan）附近居住了数十年的家中驱逐出去。 <br>
+<br>
+<br>
+来源 : 阿纳多卢通讯社 <br>
+<br>
+<a href="https://chinese.aljazeera.net/news/2021/1/15/%E5%89%8D%E6%89%80%E6%9C%AA%E6%9C%89%E7%9A%84%E5%AE%9A%E5%B1%85%E7%82%B9%E6%89%A9%E5%BC%A02020%E4%BA%BA%E6%9D%83%E8%A7%82%E5%AF%9F%E6%8A%A5%E5%91%8A%E4%BB%A5%E8%89%B2%E5%88%97%E5%AF%B9%E5%B7%B4"><span class="s9"><i>https://chinese.aljazeera.net/news/2021/1/15/</i></span>前所未有的定居点扩张2020人权观察报告以色列对巴</a></p>
+<p class="p5">陳真   |  2021.02.23 17:47   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40334"><span class="s8">#</span></a></p>
+<p class="p6">燈謎： <br>
+<br>
+休息一日到江西，射島內一政黨。 <br>
+<br>
+這個若不孤狗，我不信有人能猜得到。</p>
+<p class="p5">Ethan   |  2021.02.23 12:20   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40333"><span class="s8">#</span></a></p>
+<p class="p7">宅卡拉有整理為什麼買不到BNT疫苗的相關新聞 <br>
+可以快速看一遍就知道前因後果 <br>
+<a href="https://youtu.be/90vAHg90UHQ"><span class="s9"><i>https://youtu.be/90vAHg90UHQ</i></span></a><span class="Apple-converted-space"> </span></p>
+<p class="p5">陳真   |  2021.02.23 02:28   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40332"><span class="s8">#</span></a></p>
+<p class="p6">話語到底還有多少力量？ <br>
 <br>
 陳真 <br>
 <br>
@@ -84,8 +502,8 @@
 蔡正元於臉書發文，針對吳子嘉今公布秘密文件，指出陳時中去年底派人與德國BNT開視訊會議，欲繞過上海總代理復興醫藥，以每劑45美元買1千萬劑疫苗；然而，這個價格比去年林全向BNT大中華區總代理上海復興醫藥訂購的每劑30美元，整整貴了50%、總價貴了1.5億美元。 <br>
 <br>
 蔡正元表示，當時陳時中拒絕向上海復興醫藥購買，以「不跟中國公司接觸簽約」為由維持台獨路線、用台獨做理由才可以拒斥上海復興醫藥，直接向德國BNT購買；而直接向BNT購買才能用香港人作「白手套」、付高價買疫苗，再藉香港人退佣回台灣給「某人」。雖說吳子嘉沒有明說某人是誰，但至少講出了本日金句「台獨是貪污的保命丸」，直呼這句話真的很傳神！</p>
-<p class="p2">王修亮   |  2021.02.22 21:47   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40331"><span class="s1">#</span></a></p>
-<p class="p4">我常用燈謎教國小生字詞。 <br>
+<p class="p5">王修亮   |  2021.02.22 21:47   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40331"><span class="s8">#</span></a></p>
+<p class="p7">我常用燈謎教國小生字詞。 <br>
 <br>
 元宵將至，盍興來乎！ <br>
 (元宵節當天公布謎底) <br>
@@ -155,8 +573,8 @@
 天下兩離中，情思何處同 <br>
 刀禾其並立，斬卻金銀銅 <br>
 射易經兩句(八字，一節射兩字)</p>
-<p class="p2">王修亮   |  2021.02.21 12:38   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40330"><span class="s1">#</span></a></p>
-<p class="p3">群之惡華 <br>
+<p class="p5">王修亮   |  2021.02.21 12:38   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40330"><span class="s8">#</span></a></p>
+<p class="p6">群之惡華 <br>
 <br>
 我曾經對台灣的教育改革抱有幻想，壯年時投身於台北縣教師籌備會，編輯一紙春風，編織對教育的狂熱。 <br>
 <br>
@@ -201,8 +619,8 @@
 在類似的幾場試驗中，你看不到任何一位美軍的高階將領親臨現場或參與其中，因為規劃整個演習的科學家們，早就告訴過他們風險。 <br>
 事實上，我們對於人權標準上下偏移，遠遠超過我們原本的認知。只要能找得到合理的說詞，或是足以安慰自己的藉口，可能是國家安全，也可能是科學的進步，這些少數人的犧牲都是必須的。 <br>
 但真的是必須的嗎? 如果你會有質疑，恭喜你，至少你還保有人性。</p>
-<p class="p2">陳真   |  2021.02.21 02:29   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40329"><span class="s1">#</span></a></p>
-<p class="p4">上星期二發生一件奇怪的事，也許是件小事，也許只是一種無謂的修辭或示好，但也可能有更大的意涵在裏頭。 <br>
+<p class="p5">陳真   |  2021.02.21 02:29   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40329"><span class="s8">#</span></a></p>
+<p class="p7">上星期二發生一件奇怪的事，也許是件小事，也許只是一種無謂的修辭或示好，但也可能有更大的意涵在裏頭。 <br>
 <br>
 我一般都是相當後知後覺的，我只能看見已經具體發生的大趨勢，但是看不見短期之內的事。拜登是個什麼樣的人以及他究竟在多大意義上做為一個美國總統，仍是未知數。 <br>
 <br>
@@ -227,16 +645,16 @@
 不管怎麼樣，避免中美一戰是最重要的一件事。拜登的首席幕僚就是我之前幾次提到的那位 Graham Allison，也就是 "Destined for War: Can America and China Escape Thucydides's Trap?" 這本書的作者，最早示警中美戰爭的風險。他的老師就是季辛吉，在拜登上台第一天就表明反台獨及支持一中原則，同樣也是在美國掀起一陣漣漪。 <br>
 <br>
 當然，對於中美之間的衝突，我並不是很樂觀，畢竟美國有個真正掌大權的DEEP STATE，相當邪惡、邪門，與撒旦無異，行事作風沒有人性可言的。我只是期待凡事能夠朝著好的方向發展。</p>
-<p class="p2">陳真   |  2021.02.19 23:41   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40328"><span class="s1">#</span></a></p>
-<p class="p3">朋友傳底下這連結給我，問我意見： <br>
+<p class="p5">陳真   |  2021.02.19 23:41   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40328"><span class="s8">#</span></a></p>
+<p class="p6">朋友傳底下這連結給我，問我意見： <br>
 <br>
-<a href="https://bit.ly/37xfLIu"><span class="s2"><i>https://bit.ly/37xfLIu</i></span></a> <br>
+<a href="https://bit.ly/37xfLIu"><span class="s9"><i>https://bit.ly/37xfLIu</i></span></a> <br>
 <br>
 我把我的回覆也貼在此。 <br>
 <br>
 你好，原始論文在這： <br>
 <br>
-<a href="https://bit.ly/3dB9jDQ"><span class="s2"><i>https://bit.ly/3dB9jDQ</i></span></a> <br>
+<a href="https://bit.ly/3dB9jDQ"><span class="s9"><i>https://bit.ly/3dB9jDQ</i></span></a> <br>
 <br>
 "Lancet" 的權威性毋庸置疑。當然，這類自然科學研究基本上仍然只是一種參考，而非定論。不過，這文章的研究發現 (亦即島內實際罹患新冠肺炎人數推估是一萬一千八百人，是現有病例數據的25倍)，一點都不令人意外，至少不令我意外。為什麼呢？因為台灣的防疫心態真的很奇怪，很詭異，主其事者似乎一直想要美化數字。作法之一就是儘可能不做檢查。沒有檢查，當然也就沒有病例，於是就能從事政治宣傳說我們好棒哦！全世界都好佩服哦！腦殘人士就會相信這套鬼話。 <br>
 <br>
@@ -254,7 +672,7 @@
 <br>
 防疫中心對這篇論文的態度很可笑，居然跳出來駁斥： <br>
 <br>
-<a href="https://heho.com.tw/archives/152847"><span class="s2"><i>https://heho.com.tw/archives/152847</i></span></a> <br>
+<a href="https://heho.com.tw/archives/152847"><span class="s9"><i>https://heho.com.tw/archives/152847</i></span></a> <br>
 <br>
 這有什麼好駁斥？不過就一篇論文嘛；就算要駁斥，也該講出個反駁的道理來啊。若覺得該論文不可靠，那麼官方可以自己也寫篇誇獎自己的論文啊，看國際權威期刊會不會鳥你。 <br>
 <br>
@@ -279,8 +697,8 @@
 陳真 <br>
 <br>
 2021. 02. 19.</p>
-<p class="p2">陳真   |  2021.02.19 10:53   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40327"><span class="s1">#</span></a></p>
-<p class="p3">不管你喜不喜歡馬英九，不管你如何評價其政治作為，你都沒法否認他的清廉和奉公守法的誇張程度。比方說人家打算送他一個馬克杯，他得先研究這杯子有沒有超過幾十元的公務員收禮規範，才能決定應不應該收下。 <br>
+<p class="p5">陳真   |  2021.02.19 10:53   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40327"><span class="s10">#</span></a></p>
+<p class="p6">不管你喜不喜歡馬英九，不管你如何評價其政治作為，你都沒法否認他的清廉和奉公守法的誇張程度。比方說人家打算送他一個馬克杯，他得先研究這杯子有沒有超過幾十元的公務員收禮規範，才能決定應不應該收下。 <br>
 <br>
 相較於用 "怪手" 吃喝金山銀山、把國庫當成自家金庫、無所不貪的人渣黨，馬英九根本就是個聖人。在清廉方面，其一介不取的程度，政壇上能與之匹配的大概也只有林義雄、陳定南等等極少數人。 <br>
 <br>
@@ -327,8 +745,8 @@
 韓國瑜指出，春節剛過，百工百業回到崗位努力工作，馬英九，一個已經卸任的民主國家元首，卻在此時此刻不斷的跑法院、出庭，只因身上背了數百條官司。到底犯了多麼十惡不赦的罪，竟然可以安上數百個罪名。 <br>
 <br>
 韓國瑜質疑蔡英文總統，如果4年後換妳下台，身上背了數百件官司，妳承受得了嗎，民進黨難道真這麼有信心，自己會是永遠的執政黨嗎，痛批民進黨為了政治利益、想盡各種惡劣手段要置政治對手於死地；為了政治報復、花上天價訴訟費用，也要將馬英九安上一個罪名，這些惡劣手段，打擊的不只是馬英九、更是台灣人引以為傲的民主價值；這些訴訟費用，買單的不是民進黨黨產，而是台灣人辛勤努力的血汗稅金。</p>
-<p class="p2">陳真   |  2021.02.19 09:39   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40326"><span class="s1">#</span></a></p>
-<p class="p4">只要是正常人，都會懷疑一個以假學歷招搖撞騙數十年的人選票作假，一個民調低到連對手的三分之一都不到的人，一個造勢群眾往往小貓兩三隻的人，短短幾個月內得票數居然打破史上記錄，而她所打敗的對手，每次造勢卻人山人海。具有正常理性的人不會懷疑其中有詐嗎？它媽的人渣黨現在是連 "懷疑" 都是犯法的嗎？ <br>
+<p class="p5">陳真   |  2021.02.19 09:39   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40326"><span class="s10">#</span></a></p>
+<p class="p7">只要是正常人，都會懷疑一個以假學歷招搖撞騙數十年的人選票作假，一個民調低到連對手的三分之一都不到的人，一個造勢群眾往往小貓兩三隻的人，短短幾個月內得票數居然打破史上記錄，而她所打敗的對手，每次造勢卻人山人海。具有正常理性的人不會懷疑其中有詐嗎？它媽的人渣黨現在是連 "懷疑" 都是犯法的嗎？ <br>
 <br>
 陳真 <br>
 <br>
@@ -343,8 +761,8 @@
 2021年2月19日 <br>
 <br>
 媒體人彭文正質疑2020年總統大選蔡英文以817萬票大勝有做票可能，對此，中選會18日發新聞稿駁斥，並指此為網路影片為不實訊息，將移送檢警，依法處理。</p>
-<p class="p2">李念淨   |  2021.02.17 15:08   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40325"><span class="s1">#</span></a></p>
-<p class="p3">我經常在網路上看一些言論 <br>
+<p class="p5">李念淨   |  2021.02.17 15:08   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40325"><span class="s10">#</span></a></p>
+<p class="p6">我經常在網路上看一些言論 <br>
 感覺中國人優於其他民族的地方就在於問題意識 <br>
 <br>
 比方說知乎微博，經常都有一些嚴重的社會議題上熱搜 <br>
@@ -358,8 +776,8 @@
 台灣人批評一件事，經常只會點到皮毛，更深層的地方連思考都懶得思考 <br>
 民族本身又妄自尊大，缺乏反思，然後整天問為什麼大家都不理他 <br>
 像是歐美國家，這種問題也很嚴重 </p>
-<p class="p2">鄭豐遠   |  2021.02.17 11:57   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40324"><span class="s1">#</span></a></p>
-<p class="p4"><span class="s2"><a href="https://youtu.be/c7Iwms-S_YM"><i>https://youtu.be/c7Iwms-S_YM</i></a></span> <br>
+<p class="p5">鄭豐遠   |  2021.02.17 11:57   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40324"><span class="s10">#</span></a></p>
+<p class="p7"><span class="s9"><a href="https://youtu.be/c7Iwms-S_YM"><i>https://youtu.be/c7Iwms-S_YM</i></a></span> <br>
 <br>
 無意中看到，這影片的內容沒什麼，全屬一種基本常識，不是我想說的。如果你還相信所謂什麼西藏或新疆人權問題，那不妨一看，看看是不是會讓你清醒一點。 <br>
 <br>
@@ -388,8 +806,8 @@
 <br>
 <br>
 別人會不會後悔我不知道，希望我不會。</p>
-<p class="p2">陳真   |  2021.02.17 01:13   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40323"><span class="s1">#</span></a></p>
-<p class="p3">覺醒得剛剛好(三) <br>
+<p class="p5">陳真   |  2021.02.17 01:13   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40323"><span class="s10">#</span></a></p>
+<p class="p6">覺醒得剛剛好(三) <br>
 <br>
 陳真 <br>
 <br>
@@ -413,8 +831,8 @@ Lucy 問說，「趙少康之流」還有哪些人？這樣問其實不太對，
 這也就是為什麼越是反中者，卻反而越能夠從中國大陸撈到各種好處並受到更好禮遇的原因。他們彼此之間表面上對立，其實是一種商家與客戶的買賣關係。聰明人當然知道如何為自己累積更多足供叫價的籌碼。簡單說就是台獨或反中基本上就是島內一門最熱門、報酬率最高的無本生意。 <br>
 <br>
 如今，三十年的市場高峰已過，將會推出新產品，商品配方會有一些成份調整；反中會減少，友中或所謂「有條件的統一」成份會調高比例。至於那些依舊販賣「反中」舊商品的人，很快就會發現市場需求變了，他們再不轉型，再不「覺醒」，就沒法撈得像過去那樣多了。</p>
-<p class="p2">Dheeresha   |  2021.02.16 16:24   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40322"><span class="s1">#</span></a></p>
-<p class="p4">讀完前輩的這篇:覺醒得剛剛好(二) <br>
+<p class="p5">Dheeresha   |  2021.02.16 16:24   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40322"><span class="s10">#</span></a></p>
+<p class="p7">讀完前輩的這篇:覺醒得剛剛好(二) <br>
 有些感想與您分享。 <br>
 <br>
 一、趙少康與陳文茜 <br>
@@ -486,8 +904,8 @@ Lucy 問說，「趙少康之流」還有哪些人？這樣問其實不太對，
 它會以最小的傷亡換取最大的成效 <br>
 也不會是一場浩劫的 <br>
 天 佑 台 灣 </p>
-<p class="p2">孫從輔   |  2021.02.16 12:35   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40321"><span class="s1">#</span></a></p>
-<p class="p3">謝謝陳真醫生回答Lucy的問題。 <br>
+<p class="p5">孫從輔   |  2021.02.16 12:35   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40321"><span class="s10">#</span></a></p>
+<p class="p6">謝謝陳真醫生回答Lucy的問題。 <br>
 <br>
 To Lucy： <br>
 我看到了你問我的問題。我在公共論壇的發言習慣，是我想說的東西要通過我自己的檢驗，才會發表出來。這完全是根據我心裡主觀的標準，不涉及任何客觀因素。對於你大部分的問題，我沒有什麼可以發表的，請見諒。 <br>
@@ -495,8 +913,8 @@ To Lucy： <br>
 我就其中一點發表看法。趙少康們都是社會上有頭有臉，有權有勢的人，遭受歧視不適用於他們身上，拿武漢人民來做比喻更是不妥。趙少康們也許會遭受他人的偏見，但他們有法律、媒體、以及各種特權來保護他們的名聲與利益。社會上很多群體值得公眾出力為其伸張正義，但趙少康們應排在最後。 <br>
 <br>
 我之前的那番分析最可質疑處，在於我假設趙少康們自私自利且貪圖大利，大利己小利人的事猶可做，小利己大利人或損己利人的事絕對不做。這個假設也許來自偏見，也許不是，也許70%的可能是對的，30%是錯的。但我分析事情時，總要從一些建立在知識與經驗的前題出發，才能做出有意義的預測。然後隨事態發展，再回頭檢討原先的前題假設，看看有沒有需要修正之處。現在事態才剛開始發展，往什麼方向走還不明朗，就我而言，還沒到需要檢討與修正的時候。</p>
-<p class="p2">Lucy   |  2021.02.16 10:48   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40320"><span class="s1">#</span></a></p>
-<p class="p4">回覆先生 <br>
+<p class="p5">Lucy   |  2021.02.16 10:48   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40320"><span class="s10">#</span></a></p>
+<p class="p7">回覆先生 <br>
 <br>
 1.我所抄的文句，出自＂珍.羅伯茲＂女士（美國靈媒），收錄在她出版＂一個美國哲學家的死後日誌＂一書的序言。而兩段話與其說是珍.羅伯茲所言，不如說是一直與她心靈接觸的靈體＂塞斯＂所言－－－我是這樣理解。 <br>
 之所以會接觸到塞斯思想，有段過程。起初，因為我母親長腫瘤，我十分憂慮，無意間接觸許添盛醫師的＂癌症不是絕症＂一書，許醫師是＂塞斯文化教育基金會＂創辦人，至力推廣塞斯心法與身心靈健康理念。因為這個因緣，我從此走進塞斯思想領域。 <br>
@@ -505,8 +923,8 @@ To Lucy： <br>
 <br>
 <br>
 感謝您用心回覆。</p>
-<p class="p2">陳真   |  2021.02.16 01:49   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40319"><span class="s1">#</span></a></p>
-<p class="p3">覺醒得剛剛好(二) <br>
+<p class="p5">陳真   |  2021.02.16 01:49   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40319"><span class="s10">#</span></a></p>
+<p class="p6">覺醒得剛剛好(二) <br>
 <br>
 陳真 <br>
 <br>
@@ -551,7 +969,7 @@ Lucy 好，容我列點回覆比較快： <br>
 <br>
 9，我用「陳文茜」和「伊拉克」搜尋，找到一篇，如下： <br>
 <br>
-<a href="https://bit.ly/2OHkYH1"><span class="s2"><i>https://bit.ly/2OHkYH1</i></span></a>   <br>
+<a href="https://bit.ly/2OHkYH1"><span class="s9"><i>https://bit.ly/2OHkYH1</i></span></a>   <br>
 <br>
 這篇還算勉強可理解，但依然很可怕，鬼扯一通。 <br>
 <br>
@@ -594,29 +1012,29 @@ Lucy 好，容我列點回覆比較快： <br>
 不知道是大數法則還是怎樣，人的社會似乎也有著某種自然規律，世代交接，各領風騷三十年。頭十年，各方勢力將趨於穩定，進行收割，後二十年則是主流確立。如果真有這樣一種規律，那意味著2030年中美之間的鬥爭將大勢底定。 <br>
 <br>
 如果你把1991年定義為本土黑金元年，那麼，2021年也許就是兩岸統一元年。我這觀察也許是錯的，也許走向激烈與極端也說不定。倘若如此，那恐怕會是一場浩劫。</p>
-<p class="p2">蔡亦鸣   |  2021.02.15 19:28   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40317"><span class="s1">#</span></a></p>
-<p class="p4">如果要说国际视野，我最喜欢的台湾主持人是主持《时事求是》的史哲维，可惜的是14年传来消息他在家中自杀。他死后我就告别台湾电视节目了。 </p>
-<p class="p2">刘旭   |  2021.02.15 13:56   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40316"><span class="s1">#</span></a></p>
-<p class="p3">陈文茜的所谓观念在这视频里窥见一二，他将世界一分为二，一面是民主，一面是独裁，她是先有了观点，再去搜集证据，以佐证他的观点。对于明显的事实，他有两套截然不同的评价标准，如果发生在自由的所谓民主国家境内，是一套标准，而如果同样的事情发生在中国，又是另一套标准。 <br>
+<p class="p5">蔡亦鸣   |  2021.02.15 19:28   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40317"><span class="s10">#</span></a></p>
+<p class="p7">如果要说国际视野，我最喜欢的台湾主持人是主持《时事求是》的史哲维，可惜的是14年传来消息他在家中自杀。他死后我就告别台湾电视节目了。 </p>
+<p class="p5">刘旭   |  2021.02.15 13:56   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40316"><span class="s10">#</span></a></p>
+<p class="p6">陈文茜的所谓观念在这视频里窥见一二，他将世界一分为二，一面是民主，一面是独裁，她是先有了观点，再去搜集证据，以佐证他的观点。对于明显的事实，他有两套截然不同的评价标准，如果发生在自由的所谓民主国家境内，是一套标准，而如果同样的事情发生在中国，又是另一套标准。 <br>
 <br>
 前几年我特别爱看台湾的政论节目，不过是当相声在听的，台湾新闻节目水平之低劣，名嘴智商之缺陷，直至今日让我印象深刻。陈文茜仅仅是一堆白痴之中，显得不那么白痴的一个。但是如果台湾人依靠她来打开国际观，跟国际视野。 只能是缘木求鱼，问道于盲。 <br>
 如果你需要所谓的国际观跟国际视野的话，我建议你可以看一下观察者网的文章跟节目。 <br>
 <br>
 <br>
 </p>
-<p class="p2">Lucy   |  2021.02.15 11:18   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40315"><span class="s1">#</span></a></p>
-<p class="p3">孫從輔網友您好 <br>
+<p class="p5">Lucy   |  2021.02.15 11:18   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40315"><span class="s10">#</span></a></p>
+<p class="p6">孫從輔網友您好 <br>
 <br>
 請教您，趙少康之流......大概是指那一類的人？ <br>
 <br>
 趙少康之流，這樣的說法對趙少康這個人而言，很不公平。趙少康不到四十歲黯然退出政壇，轉戰媒體，三十多年來成果輝煌。他現在已經７１歲了，來到安享天年的年紀，不愁吃穿，老婆癌體需照顧，重出政壇淌渾水何苦來哉？只為了當買辦搶政治資源？說得過去嗎？此其一。 <br>
 <br>
 其二，就像＂新冠肺炎＂，冠上＂武漢＂，就是歧視了。</p>
-<p class="p2">張華   |  2021.02.15 11:14   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40314"><span class="s1">#</span></a></p>
-<p class="p4">版主提到那位網紅的影片，我特地去看了，其實她不是在說喝橄欖油可以排膽結石，她是因為最近每一個月身上的任意一處都會長一個疔瘡，她找西醫沒有改善，所以想試試看那個肝膽排石法，影片就是在拍她親身試做，與分享做完之後的感覺。 <br>
+<p class="p5">張華   |  2021.02.15 11:14   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40314"><span class="s10">#</span></a></p>
+<p class="p7">版主提到那位網紅的影片，我特地去看了，其實她不是在說喝橄欖油可以排膽結石，她是因為最近每一個月身上的任意一處都會長一個疔瘡，她找西醫沒有改善，所以想試試看那個肝膽排石法，影片就是在拍她親身試做，與分享做完之後的感覺。 <br>
 我認為這個新聞仍然是媒體炒作的一貫手法：故意畫錯重點，再針對那個點大加撻伐。</p>
-<p class="p2">Lucy   |  2021.02.15 10:42   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40313"><span class="s1">#</span></a></p>
-<p class="p3">抄某人說過的一段話－－－－自我或身分對任何不遵循其自身目的和意圖的力量，十分確實地關閉了它的邊界。沒有例外。 <br>
+<p class="p5">Lucy   |  2021.02.15 10:42   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40313"><span class="s10">#</span></a></p>
+<p class="p6">抄某人說過的一段話－－－－自我或身分對任何不遵循其自身目的和意圖的力量，十分確實地關閉了它的邊界。沒有例外。 <br>
 <br>
 再抄一段話，同樣是他（她）說的－－－－那些在兩軍交戰中的俘虜之所以被捕，是因為他們已經在一套真的符合他們更大目的之信念體系中運作......總之，所謂的洗腦符合那些被如此對待的人的目的。 <br>
 （之所以姑隱何人所言，是不想有＂先入為主之成見＂的干擾。） <br>
@@ -626,8 +1044,8 @@ Lucy 好，容我列點回覆比較快： <br>
 陳文茜標謗台灣欠缺的世界觀，但不免也流於人云亦云的窘境，她取材外媒所專題吹捧的李明博、朴謹惠、翁山蘇雞，現在看起來當然是笑話，但我覺得無損她為人們打開國際眼界的貢獻。若非看過她的節目在敘利亞阿富汗難民上的報導，＂紀念若雪巴勒斯坦網站＂於我也不會有共鳴啊！ <br>
 <br>
 也許，先生看出來了，我正不自量力試圖扭轉先生對趙少康的觀感；不過，甚不理解我為何糾纏。我也不知道自己為何這麼魯。也許，是覺得先生像諸葛臥龍，在想像中期待您能協助趙少康吧！</p>
-<p class="p2">陳真   |  2021.02.15 02:11   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40312"><span class="s1">#</span></a></p>
-<p class="p4">(續趙少康與陳文茜) <br>
+<p class="p5">陳真   |  2021.02.15 02:11   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40312"><span class="s10">#</span></a></p>
+<p class="p7">(續趙少康與陳文茜) <br>
 <br>
 常舉一個例子：小學算數常有香蕉、芭樂各一斤之價格若干，分別買了幾斤一共多少錢之類的題目。這時候，你總不會以為我們是在討論香蕉與芭樂的市場行情吧？事實上，我們談的是數學，不是水果售價。 <br>
 <br>
@@ -652,20 +1070,20 @@ Lucy 好，容我列點回覆比較快： <br>
 Sokal 事件跟我現在要講的稍微有點像：明明就是胡扯瞎掰，但是，人們卻缺乏基本的辨識能力；只要把各種無厘頭術語與事件細節，講得好像很艱深，然後透過各種姿態萬千的文青式修辭，把一大堆不相干的東西統統串起來，講得雲裏來霧裏去，講得煞有介事，馬上就能騙倒許多人，讓讀者以為自己程度太差，所以看不懂。 <br>
 <br>
 不過，Sokal 事件終究不是「詐騙學術」的一個好例子。說來話長。1997年，我在英國聽過Alan Sokal 和法國哲學家Bruno Latour 的辯論，有點失望。簡單說就是Sokal 的攻擊過了頭，反倒顯出己身思維的淺薄，對於「知識」或「真理」的理解十分幼稚。他拆穿了某種騙子類型，卻無法有效攻擊某些學科相當可疑的「學科性」或所謂「本質」，反而建構出一套更加幼稚的「知識論」(epistemology)。題外話。</p>
-<p class="p2">陳真   |  2021.02.14 15:33   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40311"><span class="s1">#</span></a></p>
-<p class="p5"><span class="s3">謝謝從輔，貼好了： <br>
+<p class="p5">陳真   |  2021.02.14 15:33   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40311"><span class="s10">#</span></a></p>
+<p class="p8"><span class="s11">謝謝從輔，貼好了： <br>
 <br>
-</span><i>https://bit.ly/2ZsTvet </i><span class="s3"><br>
+</span><i>https://bit.ly/2ZsTvet </i><span class="s11"><br>
 </span></p>
-<p class="p2">孫從輔   |  2021.02.14 14:51   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40310"><span class="s1">#</span></a></p>
-<p class="p4">我很高興我的評論能被巴勒網採用，和陳真醫生的文章放在一起。標題就用「趙少康們的小算盤」吧。 <br>
+<p class="p5">孫從輔   |  2021.02.14 14:51   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40310"><span class="s10">#</span></a></p>
+<p class="p7">我很高興我的評論能被巴勒網採用，和陳真醫生的文章放在一起。標題就用「趙少康們的小算盤」吧。 <br>
 <br>
 另外我想在評論中的第3點加一句「甚至還沒到統一時，便會著手行動」，因為大陸這幾天已經開始教訓BBC了。修改後如下： <br>
 <br>
 3. <br>
 雖然台灣會獲得高度自治，但因有香港前車之鑑，中共中央會嚴格管理台灣的教育和媒體，甚至還沒到統一時，便會著手行動。靠低俗、造謠、抹黑來獲利的台灣媒體界，將會變成風險很高的產業，不但無利可圖，還可能和黎智英一樣犯法被抓。因此媒體界裡精緻利己"聰明"人等，自然懂得避開走下坡的大趨勢，準備轉換跑道。 </p>
-<p class="p2">陳真   |  2021.02.14 13:03   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40309"><span class="s1">#</span></a></p>
-<p class="p3">從輔這篇文字鞭辟入裡，讓我佩服。方不方便取個標題，讓我跟我底下文字一起貼在首頁？ <br>
+<p class="p5">陳真   |  2021.02.14 13:03   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40309"><span class="s10">#</span></a></p>
+<p class="p6">從輔這篇文字鞭辟入裡，讓我佩服。方不方便取個標題，讓我跟我底下文字一起貼在首頁？ <br>
 <br>
 ======================== <br>
 <br>
@@ -707,8 +1125,8 @@ Sokal 事件跟我現在要講的稍微有點像：明明就是胡扯瞎掰，�
 至於島內市面上一堆覺醒青年，簡稱覺青，這些人我見猶憐，他們其實覺醒得有點慢，只能稱做腦殘，被人賣了還幫忙數鈔票。 <br>
 <br>
 在某個面向上，人性或物種屬性約略就這三種：腦殘、先知以及永遠都「覺醒得剛剛好」，其中以腦殘數量最多，沒頭沒腦，跟蛆一樣多，蠕蠕而動很嚇人。先知卻如鳳毛麟角，最為罕見，就如尼采所說，他們通常都是在死後才誕生。</p>
-<p class="p2">孫從輔   |  2021.02.14 07:52   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40308"><span class="s1">#</span></a></p>
-<p class="p4">對於趙少康之流的一群精緻利己"聰明"人最近所作所為，我的觀察如下。一人之言，姑且聽之。 <br>
+<p class="p5">孫從輔   |  2021.02.14 07:52   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40308"><span class="s10">#</span></a></p>
+<p class="p7">對於趙少康之流的一群精緻利己"聰明"人最近所作所為，我的觀察如下。一人之言，姑且聽之。 <br>
 <br>
 1. <br>
 美國將資源投向世界各地操控當地政治，早已形成一個成熟穩定的市場。成熟市場的一項特徵就是消費者不用提出需求，生產商就主動依消費者的偏好將產品做出來，還送消費者一些樣品免費試用一下，試用滿意後再付錢購買。這裡掏錢的消費者就是美國政府。美國政府換屆後，對他國操控手段的偏好也跟著改變，因此形成一筆新的利益等人接收，最近俄羅斯反對派鬧事就是一個例子。有人說俄羅斯反對派鬧事是美國在背後操控，我認為即使美國還沒來得及計畫操控，也會有一些勢力主動做些「樣品」給美國新政府看看，試用滿意後再付錢。台灣執政黨和川普靠得太近，轉起彎來比較慢，那麼拜登政府的資源要給誰的問題，自然會趨使各方精緻利己"聰明"人等搶當賣家，主動生產「樣品」給美國試用。 <br>
@@ -720,8 +1138,8 @@ Sokal 事件跟我現在要講的稍微有點像：明明就是胡扯瞎掰，�
 雖然台灣會獲得高度自治，但因有香港前車之鑑，中共中央會嚴格管理台灣的教育和媒體。靠低俗、造謠、抹黑來獲利的台灣媒體界，將會變成風險很高的產業，不但無利可圖，還可能和黎智英一樣犯法被抓。因此媒體界裡精緻利己"聰明"人等，自然懂得避開走下坡的大趨勢，準備轉換跑道。 <br>
 <br>
 將以上這三點趨利避害的方向取交集，我認為可以用來解釋這些精緻利己"聰明"人最近的所作所為。如果這個解釋是對的，未來將會看到愈來愈多這樣的人出現。 </p>
-<p class="p2">陳真   |  2021.02.14 03:03   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40307"><span class="s1">#</span></a></p>
-<p class="p3">Lucy好， <br>
+<p class="p5">陳真   |  2021.02.14 03:03   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40307"><span class="s10">#</span></a></p>
+<p class="p6">Lucy好， <br>
 <br>
 <br>
 我並沒有討厭趙少康及陳文茜，當然也沒有喜歡。事實上，就跟任何路人甲一樣，他們不曾存在我心裏頭，過去不存在，未來應該也不會存在，對之沒有任何好惡與重量。 <br>
@@ -763,8 +1181,8 @@ Sokal 事件跟我現在要講的稍微有點像：明明就是胡扯瞎掰，�
 記得剛去劍橋時，有個過去不認識的劍橋台灣留學生，特地跑來找我講話。我原本跟他談話談得很自然，後來他卻冒出一句話說，他只願意跟劍橋人或牛津人「對話」，至於其他學校，他才不屑浪費唇舌跟他們講話。我聽了之後，突然感到啞口無言，他顯然覺得身為什麼「劍橋人」很厲害，但你會相信這樣一個人有多聰明嗎？他要是真的夠聰明，就不可能蠢到以為自己是什麼「劍橋人」很厲害了。 <br>
 <br>
 至於趙少康或陳文茜，他們捲起多少雪，對我都沒有意義，毫無興趣，引不起絲毫熱情；就好像「館長」就算島上有兩千三百萬個粉絲，對我而言，依然是個路人甲。我知道我講這樣，得傷了多少藍營支持者的心，但我只是實話實說。我不知道那些所謂名人所謂知名度，矯揉造作搔首弄姿的，有何意義可言。</p>
-<p class="p2">Lucy   |  2021.02.13 11:48   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40306"><span class="s1">#</span></a></p>
-<p class="p4">看來，先生真的很討厭趙少康，雖然他比起民進人渣黨，不算壞人。連發言祝福趙少康的陳文茜，這位被李敖稱讚台灣最聰明的女人，您也一併酸了。酸趙少康還好，酸陳文茜就有待商榷。 <br>
+<p class="p5">Lucy   |  2021.02.13 11:48   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40306"><span class="s10">#</span></a></p>
+<p class="p7">看來，先生真的很討厭趙少康，雖然他比起民進人渣黨，不算壞人。連發言祝福趙少康的陳文茜，這位被李敖稱讚台灣最聰明的女人，您也一併酸了。酸趙少康還好，酸陳文茜就有待商榷。 <br>
 <br>
 我相信您一定有資格消譴趙少康和陳文茜，因為您擁有發明家特斯拉＂影像記憶＂的能力；他們之於您，可能只是比一般人多些＂小聰明＂－－有助於算計－－而已，仍然歸於平庸一類。也許您會說，＂也不至於會小看他們也有捲起千堆雪的能力＂。 <br>
 <br>
@@ -774,8 +1192,8 @@ Sokal 事件跟我現在要講的稍微有點像：明明就是胡扯瞎掰，�
 <br>
 <br>
 </p>
-<p class="p2">陳真   |  2021.02.10 19:12   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40305"><span class="s1">#</span></a></p>
-<p class="p3">與前輩一席談(24) <br>
+<p class="p5">陳真   |  2021.02.10 19:12   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40305"><span class="s10">#</span></a></p>
+<p class="p6">與前輩一席談(24) <br>
 <br>
 陳真 <br>
 <br>
@@ -802,42 +1220,42 @@ Sokal 事件跟我現在要講的稍微有點像：明明就是胡扯瞎掰，�
 <br>
 但是，台灣腦殘的年輕一代，很可能連高金素梅是誰都不知道。他們只知道一些奇葩，比方說前輩所提拔的這一位： <br>
 <br>
-<a href="https://bit.ly/3cZnYsb"><span class="s2"><i>https://bit.ly/3cZnYsb</i></span></a> <br>
+<a href="https://bit.ly/3cZnYsb"><span class="s9"><i>https://bit.ly/3cZnYsb</i></span></a> <br>
 <br>
-<a href="https://bit.ly/3a3jRcZ"><span class="s2"><i>https://bit.ly/3a3jRcZ</i></span></a> <br>
+<a href="https://bit.ly/3a3jRcZ"><span class="s9"><i>https://bit.ly/3a3jRcZ</i></span></a> <br>
 <br>
 這樣也能當立委，不如把票投給一隻蟋蟀。你看，人家要罷免他，居然也能扯上習近平，說是「中國針對他」，「針對台灣的整個民主制度進行攻擊」。他說他不怕，他「願意為台灣人擋子彈」，會「繼續謬(ㄇ一ㄡ\)力為大家服務」。 <br>
 <br>
 每天就是瞎掰一些仇中反華的腦殘言論，很難想像到底是什麼樣的選民選出這種立委？不過，光批評他一人其實也不公平，畢竟其他政治人物也比他高明不了多少，包括以假學位詐騙一輩子的所謂「總統」蔡英文，跟這位3Q 哥有何兩樣？ <br>
 <br>
 整個政府機器，整個台灣社會的長遠發展與生存福祉，就掌握在這樣一些無品無德無才無學的貪婪之徒手裏，這就是前輩所謂要「統一大陸」(而不是被統一) 的民主優勢嗎？</p>
-<p class="p2">洋洋   |  2021.02.10 17:05   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40304"><span class="s1">#</span></a></p>
-<p class="p3">轉 <br>
+<p class="p5">洋洋   |  2021.02.10 17:05   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40304"><span class="s10">#</span></a></p>
+<p class="p6">轉 <br>
 <br>
 英國記者點名幾個西方媒體接受CIA與NED資助製造假新聞... <br>
 他在影片裡提到的人與事也在影片介紹裡放上參考連結，如他推崇的作家兼記者Andre Vltchek <br>
 <br>
 <br>
 How China ISN'T crushing Uyghurs in XinJiang! Exposing BBC anti China agitprop. Chinese subtitles <br>
-<a href="https://youtu.be/Cso5gsS6bYY"><span class="s2"><i>https://youtu.be/Cso5gsS6bYY</i></span></a></p>
-<p class="p2">張萬康   |  2021.02.09 13:11   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40303"><span class="s1">#</span></a></p>
-<p class="p4">趙少康主持政論節目，特別讓我反感的是，無論對藍紅白綠或何方何人，他都有一種掩不住幸災樂禍的臉面。不是在真正愁慮國家社會的人。不誠懇。當然不是說他不能輕鬆說笑，何況他也很少說笑。總之這個人不大OK，讓我不舒服。 <br>
+<a href="https://youtu.be/Cso5gsS6bYY"><span class="s9"><i>https://youtu.be/Cso5gsS6bYY</i></span></a></p>
+<p class="p5">張萬康   |  2021.02.09 13:11   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40303"><span class="s10">#</span></a></p>
+<p class="p7">趙少康主持政論節目，特別讓我反感的是，無論對藍紅白綠或何方何人，他都有一種掩不住幸災樂禍的臉面。不是在真正愁慮國家社會的人。不誠懇。當然不是說他不能輕鬆說笑，何況他也很少說笑。總之這個人不大OK，讓我不舒服。 <br>
 <br>
 再來是腦子，一個字，慫。（不是大陸民間或網路講的慫，而是台語的慫。）鼓動、煽動的講話方式則是慫中帶廢，叫人翻白眼。他鼓動時會有一種奇怪的手勢在指，從上往下指。有種警告威脅恐嚇的感覺。我講得還不夠精準，真不知該怎麼講他。他講國語「誰」的發音是ㄕㄨㄟˊ，我沒有啥標準國語的崇高觀念，給語言定標準是低級且無知的，但每聽他講ㄕㄨㄟˊ的時候我就感到這人有點噁。 <br>
 <br>
 趙少康和綠營的人相比，只是不同風格的守舊封建法西斯。國民黨基本上在兩岸關係上是兩岸一家親，在島內則是希望藍綠反共一家親，或說反共親美一家親。綠營在兩岸不是一家親，在島內也不跟你藍營反共一家親，它說你藍營親共你藍營就是親共，標籤貼得牢牢的。藍營拚命想證明自己反共，這是沒用的。藍營該想想，反共到底對不對，而不是反共是否有利於台灣與藍營。如果反共真的很對，那就反，沒有跟隊伍的問題。問題是反共對嗎？對中共成見之深，還停留在「你看文革多可怕」、「中共很會做事情是因為極權」的年代。說後面那句時還要佐以似笑非笑的眨眼，趙少康這種思維的人就是這德行。 <br>
 <br>
 藍綠白都該看《山海情》這部陸劇，認識一下中共對人民的付出，做事的努力，規劃的用心。山海情對中共當局與社會問題的批判也做得比台灣影視界更勇敢且更多。 </p>
-<p class="p2">洋洋   |  2021.02.09 11:31   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40302"><span class="s1">#</span></a></p>
-<p class="p5"><span class="s3">轉 <br>
+<p class="p5">洋洋   |  2021.02.09 11:31   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40302"><span class="s10">#</span></a></p>
+<p class="p8"><span class="s11">轉 <br>
 <br>
 德國記者承認接受中情局賄賂撰文反俄 <br>
-<a href="https://youtu.be/_K1dgCzcmJ8"><span class="s2"><i>https://youtu.be/_K1dgCzcmJ8</i></span></a></span></p>
-<p class="p2">Ethan   |  2021.02.08 15:02   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40301"><span class="s1">#</span></a></p>
-<p class="p3">又一部解析BBC 風格的新聞報導 (歪果人研究協會出品） <br>
-<a href="https://youtu.be/5OosRPfhcQY"><span class="s2"><i>https://youtu.be/5OosRPfhcQY</i></span></a><span class="Apple-converted-space"> </span></p>
-<p class="p2">陳真   |  2021.02.08 11:47   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40300"><span class="s1">#</span></a></p>
-<p class="p4">與前輩一席談(23) <br>
+<a href="https://youtu.be/_K1dgCzcmJ8"><span class="s9"><i>https://youtu.be/_K1dgCzcmJ8</i></span></a></span></p>
+<p class="p5">Ethan   |  2021.02.08 15:02   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40301"><span class="s8">#</span></a></p>
+<p class="p6">又一部解析BBC 風格的新聞報導 (歪果人研究協會出品） <br>
+<a href="https://youtu.be/5OosRPfhcQY"><span class="s9"><i>https://youtu.be/5OosRPfhcQY</i></span></a><span class="Apple-converted-space"> </span></p>
+<p class="p5">陳真   |  2021.02.08 11:47   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40300"><span class="s8">#</span></a></p>
+<p class="p7">與前輩一席談(23) <br>
 <br>
 陳真 <br>
 <br>
@@ -868,39 +1286,39 @@ How China ISN'T crushing Uyghurs in XinJiang! Exposing BBC anti China agitprop. 
 <br>
 上回您傳給我的影片，證實是一場反恐演習。請看影片1:50 處可見到演習標示牌： <br>
 <br>
-反恐演習未剪接版：<a href="https://bit.ly/36RoDbg"><span class="s2"><i>https://bit.ly/36RoDbg</i></span></a> <br>
+反恐演習未剪接版：<a href="https://bit.ly/36RoDbg"><span class="s9"><i>https://bit.ly/36RoDbg</i></span></a> <br>
 <br>
 雖然演技有點差，但它就是一場演習，不是中共暴政哦。 <br>
 <br>
 那麼，到底是誰刻意移花接木呢？就是BBC，真是有夠無恥，不過我不意外，我在英國住十年，西方媒體對中國的描述如果能信，X 都能吃了。請看： <br>
 <br>
-BBC 造假：<a href="https://bit.ly/39ZlNDc"><span class="s2"><i>https://bit.ly/39ZlNDc</i></span></a> <br>
+BBC 造假：<a href="https://bit.ly/39ZlNDc"><span class="s9"><i>https://bit.ly/39ZlNDc</i></span></a> <br>
 <br>
 不可思議的是，被抓到造假之後，BBC 不但死不承認，而且還能自誇自家的新聞「精準無誤」，每天提供「資訊」服務全球四億人。 <br>
 <br>
-死不承認還自誇：<a href="https://bit.ly/2O8bl3K"><span class="s2"><i>https://bit.ly/2O8bl3K</i></span></a> <br>
+死不承認還自誇：<a href="https://bit.ly/2O8bl3K"><span class="s9"><i>https://bit.ly/2O8bl3K</i></span></a> <br>
 <br>
 以上是我朋友提供的調查結果。</p>
-<p class="p2">孫從輔   |  2021.02.08 09:57   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40299"><span class="s1">#</span></a></p>
-<p class="p3">前輩夫人「轉傳沒有查證」的「特警抓捕民眾」影片只有半套，整段影片在此： <br>
+<p class="p5">孫從輔   |  2021.02.08 09:57   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40299"><span class="s8">#</span></a></p>
+<p class="p6">前輩夫人「轉傳沒有查證」的「特警抓捕民眾」影片只有半套，整段影片在此： <br>
 <br>
-<a href="https://haokan.baidu.com/v?vid=4477341005688950560"><span class="s2"><i>https://haokan.baidu.com/v?vid=4477341005688950560</i></span></a> <br>
+<a href="https://haokan.baidu.com/v?vid=4477341005688950560"><span class="s9"><i>https://haokan.baidu.com/v?vid=4477341005688950560</i></span></a> <br>
 <br>
 標題是「保障百姓生命安全，河北老家的疫情突发事件防恐演习」，1:50開始可清楚看到反恐演練標語。 (搜索"疫情期間教科書式反恐演練" 也可在騰訊視頻找到同樣的影片。) <br>
 <br>
 半套影片怎麼來的？原來是BBC首先將其移花接木到“重返湖北”視頻報導中。新聞在此： <br>
 <br>
 BBC“重返武漢”，被武漢市民懟了 <br>
-<a href="https://www.guancha.cn/politics/2021_01_26_579330.shtml"><span class="s2"><i>https://www.guancha.cn/politics/2021_01_26_579330.shtml</i></span></a> <br>
+<a href="https://www.guancha.cn/politics/2021_01_26_579330.shtml"><span class="s9"><i>https://www.guancha.cn/politics/2021_01_26_579330.shtml</i></span></a> <br>
 <br>
 報導涉華疫情假新聞卻死不承認，BBC的回應再被網民罵翻 <br>
-<a href="https://www.guancha.cn/internation/2021_02_05_580522_s.shtml"><span class="s2"><i>https://www.guancha.cn/internation/2021_02_05_580522_s.shtml</i></span></a> <br>
+<a href="https://www.guancha.cn/internation/2021_02_05_580522_s.shtml"><span class="s9"><i>https://www.guancha.cn/internation/2021_02_05_580522_s.shtml</i></span></a> <br>
 <br>
 再次驗証造謠一張嘴，闢謠跑斷腿!</p>
-<p class="p2">陳真   |  2021.02.08 01:52   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40298"><span class="s1">#</span></a></p>
-<p class="p4">一個人的智能及品味，究竟得低到何種程度，才會把票投給這樣的人來當所謂立委？ <br>
+<p class="p5">陳真   |  2021.02.08 01:52   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40298"><span class="s8">#</span></a></p>
+<p class="p7">一個人的智能及品味，究竟得低到何種程度，才會把票投給這樣的人來當所謂立委？ <br>
 <br>
-<a href="https://bit.ly/2N4V92C"><span class="s2"><i>https://bit.ly/2N4V92C</i></span></a> <br>
+<a href="https://bit.ly/2N4V92C"><span class="s9"><i>https://bit.ly/2N4V92C</i></span></a> <br>
 <br>
 人們常說，政治立場不應該影響人與人之間的關係。這話表面上是對的。但是，這只是一種道德期許，而非現實狀況。因為，人與人之間的距離，事實上卻決定於某種美感，而這所謂美感或品味，必然也深深影響了政治選擇與判斷。 <br>
 <br>
@@ -935,8 +1353,8 @@ BBC“重返武漢”，被武漢市民懟了 <br>
 有些很天真的研究者，透過fMRI的研究，宣稱找到「愛情中樞」，彷彿從此將揭開愛情的神祕面紗。你覺得有可能嗎？找來一個人，掀開他的頭蓋骨，在他的「愛情中樞」裏頭裝個電池什麼的，然後他就從此獲得了「愛情」，沉浸在源源不斷的「愛的感覺」之中嗎？愛是這麼一回事嗎？ <br>
 <br>
 可是，話說回來，如果不是大腦作祟，為何我對人們也許根本無感的某些東西感覺卻如此強烈？誰會在意「杯子為何是杯子？」、「一等於一」這樣的傻問題？並為之廢寢忘食，終身不離不棄？如果不是大腦主宰了這一切，難道我還能有其它的認知與感受來源？</p>
-<p class="p2">陳真   |  2021.02.07 00:45   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40297"><span class="s1">#</span></a></p>
-<p class="p3">與前輩一席談(22) <br>
+<p class="p5">陳真   |  2021.02.07 00:45   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40297"><span class="s8">#</span></a></p>
+<p class="p6">與前輩一席談(22) <br>
 <br>
 陳真 <br>
 <br>
@@ -986,8 +1404,8 @@ BBC“重返武漢”，被武漢市民懟了 <br>
 前輩與我一席談，其實就跟一般人談政治沒啥兩樣，談得比較多的是「實力」，目標則是「權力」。但我認為，實力或知名度只是一種人為光環，一種虛構出來的東西。實力不重要，能力才是真才實學，而人品則是一切作為的基礎。至於權力，不過是實現理想的「手段之一」，而不是倒過來，把奪取權力當成目標，甚至當成惟一目標。 <br>
 <br>
 對錯善惡比輸贏更重要。我覺得，如果我們不把握住這一點基本態度，永遠只會在污穢不堪的權力遊戲中持續沉淪。</p>
-<p class="p2">陳真   |  2021.02.06 16:33   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40296"><span class="s1">#</span></a></p>
-<p class="p4">與前輩一席談(21) <br>
+<p class="p5">陳真   |  2021.02.06 16:33   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40296"><span class="s8">#</span></a></p>
+<p class="p7">與前輩一席談(21) <br>
 <br>
 陳真 <br>
 <br>
@@ -1005,8 +1423,8 @@ BBC“重返武漢”，被武漢市民懟了 <br>
 與前輩一席談，話題之一，總是圍繞著「權力」打轉，奪權成為一種目標，甚至是惟一目標，內在思維與人品卻反而變得無關緊要。講好聽是「海納百川」，撿到籃子裏就是菜，講難聽點就是「饑不擇食」，管你阿狗阿貓，管你狼心狗肺，只要能拿搶下權力就好。 <br>
 <br>
 我覺得，如果權力那麼重要，大家統統加入人渣黨不就好了？只要乖，只要願意睜眼說瞎話，只要願意眛著良心抹黑造謠，只要願意仇中反華，只要願意配合扯爛污，只要願意給美國人和日本人當狗使喚，光是一個小島就有上萬個職位可以直接分派，隨便輪也能輪到一官半職或當個什麼董事長不是嗎？</p>
-<p class="p2">人民   |  2021.02.06 14:44   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40295"><span class="s1">#</span></a></p>
-<p class="p3">為何韓會找上趙？ <br>
+<p class="p5">人民   |  2021.02.06 14:44   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40295"><span class="s8">#</span></a></p>
+<p class="p6">為何韓會找上趙？ <br>
 如果大家記憶不太差,上次的總統大選,趙是反韓挺郭的大將。 <br>
 韓找趙,是想將反韓與挺韓的泛藍力量大聯合。 <br>
 韓為何不找郭？ <br>
@@ -1017,506 +1435,506 @@ BBC“重返武漢”，被武漢市民懟了 <br>
 不論如何,韓的所見及高度,仍然讓我吃了一驚。 <br>
 講泛藍力量大聯合,是把韓說小了。 <br>
 挺韓的份子複雜,決不只有泛藍。</p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.05 11:24   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40294"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">向白狼致敬</span><span class="s7"> (</span><span class="s5">二</span><span class="s7">)<br>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.05 11:24   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40294"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">向白狼致敬</span><span class="s7"> (</span><span class="s1">二</span><span class="s7">)<br>
 <br>
-</span><span class="s5">陳真</span><span class="s7"><br>
-<br>
-2021. 02. 05.<br>
-<br>
-<br>
-</span><span class="s5">統促黨不是傳統意義上的政黨，沒有送往迎來鞠躬哈腰發文論述服務選民那一套。它比較像是一種帶有政治性的幫派組織，依靠特定人脈關係運作，一部份成員</span><span class="s7"> (</span><span class="s5">據說是三分之一</span><span class="s7">)</span><span class="s5">具有江湖背景。我的理解是這樣。我住的地方附近</span><span class="s7"> (</span><span class="s5">左營果貿市場</span><span class="s7">) </span><span class="s5">就有個統促黨辦公室，大多時候大門深鎖，似乎不曾見過它開門。我不確定如果把卡片寄到統促黨的台北總部，白狼就一定能收到。</span><span class="s7"><br>
-<br>
-</span><span class="s5">白狼是統促黨「總裁」，二十多歲創立竹聯幫，元老之一，幾年後就宣佈脫離。現在七十多歲了，早年曾犯下一些案子，包括綁票與販毒等，因此在美國坐牢。但我對於這些案子的真實性感到懷疑，畢竟白狼雖然不是政治人物，但是因為「江南案」而聲名大噪，本身具有很高的政治性，而那些案子恰恰就發生在轟動國際的「江南案」的隔年，因此我不太相信媒體所說的就是真相。</span><span class="s7"><br>
-<br>
-</span><span class="s5">人渣黨經常喜歡指控統促黨是黑道，但是，人渣黨卻是黑白通吃，行事作風比黑道更加凶殘無恥。所謂盜亦有道，人渣黨卻惟利是圖，無道可言。我常說，這些人渣的「白天」，比黑道的「夜晚」還更黑。</span><span class="s7"><br>
-<br>
-</span><span class="s5">沒有人喜歡黑道，但是，哪個政治人物不是跟黑道眉來眼去、稱兄道弟？包括清廉的馬英九與韓國瑜都是這樣，更不用說什麼賴清德蔡英文以及行事作風比黑道還更凶殘卑鄙的各路民進黨人。</span><span class="s7"><br>
-<br>
-</span><span class="s5">甘地說，「非暴力不該是懦弱的藉口」。甘地還說，如果你心裏存有暴力念頭，嘴巴上卻說非暴力，那你應該去使用暴力才對，而不是拿非暴力做為一種懦弱的藉口。我不認為自己懦弱，但我也不認為自己有資格譴責那些用暴力手段來行使政治理念的少數一方。</span><span class="s7"><br>
-<br>
-</span><span class="s5">請注意，我指的是「少數一方」，而非主流一方的暴力。在某個意義上，他們仍然值得尊敬，因為他們身為極少數，必然會因此遭到更大的報復和懲罰，並且不會有人去聲援他們。我尊敬他們，遠遠勝過尊敬一般畏畏縮縮的窩囊大眾。</span><span class="s7"><br>
-<br>
-</span><span class="s5">詹益樺生前經常痛罵那些整天痛罵國民黨的人。有一次，我看他氣沖沖從會議室走出來，嘴裏罵個不停。他說，那真的是一種「心靈刑求」。意思是說，人們窩窩囊囊，這也怕，那也怕，這也不敢，那也不敢，膽小如鼠，卻又很喜歡在背後罵皇帝，每天罵得不亦樂乎。</span><span class="s7"><br>
-<br>
-</span><span class="s5">詹益樺說，他很看不起這種人，每天私下或匿名罵這個罵那個，罵到死也沒有意義，因為根本沒有人知道你是誰。你應該站出來，讓大家知道你是誰，讓敵人能夠傷害你，好為你的言行負起責任，付出代價，那樣一種反抗，才有一點意義不是嗎？</span></p>
-<p class="p6"><span class="s4">鄭豐遠</span><span class="s5">   |  2021.02.05 04:58   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40293"><span class="s6">#</span></a></span></p>
-<p class="p8"><span class="s5">想不到台灣還有這樣敢堂堂正正稱自己是中國人的政治人物，真是不簡單。</span><span class="s7"><br>
-<br>
-</span><span class="s5">我從這個網頁</span><span class="s7"> (<a href="http://www.china9999.org/contact.html"><span class="s8"><i>http://www.china9999.org/contact.html</i></span></a>) </span><span class="s5">看到的資訊如下</span><span class="s7">:<br>
-<br>
-</span><span class="s5">中華統一促進黨</span><span class="s7"><br>
-<br>
-</span><span class="s5">聯絡電話：</span><span class="s7">02-2718-7701<br>
-</span><span class="s5">聯絡地址：</span><span class="s7">104 </span><span class="s5">台北市中山區復興北路</span><span class="s7">150</span><span class="s5">號</span><span class="s7">9-2</span><span class="s5">樓</span><span class="s7"> (</span><span class="s5">顯示完整</span><span class="s7">Google map)<br>
-</span><span class="s5">聯絡信箱：<a href="http://andyww5981@gmail.com"><span class="s8"><i>andyww5981@gmail.com</i></span></a></span><span class="s7"><br>
-<br>
-</span><span class="s5">這個網站倒是挺奇怪，如果點首頁進去，裡頁的所有頁面</span><span class="s7"> (</span><span class="s5">比如<a href="http://www.china9999.org/%E9%97%9C%E6%96%BC%E6%88%91%E5%80%91/"><span class="s8">http://www.china9999.org/</span><span class="s9">關於我們</span><span class="s8">/</span></a></span><span class="s7">) </span><span class="s5">都是奇怪的內容，像個空殼。只有直接找到這些英文連結才有內容。</span></p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.05 00:55   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40292"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">向白狼致敬</span><span class="s7">(</span><span class="s5">一</span><span class="s7">)<br>
-<br>
-</span><span class="s5">陳真</span><span class="s7"><br>
+</span><span class="s1">陳真</span><span class="s7"><br>
 <br>
 2021. 02. 05.<br>
 <br>
 <br>
-</span><span class="s5">謝謝這位同學。講到我，我就沒什麼好說的了，因為我不知道人們對我所言所行如何理解，恐怕大多是誤解吧。但我也不企求什麼一己榮辱或理解了，世上總是有比個人悲歡更重要的事。人生數十寒暑，再艱難，一樣轉眼即過，黃土一抔，一縷青煙，生命就像鑽進了一個無想無念的夢裏似的；天涯已遠，再無惆悵。</span><span class="s7"><br>
+</span><span class="s1">統促黨不是傳統意義上的政黨，沒有送往迎來鞠躬哈腰發文論述服務選民那一套。它比較像是一種帶有政治性的幫派組織，依靠特定人脈關係運作，一部份成員</span><span class="s7"> (</span><span class="s1">據說是三分之一</span><span class="s7">)</span><span class="s1">具有江湖背景。我的理解是這樣。我住的地方附近</span><span class="s7"> (</span><span class="s1">左營果貿市場</span><span class="s7">) </span><span class="s1">就有個統促黨辦公室，大多時候大門深鎖，似乎不曾見過它開門。我不確定如果把卡片寄到統促黨的台北總部，白狼就一定能收到。</span><span class="s7"><br>
 <br>
-</span><span class="s5">昨天看到綠營的《三立新聞》採訪白狼</span><span class="s7"> (</span><span class="s5">張安樂</span><span class="s7">)</span><span class="s5">，但沒有完整播出，重點全被切掉。我在白狼的臉書上找到完整訪談，如下：</span><span class="s7"><br>
+</span><span class="s1">白狼是統促黨「總裁」，二十多歲創立竹聯幫，元老之一，幾年後就宣佈脫離。現在七十多歲了，早年曾犯下一些案子，包括綁票與販毒等，因此在美國坐牢。但我對於這些案子的真實性感到懷疑，畢竟白狼雖然不是政治人物，但是因為「江南案」而聲名大噪，本身具有很高的政治性，而那些案子恰恰就發生在轟動國際的「江南案」的隔年，因此我不太相信媒體所說的就是真相。</span><span class="s7"><br>
 <br>
-<a href="https://bit.ly/3azX6w5"><span class="s5"><i>https://bit.ly/3azX6w5</i></span></a><br>
+</span><span class="s1">人渣黨經常喜歡指控統促黨是黑道，但是，人渣黨卻是黑白通吃，行事作風比黑道更加凶殘無恥。所謂盜亦有道，人渣黨卻惟利是圖，無道可言。我常說，這些人渣的「白天」，比黑道的「夜晚」還更黑。</span><span class="s7"><br>
 <br>
-</span><span class="s5">看了之後很感動，想寫封卡片給白狼，表達我的敬意。不知道有誰知道該把卡片寄到哪給他？</span><span class="s7"><br>
+</span><span class="s1">沒有人喜歡黑道，但是，哪個政治人物不是跟黑道眉來眼去、稱兄道弟？包括清廉的馬英九與韓國瑜都是這樣，更不用說什麼賴清德蔡英文以及行事作風比黑道還更凶殘卑鄙的各路民進黨人。</span><span class="s7"><br>
 <br>
-</span><span class="s5">最近人渣黨一直說要以內亂外患罪查辦白狼，真的有夠可笑。人渣黨愛怎麼幹就怎麼幹；他們大權在握，他們做他們的，我們做我們的。但是，裝模作樣搞這些什麼法律名堂實在很低能。這怎麼會是重點呢？法律在這事情上有什麼好說的呢？就算要依內亂外患罪查辦，也是應該抓人渣黨才對，他們才是出賣台灣謀取私利的惡棍與罪犯。</span><span class="s7"><br>
+</span><span class="s1">甘地說，「非暴力不該是懦弱的藉口」。甘地還說，如果你心裏存有暴力念頭，嘴巴上卻說非暴力，那你應該去使用暴力才對，而不是拿非暴力做為一種懦弱的藉口。我不認為自己懦弱，但我也不認為自己有資格譴責那些用暴力手段來行使政治理念的少數一方。</span><span class="s7"><br>
 <br>
-</span><span class="s5">台灣的法院經常就是權力的走狗。三十幾年前我還在念大學，在群眾場合上公開主張台獨，被以叛亂罪移送法辦。三十幾年後的今天，同一套法律，一模一樣的法條，我主張兩岸統一，居然又要叛亂是嗎？</span><span class="s7"><br>
+</span><span class="s1">請注意，我指的是「少數一方」，而非主流一方的暴力。在某個意義上，他們仍然值得尊敬，因為他們身為極少數，必然會因此遭到更大的報復和懲罰，並且不會有人去聲援他們。我尊敬他們，遠遠勝過尊敬一般畏畏縮縮的窩囊大眾。</span><span class="s7"><br>
 <br>
-</span><span class="s5">時局至此，這些什麼叛不叛亂的，根本毫無意義。重要的是兩岸人民的身家性命與財產以及下一代長遠的未來，重要的是我們應該如何避免為美國人當炮灰，避免為貪婪腐敗的漢奸人渣賣命。</span></p>
-<p class="p6"><span class="s5">Dheeresha   |  2021.02.04 18:35   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40291"><span class="s6">#</span></a></span></p>
-<p class="p8"><span class="s5">向您致上無限的敬意</span><span class="s7"><br>
+</span><span class="s1">詹益樺生前經常痛罵那些整天痛罵國民黨的人。有一次，我看他氣沖沖從會議室走出來，嘴裏罵個不停。他說，那真的是一種「心靈刑求」。意思是說，人們窩窩囊囊，這也怕，那也怕，這也不敢，那也不敢，膽小如鼠，卻又很喜歡在背後罵皇帝，每天罵得不亦樂乎。</span><span class="s7"><br>
 <br>
-</span><span class="s5">您真是個明白人</span><span class="s7"><br>
+</span><span class="s1">詹益樺說，他很看不起這種人，每天私下或匿名罵這個罵那個，罵到死也沒有意義，因為根本沒有人知道你是誰。你應該站出來，讓大家知道你是誰，讓敵人能夠傷害你，好為你的言行負起責任，付出代價，那樣一種反抗，才有一點意義不是嗎？</span></p>
+<p class="p9"><span class="s12">鄭豐遠</span><span class="s1">   |  2021.02.05 04:58   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40293"><span class="s13">#</span></a></span></p>
+<p class="p11"><span class="s1">想不到台灣還有這樣敢堂堂正正稱自己是中國人的政治人物，真是不簡單。</span><span class="s7"><br>
 <br>
-</span><span class="s5">一語中地</span><span class="s7"><br>
+</span><span class="s1">我從這個網頁</span><span class="s7"> (<a href="http://www.china9999.org/contact.html"><span class="s1"><i>http://www.china9999.org/contact.html</i></span></a>) </span><span class="s1">看到的資訊如下</span><span class="s7">:<br>
 <br>
-</span><span class="s5">我也看不好趙先生</span><span class="s7"><br>
+</span><span class="s1">中華統一促進黨</span><span class="s7"><br>
 <br>
-</span><span class="s5">我覺得他太親美了</span><span class="s7"><br>
+</span><span class="s1">聯絡電話：</span><span class="s7">02-2718-7701<br>
+</span><span class="s1">聯絡地址：</span><span class="s7">104 </span><span class="s1">台北市中山區復興北路</span><span class="s7">150</span><span class="s1">號</span><span class="s7">9-2</span><span class="s1">樓</span><span class="s7"> (</span><span class="s1">顯示完整</span><span class="s7">Google map)<br>
+</span><span class="s1">聯絡信箱：<a href="http://andyww5981@gmail.com"><span class="s4"><i>andyww5981@gmail.com</i></span></a></span><span class="s7"><br>
 <br>
-</span><span class="s5">也太理想化</span><span class="s7"><br>
+</span><span class="s1">這個網站倒是挺奇怪，如果點首頁進去，裡頁的所有頁面</span><span class="s7"> (</span><span class="s1">比如<a href="http://www.china9999.org/%E9%97%9C%E6%96%BC%E6%88%91%E5%80%91/"><span class="s4">http://www.china9999.org/</span><span class="s14">關於我們</span><span class="s4">/</span></a></span><span class="s7">) </span><span class="s1">都是奇怪的內容，像個空殼。只有直接找到這些英文連結才有內容。</span></p>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.05 00:55   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40292"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">向白狼致敬</span><span class="s7">(</span><span class="s1">一</span><span class="s7">)<br>
 <br>
-</span><span class="s5">太相信自由民主那一套套</span><span class="s7"><br>
+</span><span class="s1">陳真</span><span class="s7"><br>
+<br>
+2021. 02. 05.<br>
+<br>
+<br>
+</span><span class="s1">謝謝這位同學。講到我，我就沒什麼好說的了，因為我不知道人們對我所言所行如何理解，恐怕大多是誤解吧。但我也不企求什麼一己榮辱或理解了，世上總是有比個人悲歡更重要的事。人生數十寒暑，再艱難，一樣轉眼即過，黃土一抔，一縷青煙，生命就像鑽進了一個無想無念的夢裏似的；天涯已遠，再無惆悵。</span><span class="s7"><br>
+<br>
+</span><span class="s1">昨天看到綠營的《三立新聞》採訪白狼</span><span class="s7"> (</span><span class="s1">張安樂</span><span class="s7">)</span><span class="s1">，但沒有完整播出，重點全被切掉。我在白狼的臉書上找到完整訪談，如下：</span><span class="s7"><br>
+<br>
+<a href="https://bit.ly/3azX6w5"><span class="s15"><i>https://bit.ly/3azX6w5</i></span></a><br>
+<br>
+</span><span class="s1">看了之後很感動，想寫封卡片給白狼，表達我的敬意。不知道有誰知道該把卡片寄到哪給他？</span><span class="s7"><br>
+<br>
+</span><span class="s1">最近人渣黨一直說要以內亂外患罪查辦白狼，真的有夠可笑。人渣黨愛怎麼幹就怎麼幹；他們大權在握，他們做他們的，我們做我們的。但是，裝模作樣搞這些什麼法律名堂實在很低能。這怎麼會是重點呢？法律在這事情上有什麼好說的呢？就算要依內亂外患罪查辦，也是應該抓人渣黨才對，他們才是出賣台灣謀取私利的惡棍與罪犯。</span><span class="s7"><br>
+<br>
+</span><span class="s1">台灣的法院經常就是權力的走狗。三十幾年前我還在念大學，在群眾場合上公開主張台獨，被以叛亂罪移送法辦。三十幾年後的今天，同一套法律，一模一樣的法條，我主張兩岸統一，居然又要叛亂是嗎？</span><span class="s7"><br>
+<br>
+</span><span class="s1">時局至此，這些什麼叛不叛亂的，根本毫無意義。重要的是兩岸人民的身家性命與財產以及下一代長遠的未來，重要的是我們應該如何避免為美國人當炮灰，避免為貪婪腐敗的漢奸人渣賣命。</span></p>
+<p class="p9"><span class="s1">Dheeresha   |  2021.02.04 18:35   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40291"><span class="s13">#</span></a></span></p>
+<p class="p11"><span class="s1">向您致上無限的敬意</span><span class="s7"><br>
+<br>
+</span><span class="s1">您真是個明白人</span><span class="s7"><br>
+<br>
+</span><span class="s1">一語中地</span><span class="s7"><br>
+<br>
+</span><span class="s1">我也看不好趙先生</span><span class="s7"><br>
+<br>
+</span><span class="s1">我覺得他太親美了</span><span class="s7"><br>
+<br>
+</span><span class="s1">也太理想化</span><span class="s7"><br>
+<br>
+</span><span class="s1">太相信自由民主那一套套</span><span class="s7"><br>
 <br>
 ~~~~~~~~~~~~~~~~~~~~<br>
 <br>
-</span><span class="s5">這幾天趙先生和翁山蘇姬的新聞</span><span class="s7"><br>
+</span><span class="s1">這幾天趙先生和翁山蘇姬的新聞</span><span class="s7"><br>
 <br>
-</span><span class="s5">還有美國軍方的蘭德報告</span><span class="s7"><br>
+</span><span class="s1">還有美國軍方的蘭德報告</span><span class="s7"><br>
 <br>
-GamrStop </span><span class="s5">散戶</span><span class="s7">v.s.</span><span class="s5">華爾街</span><span class="s7"><br>
+GamrStop </span><span class="s1">散戶</span><span class="s7">v.s.</span><span class="s1">華爾街</span><span class="s7"><br>
 <br>
-</span><span class="s5">都滿令人震撼的</span><span class="s7"><br>
+</span><span class="s1">都滿令人震撼的</span><span class="s7"><br>
 <br>
-</span><span class="s5">感覺這世界的氛圍變了</span><span class="s7"><br>
+</span><span class="s1">感覺這世界的氛圍變了</span><span class="s7"><br>
 <br>
-</span><span class="s5">兩極處於最後攤牌的階段了</span><span class="s7"><br>
+</span><span class="s1">兩極處於最後攤牌的階段了</span><span class="s7"><br>
 <br>
 ~~~~~~~~~~~~~~~~~~~~~<br>
 <br>
-</span><span class="s5">最後我想說的是</span><span class="s7"><br>
-</span><span class="s5">善良是一種選擇</span><span class="s7"><br>
+</span><span class="s1">最後我想說的是</span><span class="s7"><br>
+</span><span class="s1">善良是一種選擇</span><span class="s7"><br>
 <br>
-</span><span class="s5">感謝有你</span><span class="s7"><br>
+</span><span class="s1">感謝有你</span><span class="s7"><br>
 <br>
-</span><span class="s5">謝謝你</span><span class="s7"><br>
+</span><span class="s1">謝謝你</span><span class="s7"><br>
 <br>
 </span></p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.04 11:58   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40290"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">一個人，如果不斷強迫你傾家蕩產跟他買下全世界密度最高的軍火，不斷鼓勵你和你的家人決一死戰，然後從中獲取巨大暴利，你覺得這樣一個人是敵是友？而你說要決一死戰的家人，事實上長年以來每年給你幾兆元生活費，不斷想討好你，想善待你，只期望你不要結合外人來殺害整個家族，破壞整個家園。</span><span class="s7"><br>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.04 11:58   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40290"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">一個人，如果不斷強迫你傾家蕩產跟他買下全世界密度最高的軍火，不斷鼓勵你和你的家人決一死戰，然後從中獲取巨大暴利，你覺得這樣一個人是敵是友？而你說要決一死戰的家人，事實上長年以來每年給你幾兆元生活費，不斷想討好你，想善待你，只期望你不要結合外人來殺害整個家族，破壞整個家園。</span><span class="s7"><br>
 <br>
-</span><span class="s5">台灣人如果還不覺醒，如果還傻儍地把整個心思放在一些雞毛蒜皮般的鳥事上，或是錯誤理解島內政治的真實意義，就會中了敵人的奸計，給兩岸帶來毀滅性的傷害與悲劇。</span><span class="s7"><br>
+</span><span class="s1">台灣人如果還不覺醒，如果還傻儍地把整個心思放在一些雞毛蒜皮般的鳥事上，或是錯誤理解島內政治的真實意義，就會中了敵人的奸計，給兩岸帶來毀滅性的傷害與悲劇。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我所說的，都只是一些毫無爭議的普通常識。傻蛋們為什麼不好好去理解一下真實的政治、真實的國際局勢、真實的中國大陸與真實的美國各自之長年所作所為？</span><span class="s7"><br>
+</span><span class="s1">我所說的，都只是一些毫無爭議的普通常識。傻蛋們為什麼不好好去理解一下真實的政治、真實的國際局勢、真實的中國大陸與真實的美國各自之長年所作所為？</span><span class="s7"><br>
 <br>
-</span><span class="s5">你看看底下這個人渣它媽的在講些什麼。兩岸為什麼要血洗對方？就算台灣人要戰爭，要為國犧牲，要打也是跟對岸一起打美國人才對，美國才是台灣的敵人。</span><span class="s7"><br>
+</span><span class="s1">你看看底下這個人渣它媽的在講些什麼。兩岸為什麼要血洗對方？就算台灣人要戰爭，要為國犧牲，要打也是跟對岸一起打美國人才對，美國才是台灣的敵人。</span><span class="s7"><br>
 <br>
-</span><span class="s5">陳真</span><span class="s7"><br>
+</span><span class="s1">陳真</span><span class="s7"><br>
 <br>
 2021. 02. 04.<br>
 <br>
 ===============<br>
 <br>
-</span><span class="s5">陸若武力犯臺</span><span class="s7"> </span><span class="s5">博明：臺灣人應有犧牲準備</span><span class="s7"><br>
+</span><span class="s1">陸若武力犯臺</span><span class="s7"> </span><span class="s1">博明：臺灣人應有犧牲準備</span><span class="s7"><br>
 <br>
 TVBS<br>
-</span><span class="s5">倪嘉徽</span><span class="s7"> </span><span class="s5">黃崧浦</span><span class="s7"><br>
+</span><span class="s1">倪嘉徽</span><span class="s7"> </span><span class="s1">黃崧浦</span><span class="s7"><br>
 <br>
-2021</span><span class="s5">年</span><span class="s7">2</span><span class="s5">月</span><span class="s7">4</span><span class="s5">日</span><span class="s7"> <br>
+2021</span><span class="s1">年</span><span class="s7">2</span><span class="s1">月</span><span class="s7">4</span><span class="s1">日</span><span class="s7"> <br>
 <br>
-</span><span class="s5">前美國副國安顧問博明離職將滿一個月，今天他被問到如果北京對臺動武，美國應該怎麼做？博明表示，美國應該對臺灣提供實質性協助，只是臺灣人民也必須團結一致、準備犧牲，準備以戰止戰、為國犧牲。</span></p>
-<p class="p6"><span class="s4">鄭豐遠</span><span class="s5">   |  2021.02.04 11:31   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40289"><span class="s6">#</span></a></span></p>
-<p class="p8"><span class="s5">下面這篇新聞，請大家自己連進去看吧，因為有照片，如果我只複製文字到這邊，感覺有些不完整。</span><span class="s7"><br>
+</span><span class="s1">前美國副國安顧問博明離職將滿一個月，今天他被問到如果北京對臺動武，美國應該怎麼做？博明表示，美國應該對臺灣提供實質性協助，只是臺灣人民也必須團結一致、準備犧牲，準備以戰止戰、為國犧牲。</span></p>
+<p class="p9"><span class="s12">鄭豐遠</span><span class="s1">   |  2021.02.04 11:31   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40289"><span class="s13">#</span></a></span></p>
+<p class="p11"><span class="s1">下面這篇新聞，請大家自己連進去看吧，因為有照片，如果我只複製文字到這邊，感覺有些不完整。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我打算在疫情穩定，旅遊不再受限制後，再回祖國走一趟，一解思鄉之愁。最想去的地方就是武漢、新疆和西藏。人也許沒有那麼多移動的自由，但每個人都有能擁有自己精神上的原鄉。在這一點上，有家的人是幸福的，漂泊的人是可憐的。</span><span class="s7"><br>
+</span><span class="s1">我打算在疫情穩定，旅遊不再受限制後，再回祖國走一趟，一解思鄉之愁。最想去的地方就是武漢、新疆和西藏。人也許沒有那麼多移動的自由，但每個人都有能擁有自己精神上的原鄉。在這一點上，有家的人是幸福的，漂泊的人是可憐的。</span><span class="s7"><br>
 <br>
-</span><span class="s5">別人怎麼看待中國我並不在乎，對我來說，中國就是我心中的家。</span><span class="s7"><br>
-<br>
-<br>
-</span><span class="s5">法知名作家仗义出版《</span><span class="s10">维吾尔族假新闻的终结》</span><span class="s7"><br>
-<a href="https://www.guancha.cn/politics/2021_02_04_580294.shtml"><span class="s8"><i>https://www.guancha.cn/politics/2021_02_04_580294.shtml</i></span></a></span></p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.04 11:22   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40288"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">與前輩一席談</span><span class="s7">(20)<br>
-<br>
-</span><span class="s5">陳真</span><span class="s7"><br>
-<br>
-2021. 02. 04.<br>
+</span><span class="s1">別人怎麼看待中國我並不在乎，對我來說，中國就是我心中的家。</span><span class="s7"><br>
 <br>
 <br>
-Lucy</span><span class="s5">，我不會誤會趙秀才，畢竟他存在政壇四十多年了。</span><span class="s7"><br>
+</span><span class="s1">法知名作家仗义出版《</span><span class="s16">维吾尔族假新闻的终结》</span><span class="s7"><br>
+<a href="https://www.guancha.cn/politics/2021_02_04_580294.shtml"><span class="s1"><i>https://www.guancha.cn/politics/2021_02_04_580294.shtml</i></span></a></span></p>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.04 11:22   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40288"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">與前輩一席談</span><span class="s7">(20)<br>
 <br>
-</span><span class="s5">所謂熱情，怎麼會是指「拉下民進黨」？這怎麼會是一種目標？這就像當年很多人的目標是「拉下國民黨」一樣，結果呢？結果就是找來一個比國民黨人更壞的人氣王</span><span class="s7">--</span><span class="s5">阿扁，來拉下國民黨，然後青出於藍，貪得比國民黨還可怕，種種行徑比國民黨更惡劣更卑鄙。這就是我們所要的嗎？</span><span class="s7"><br>
-<br>
-</span><span class="s5">韓國瑜結盟趙少康，就如同林義雄結盟陳水扁一樣，果然一舉把國民黨拉下台，結果呢？結果開啟台灣二十年的沉淪與敗壞。西元</span><span class="s7">2000</span><span class="s5">年，總統大選投票的前一天，我做了一個很寫實的夢，夢見我站在一個方圓僅有幾公尺的台灣島上，眼睜睜看著它一直往下沉；夢中有個白髮長眉老人說話，他說「島要沉了」。</span><span class="s7"><br>
-<br>
-</span><span class="s5">所謂「日有所思，夜有所夢」，這個島嶼沉淪夢只是反映我當時在選前一直在講的內容，我說，千萬不要相信李遠哲那個投機份子講的話。我說，阿扁如果當選，台灣將會往下沉淪得更厲害。我的夢並非靈異預言，而只是思想化為夢境出現。這個夢境，後來果然成真。台灣過去二十年來，什麼事也沒幹，每天就是忙著炒作仇中反華，分分秒秒忙著挑撥對於大陸人的仇恨；然後數不清的人渣一一冒出頭，個個比阿扁惡劣無恥貪婪幾百萬倍。</span><span class="s7"><br>
-<br>
-</span><span class="s5">我只會說阿扁是個壞蛋，我絕不會說他是個人渣；我對他仍然懷著一定的敬意與感情。阿扁跟人渣們比起來，幾乎可以說是聖人了。由此你就能知道，台灣之所謂民主化是怎麼一回事，在美國所一手主導的仇中反華政策下是如何地墮落與沉淪，並且逐漸走向極右法西斯。人渣黨常常在歌頌的那些所謂「為台灣發聲」的「國際民主友人」，請問有哪一個不是惡名昭彰的極右法西斯或大貪官，甚至是殺人魔。</span><span class="s7"><br>
-<br>
-</span><span class="s5">林義雄當年結盟阿扁，並且為他修改黨規，好讓他能夠選總統。為什麼呢？因為放眼當年，除了跟趙少康一樣很會炒作、很會打算盤的阿扁之外，沒有一個人能打敗國民黨。結果真的打敗了，卻換來一個更邪惡無恥的貪婪政權。</span><span class="s7"><br>
-<br>
-</span><span class="s5">你說，放眼當下，除了趙少康，沒有一個人能打敗民進黨。這話是錯的，打不打得敗，不是看人，而是看他的所作所為及其外部利用價值。倘若他能夠比民進黨還卑鄙齷齪，倘若他能夠讓美國相信，他擁有更好的反中仇中能力，那麼他就會當選，主子就會讓他當選。你看，蔡英文選前民調低到快歸零，結果呢，短短一年半載之內，卻成為台灣有史以來最高得票數的所謂總統。</span><span class="s7"><br>
-<br>
-</span><span class="s5">島內所謂輿論或民意等等這些東西，完全都是可以操弄的，美國也是，世界各國都一樣。我常舉的一個例子是，伊拉克海珊原本只有</span><span class="s7">2%</span><span class="s5">或</span><span class="s7">3%</span><span class="s5">的美國人認為他會危害世界和平，當美國決定侵略伊拉克之後，媒體開始配合炒作，短短不到半年內，百分之八十幾的美國人相信「海珊不死，全世界億萬人將毀滅」這種鬼話。</span><span class="s7"><br>
-<br>
-</span><span class="s5">至於你說的柯文哲，那就更不堪聞問了。我是說在政治品格上，遠遠比趙少康還更爛。你不信，我也沒辦法。柯文哲曾經是對岸的欽定人選，將來很可能也還是。但是，即便祖國挺他，我也不會因此就挺他。我看重人品，依舊勝於立場。我不相信人品不佳之投機份子會有什麼真實的立場。</span><span class="s7"><br>
-<br>
-</span><span class="s5">就比方說趙秀才，韓國瑜挺他是因為他和韓國瑜達成一個默契就是雙方都同意應該認同九二共識。但是，任何人其實都不應該傻到以為一個投機份子會有什麼真實的信念或立場。趙少康這兩天含含糊糊地說他支持九二共識，但他卻又一方面反中不遺餘力。</span><span class="s7"><br>
-<br>
-</span><span class="s5">比方說，幾個月前，他提到說：「現在中美衝突比以往更為劇烈，以美國為首的全世界都在反中，全世界主要政黨都在反中國的時候，國民黨卻是唯一一個不反中的政黨」。趙少康說，「反中浪潮是全球性的，韓國瑜之所以會輸掉總統大選，就是因為不反中，而且還跟這個世界潮流對作」，這樣怎麼可能贏？</span><span class="s7"><br>
-<br>
-</span><span class="s5">二十幾年前，宛如希特勒一般的造型與手勢、法西斯味道相當重的大統派趙少康，現在調整風向了，開始變成「我是台灣人」了，不再提中國人了，並且表明年輕人都不再認為自己是中國人。他說，在這種情況下，如果國民黨還認同中國人，還不反中，「將來選戰要怎麼打」？</span><span class="s7"><br>
-<br>
-</span><span class="s5">我舉這些例子是要說，你看，這就是政治生意人，他不是在從政，而是在做「政治」這門生意；就跟人渣黨一樣，「台獨」就是島內當紅的一門生意。所謂理念或理想或立場，不但不是目標，反而變成一種手段，變成一種斂財奪權的工具。相反地，權力理當只是一種手段，卻反而變成人渣或投機份子的惟一目的。</span><span class="s7"><br>
-<br>
-</span><span class="s5">我和前輩也講到很多這方面的想法。我和他，思想南轅北轍，之所以還能一談就是四、五個小時，就是因為我們想法雖然不同，但是，我知道他並不仇中或反中，他只是很天真地相信美式民主那一套所謂「一人一票」的價值；他希望中國能夠強大，但他認為強大的前提就是要採用美式民主。</span><span class="s7"><br>
-<br>
-</span><span class="s5">我不在意人們與我想法不同，但我絕不會浪費一秒鐘去跟任何一個投機份子或詐騙人渣談論任何想法，因為他們哪會有什麼真實的想法或立場？他們關切的，甚至惟一關切的，就是權力與私利。我不會說趙少康是個人渣，他沒那麼壞，他還是有一點點點點點點理想性，而人渣黨則毫無道德下限可言。</span><span class="s7"><br>
-<br>
-</span><span class="s5">我不想對任何懷有利他善意的個人潑冷水，我潑的是溫水，事實上我已經講得夠溫和了。人們的熱情總是被人渣或投機政客所一再糟蹋，一再辜負。甘地曾經說過一句話，我始終銘記在心，他說：「保存你的憤怒」，不要輕易消費它。也許有一天，它就會撼動整個世界。這意思是說，熱情是可貴的，義憤更是無比珍貴，我們不該隨便發洩它，更無須急著成事，那往往只是無謂消耗了熱情。</span><span class="s7"><br>
-<br>
-</span><span class="s5">打倒民進黨不該是一種目標，打倒邪惡才是目標。以更大的惡來打擊惡是荒唐的。你要把桌子擦乾淨，就得找一條乾淨的布，而不是找一條比桌子還髒的抹布來擦，這樣擦到死也不可能擦乾淨。</span><span class="s7"><br>
-<br>
-</span><span class="s5">我不是說趙少康個人比民進黨還髒還壞，當然不是；而是說，在一種善惡的根本意義上，例如造謠抹黑仇中反華舔美搞港獨搞台獨等等等，如果趙秀才和人渣黨其實根本沒有區別，那我不知道這樣的選舉有何意義可言，只是換一個人來做同樣的醜事而已不是嗎？當然，也許在內政上或作法上會有些許差別，至少不會貪污成那副吃相德性。但是，這樣一種差別，不足以引發熱情，至少引起不了我任何的熱情。</span></p>
-<p class="p6"><span class="s5">Lucy   |  2021.02.04 02:34   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40287"><span class="s6">#</span></a></span></p>
-<p class="p8"><span class="s5">先生的話，我會細細思量，並更加仔細觀察趙少康的言談。</span><span class="s7"><br>
-<br>
-</span><span class="s5">其實，所謂熱情，是指＂拉下民進黨的期待＂。在野陣營中放眼望去，誰有能力打垮民進黨？國民黨中一個也沒有。往外找，只剩下柯文哲。對我而言，２０２４年，只有柯文哲能讓我投下一票。但，他根本無法扳倒民進黨。趙少康的復出，無疑燃起我的希望。</span><span class="s7"><br>
-<br>
-</span><span class="s5">如果，趙少康是反中的，那他就不是我的期待。但，這年頭，反中是主流民意（我從不以為，民主制度＂討好選民的可笑機制＂能提升國與人的素質），即使是韓國瑜，為了選票也要說＂國防靠美國＂這樣的話來安撫一些仇中的台灣人。所以，我能容許趙少康用有彈性的話術規避＂對中態度＂，但他不可以反中。</span><span class="s7"><br>
-<br>
-</span><span class="s5">在台灣政壇上，我最敬佩的人是沈富雄和呂秀蓮。真是稀奇，像我這樣有大中國情懷的統派，竟然景仰綠營出身的政治人物。先生也曾是綠營的菁英。或許常在趙少康的節目中看到沈富雄和呂秀蓮，才會覺得趙少康是識人的媒體人。</span><span class="s7"><br>
-<br>
-</span><span class="s5">真希望是先生您誤會了趙少康。</span></p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.04 01:26   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40286"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">與前輩一席談</span><span class="s7">(19)<br>
-<br>
-</span><span class="s5">陳真</span><span class="s7"><br>
+</span><span class="s1">陳真</span><span class="s7"><br>
 <br>
 2021. 02. 04.<br>
 <br>
 <br>
-Lucy</span><span class="s5">好，我沒說清楚，誤會了。我只知道大的東西，小事不知道，也不會有人知道，因為既然是小事，意味著可以這樣，也能那樣，所以不會有確定性可言。</span><span class="s7"><br>
+Lucy</span><span class="s1">，我不會誤會趙秀才，畢竟他存在政壇四十多年了。</span><span class="s7"><br>
 <br>
-</span><span class="s5">大的事比方說：</span><span class="s7"><br>
+</span><span class="s1">所謂熱情，怎麼會是指「拉下民進黨」？這怎麼會是一種目標？這就像當年很多人的目標是「拉下國民黨」一樣，結果呢？結果就是找來一個比國民黨人更壞的人氣王</span><span class="s7">--</span><span class="s1">阿扁，來拉下國民黨，然後青出於藍，貪得比國民黨還可怕，種種行徑比國民黨更惡劣更卑鄙。這就是我們所要的嗎？</span><span class="s7"><br>
 <br>
-1</span><span class="s5">，美國控制藍綠兩黨，使其互鬥，維持平衡，避免一黨獨大容易拿翹不聽指揮。</span><span class="s7"><br>
+</span><span class="s1">韓國瑜結盟趙少康，就如同林義雄結盟陳水扁一樣，果然一舉把國民黨拉下台，結果呢？結果開啟台灣二十年的沉淪與敗壞。西元</span><span class="s7">2000</span><span class="s1">年，總統大選投票的前一天，我做了一個很寫實的夢，夢見我站在一個方圓僅有幾公尺的台灣島上，眼睜睜看著它一直往下沉；夢中有個白髮長眉老人說話，他說「島要沉了」。</span><span class="s7"><br>
 <br>
-</span><span class="s5">但這並不意味著美國準備要讓民進黨下台，而僅僅意味著美國不會讓其中一條狗獨大，肯定會招呼另一條狗來咬牠。至於民進黨會不會下台一鞠躬，這是小事，因此說不準。</span><span class="s7"><br>
+</span><span class="s1">所謂「日有所思，夜有所夢」，這個島嶼沉淪夢只是反映我當時在選前一直在講的內容，我說，千萬不要相信李遠哲那個投機份子講的話。我說，阿扁如果當選，台灣將會往下沉淪得更厲害。我的夢並非靈異預言，而只是思想化為夢境出現。這個夢境，後來果然成真。台灣過去二十年來，什麼事也沒幹，每天就是忙著炒作仇中反華，分分秒秒忙著挑撥對於大陸人的仇恨；然後數不清的人渣一一冒出頭，個個比阿扁惡劣無恥貪婪幾百萬倍。</span><span class="s7"><br>
 <br>
-2</span><span class="s5">，不管是藍狗或綠狗要上場，都得經過主子同意。</span><span class="s7"><br>
+</span><span class="s1">我只會說阿扁是個壞蛋，我絕不會說他是個人渣；我對他仍然懷著一定的敬意與感情。阿扁跟人渣們比起來，幾乎可以說是聖人了。由此你就能知道，台灣之所謂民主化是怎麼一回事，在美國所一手主導的仇中反華政策下是如何地墮落與沉淪，並且逐漸走向極右法西斯。人渣黨常常在歌頌的那些所謂「為台灣發聲」的「國際民主友人」，請問有哪一個不是惡名昭彰的極右法西斯或大貪官，甚至是殺人魔。</span><span class="s7"><br>
 <br>
-</span><span class="s5">有例外嗎？當然有，但是都很快就會被趕下場，比方說洪秀柱，換不換柱，與朱立倫無關，朱是線民，他只是聽命行事。另一個自己跑出來的就是韓國瑜，你看，藍綠聯手黑他，無所不用其極，足足黑了一兩年，硬是把他拉下來，至今還在抹黑。沒有背後主子的授意或批准，換柱或黑韓都不會發生，至少不會以如此惡劣、突兀且劇烈的形式出現。</span><span class="s7"><br>
+</span><span class="s1">林義雄當年結盟阿扁，並且為他修改黨規，好讓他能夠選總統。為什麼呢？因為放眼當年，除了跟趙少康一樣很會炒作、很會打算盤的阿扁之外，沒有一個人能打敗國民黨。結果真的打敗了，卻換來一個更邪惡無恥的貪婪政權。</span><span class="s7"><br>
 <br>
-</span><span class="s5">至於趙秀才是不是美國欽定的下任總統候選人，這當然是小到不能再小的事了。狗兒那麼多，比方說朱立倫、江啟臣和趙秀才等等等都是，找哪隻狗上台表演都沒有絲毫重要性，因此也說不準。我只能說，沒有經過美國人點頭，精於算計的趙秀才當然不會貿然跳出來。</span><span class="s7">  <br>
+</span><span class="s1">你說，放眼當下，除了趙少康，沒有一個人能打敗民進黨。這話是錯的，打不打得敗，不是看人，而是看他的所作所為及其外部利用價值。倘若他能夠比民進黨還卑鄙齷齪，倘若他能夠讓美國相信，他擁有更好的反中仇中能力，那麼他就會當選，主子就會讓他當選。你看，蔡英文選前民調低到快歸零，結果呢，短短一年半載之內，卻成為台灣有史以來最高得票數的所謂總統。</span><span class="s7"><br>
 <br>
-3</span><span class="s5">，趙秀才跟大漢奸</span><span class="s7">CIA</span><span class="s5">走狗黎智英是同一掛；當然，為惡或危害等級無法相提並論，但這就是一個走狗集團，以反中為核心要務。我知道裏頭還有哪些人，但我不想說，因為我說了你們也不會信。而且，我當然也不可能有所謂「證據」，你們會以為我只是在講一種低級可笑的陰謀論。其實，在政治上，明明白白的事通常都不會有證據，但內行人一看就懂；只有很外行的笨蛋才會動不動就說「證據呢？」。</span><span class="s7"><br>
+</span><span class="s1">島內所謂輿論或民意等等這些東西，完全都是可以操弄的，美國也是，世界各國都一樣。我常舉的一個例子是，伊拉克海珊原本只有</span><span class="s7">2%</span><span class="s1">或</span><span class="s7">3%</span><span class="s1">的美國人認為他會危害世界和平，當美國決定侵略伊拉克之後，媒體開始配合炒作，短短不到半年內，百分之八十幾的美國人相信「海珊不死，全世界億萬人將毀滅」這種鬼話。</span><span class="s7"><br>
 <br>
-</span><span class="s5">至於你對趙秀才的描述，當然全都是錯的。</span><span class="s7"><br>
+</span><span class="s1">至於你說的柯文哲，那就更不堪聞問了。我是說在政治品格上，遠遠比趙少康還更爛。你不信，我也沒辦法。柯文哲曾經是對岸的欽定人選，將來很可能也還是。但是，即便祖國挺他，我也不會因此就挺他。我看重人品，依舊勝於立場。我不相信人品不佳之投機份子會有什麼真實的立場。</span><span class="s7"><br>
 <br>
-A</span><span class="s5">，他怎麼會「不願留在國民黨吃香喝辣」？</span><span class="s7"><br>
+</span><span class="s1">就比方說趙秀才，韓國瑜挺他是因為他和韓國瑜達成一個默契就是雙方都同意應該認同九二共識。但是，任何人其實都不應該傻到以為一個投機份子會有什麼真實的信念或立場。趙少康這兩天含含糊糊地說他支持九二共識，但他卻又一方面反中不遺餘力。</span><span class="s7"><br>
 <br>
-</span><span class="s5">他不是「不願」，而是當年思想不夠純正，不夠獨，不夠愛台灣，加上又是外省人，留在國民黨已經沒法吃香喝辣了，所以就自立門戶，成立新黨。</span><span class="s7"><br>
+</span><span class="s1">比方說，幾個月前，他提到說：「現在中美衝突比以往更為劇烈，以美國為首的全世界都在反中，全世界主要政黨都在反中國的時候，國民黨卻是唯一一個不反中的政黨」。趙少康說，「反中浪潮是全球性的，韓國瑜之所以會輸掉總統大選，就是因為不反中，而且還跟這個世界潮流對作」，這樣怎麼可能贏？</span><span class="s7"><br>
 <br>
-B</span><span class="s5">，趙少康怎麼會沒有把柄？他的把柄，關乎黨產，應該多得是。</span><span class="s7"><br>
+</span><span class="s1">二十幾年前，宛如希特勒一般的造型與手勢、法西斯味道相當重的大統派趙少康，現在調整風向了，開始變成「我是台灣人」了，不再提中國人了，並且表明年輕人都不再認為自己是中國人。他說，在這種情況下，如果國民黨還認同中國人，還不反中，「將來選戰要怎麼打」？</span><span class="s7"><br>
 <br>
-C</span><span class="s5">，在我眼裏，趙秀才怎麼是「戲子綜藝咖」？</span><span class="s7"><br>
+</span><span class="s1">我舉這些例子是要說，你看，這就是政治生意人，他不是在從政，而是在做「政治」這門生意；就跟人渣黨一樣，「台獨」就是島內當紅的一門生意。所謂理念或理想或立場，不但不是目標，反而變成一種手段，變成一種斂財奪權的工具。相反地，權力理當只是一種手段，卻反而變成人渣或投機份子的惟一目的。</span><span class="s7"><br>
 <br>
-</span><span class="s5">他很會作秀，做的是大買賣，不是做</span><span class="s7"> (</span><span class="s5">娛樂</span><span class="s7">) </span><span class="s5">效果。雞雞黨那一類的人，才是綜藝咖，趙少康不是。他文武雙全，又會秀，又會做買賣，是「宋盼仔」</span><span class="s7">(</span><span class="s5">宋楚瑜</span><span class="s7">) </span><span class="s5">那一型，屬大內高手。當年鬥輸宋盼仔，經過多年的冰凍與「反省」，這回調整了思想，思想淨化了，愛台灣了，民主自由了，因此捲土重來。</span><span class="s7"><br>
+</span><span class="s1">我和前輩也講到很多這方面的想法。我和他，思想南轅北轍，之所以還能一談就是四、五個小時，就是因為我們想法雖然不同，但是，我知道他並不仇中或反中，他只是很天真地相信美式民主那一套所謂「一人一票」的價值；他希望中國能夠強大，但他認為強大的前提就是要採用美式民主。</span><span class="s7"><br>
 <br>
-D</span><span class="s5">，趙秀才變成媒體大亨，當然不是因為他有什麼媒體本事，而是因為政治使然，手腕好，搶到肥肉。</span><span class="s7"><br>
+</span><span class="s1">我不在意人們與我想法不同，但我絕不會浪費一秒鐘去跟任何一個投機份子或詐騙人渣談論任何想法，因為他們哪會有什麼真實的想法或立場？他們關切的，甚至惟一關切的，就是權力與私利。我不會說趙少康是個人渣，他沒那麼壞，他還是有一點點點點點點理想性，而人渣黨則毫無道德下限可言。</span><span class="s7"><br>
 <br>
-E</span><span class="s5">，韓國瑜並沒有「把一手好棋玩成廢局」。而是剛好相反，他把一盤死棋玩出新局，但卻功敗垂成，被藍綠聯手給翻桌。往後還有沒有轉敗為勝的機會，我不敢說，因為我基本上還是不會輕忽潛藏於人心之中善的力量或反抗的力量。</span><span class="s7"><br>
+</span><span class="s1">我不想對任何懷有利他善意的個人潑冷水，我潑的是溫水，事實上我已經講得夠溫和了。人們的熱情總是被人渣或投機政客所一再糟蹋，一再辜負。甘地曾經說過一句話，我始終銘記在心，他說：「保存你的憤怒」，不要輕易消費它。也許有一天，它就會撼動整個世界。這意思是說，熱情是可貴的，義憤更是無比珍貴，我們不該隨便發洩它，更無須急著成事，那往往只是無謂消耗了熱情。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我之前寫道，韓如果抬舉趙，以之為師，或與之結盟，韓流將會消失，並非說它消失無蹤，而是說它在可預見的未來將不再顯現。但是，人心反抗壓迫的力量不會就此消失於無形。</span><span class="s7"><br>
+</span><span class="s1">打倒民進黨不該是一種目標，打倒邪惡才是目標。以更大的惡來打擊惡是荒唐的。你要把桌子擦乾淨，就得找一條乾淨的布，而不是找一條比桌子還髒的抹布來擦，這樣擦到死也不可能擦乾淨。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我沒法想像，怎麼會有人對趙秀才那樣一種高高在上且精打細算的傲慢投機政治人物產生熱情。就跟曾經捲起風潮的阿扁一樣，大多數人也許會被欺弄一時，但很快就會覺醒。只有像韓國瑜那樣一種出於利它精神的熱情，才有可能點燃人們潛藏的熱情。但是，當這樣一種熱情失去了純粹，多出了一些算計與傲慢，熱情就會隨之黯淡。愛情也是這麼一回事。</span><span class="s7"><br>
+</span><span class="s1">我不是說趙少康個人比民進黨還髒還壞，當然不是；而是說，在一種善惡的根本意義上，例如造謠抹黑仇中反華舔美搞港獨搞台獨等等等，如果趙秀才和人渣黨其實根本沒有區別，那我不知道這樣的選舉有何意義可言，只是換一個人來做同樣的醜事而已不是嗎？當然，也許在內政上或作法上會有些許差別，至少不會貪污成那副吃相德性。但是，這樣一種差別，不足以引發熱情，至少引起不了我任何的熱情。</span></p>
+<p class="p9"><span class="s1">Lucy   |  2021.02.04 02:34   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40287"><span class="s13">#</span></a></span></p>
+<p class="p11"><span class="s1">先生的話，我會細細思量，並更加仔細觀察趙少康的言談。</span><span class="s7"><br>
 <br>
-</span><span class="s5">在我與前輩一整個下午的談話中，他一直提到藍綠背後有個很可怕的真正操盤手，隨便下個條子就能操縱政治人物；想栽培誰或安插誰到哪臥底，就連國家律師考試都能洩題給他，讓他考出第一名的成績。</span><span class="s7"><br>
+</span><span class="s1">其實，所謂熱情，是指＂拉下民進黨的期待＂。在野陣營中放眼望去，誰有能力打垮民進黨？國民黨中一個也沒有。往外找，只剩下柯文哲。對我而言，２０２４年，只有柯文哲能讓我投下一票。但，他根本無法扳倒民進黨。趙少康的復出，無疑燃起我的希望。</span><span class="s7"><br>
 <br>
-</span><span class="s5">前輩提到共濟會，我不確定他所指的背後暗黑操控勢力是否就是所謂共濟會。如果是的話，那我就沒法茍同了。我覺得所謂共濟會之無孔不入，那是好萊塢電影看太多的後遺症。但我確切知道，真正無孔不入的是</span><span class="s7"> CIA</span><span class="s5">。島內政治與選舉，不過就是</span><span class="s7">CIA</span><span class="s5">操控的一盤棋，以為這是什麼民主自由，實在是腦殘到令人無言。</span></p>
-<p class="p6"><span class="s5">Lucy   |  2021.02.03 21:42   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40285"><span class="s6">#</span></a></span></p>
-<p class="p8"><span class="s5">趙秀才？－－－先生拿水澆息我的熱情了！</span><span class="s7"><br>
-</span><span class="s5">美國改朝換代，就準備要民進黨捲舖蓋走人，是嗎？美國，為什麼屬意趙少康？</span><span class="s7"><br>
+</span><span class="s1">如果，趙少康是反中的，那他就不是我的期待。但，這年頭，反中是主流民意（我從不以為，民主制度＂討好選民的可笑機制＂能提升國與人的素質），即使是韓國瑜，為了選票也要說＂國防靠美國＂這樣的話來安撫一些仇中的台灣人。所以，我能容許趙少康用有彈性的話術規避＂對中態度＂，但他不可以反中。</span><span class="s7"><br>
 <br>
-</span><span class="s5">一個曾經不願留在國民黨吃香喝辣而另組更深藍政黨的政治金童，幾十年來不曾有把柄落入執政者手裡，在政論壇上始終擁有一席之地的媒體人，在先生眼裡竟如同戲子綜藝枷一般，且遠不及＂把一手好棋玩成殘局廢局＂的韓國瑜，我十分不解。</span></p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.03 18:47   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40284"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">與前輩一席談</span><span class="s7">(18)<br>
+</span><span class="s1">在台灣政壇上，我最敬佩的人是沈富雄和呂秀蓮。真是稀奇，像我這樣有大中國情懷的統派，竟然景仰綠營出身的政治人物。先生也曾是綠營的菁英。或許常在趙少康的節目中看到沈富雄和呂秀蓮，才會覺得趙少康是識人的媒體人。</span><span class="s7"><br>
+<br>
+</span><span class="s1">真希望是先生您誤會了趙少康。</span></p>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.04 01:26   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40286"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">與前輩一席談</span><span class="s7">(19)<br>
+<br>
+</span><span class="s1">陳真</span><span class="s7"><br>
+<br>
+2021. 02. 04.<br>
 <br>
 <br>
-</span><span class="s5">陳真</span><span class="s7"><br>
+Lucy</span><span class="s1">好，我沒說清楚，誤會了。我只知道大的東西，小事不知道，也不會有人知道，因為既然是小事，意味著可以這樣，也能那樣，所以不會有確定性可言。</span><span class="s7"><br>
+<br>
+</span><span class="s1">大的事比方說：</span><span class="s7"><br>
+<br>
+1</span><span class="s1">，美國控制藍綠兩黨，使其互鬥，維持平衡，避免一黨獨大容易拿翹不聽指揮。</span><span class="s7"><br>
+<br>
+</span><span class="s1">但這並不意味著美國準備要讓民進黨下台，而僅僅意味著美國不會讓其中一條狗獨大，肯定會招呼另一條狗來咬牠。至於民進黨會不會下台一鞠躬，這是小事，因此說不準。</span><span class="s7"><br>
+<br>
+2</span><span class="s1">，不管是藍狗或綠狗要上場，都得經過主子同意。</span><span class="s7"><br>
+<br>
+</span><span class="s1">有例外嗎？當然有，但是都很快就會被趕下場，比方說洪秀柱，換不換柱，與朱立倫無關，朱是線民，他只是聽命行事。另一個自己跑出來的就是韓國瑜，你看，藍綠聯手黑他，無所不用其極，足足黑了一兩年，硬是把他拉下來，至今還在抹黑。沒有背後主子的授意或批准，換柱或黑韓都不會發生，至少不會以如此惡劣、突兀且劇烈的形式出現。</span><span class="s7"><br>
+<br>
+</span><span class="s1">至於趙秀才是不是美國欽定的下任總統候選人，這當然是小到不能再小的事了。狗兒那麼多，比方說朱立倫、江啟臣和趙秀才等等等都是，找哪隻狗上台表演都沒有絲毫重要性，因此也說不準。我只能說，沒有經過美國人點頭，精於算計的趙秀才當然不會貿然跳出來。</span><span class="s7">  <br>
+<br>
+3</span><span class="s1">，趙秀才跟大漢奸</span><span class="s7">CIA</span><span class="s1">走狗黎智英是同一掛；當然，為惡或危害等級無法相提並論，但這就是一個走狗集團，以反中為核心要務。我知道裏頭還有哪些人，但我不想說，因為我說了你們也不會信。而且，我當然也不可能有所謂「證據」，你們會以為我只是在講一種低級可笑的陰謀論。其實，在政治上，明明白白的事通常都不會有證據，但內行人一看就懂；只有很外行的笨蛋才會動不動就說「證據呢？」。</span><span class="s7"><br>
+<br>
+</span><span class="s1">至於你對趙秀才的描述，當然全都是錯的。</span><span class="s7"><br>
+<br>
+A</span><span class="s1">，他怎麼會「不願留在國民黨吃香喝辣」？</span><span class="s7"><br>
+<br>
+</span><span class="s1">他不是「不願」，而是當年思想不夠純正，不夠獨，不夠愛台灣，加上又是外省人，留在國民黨已經沒法吃香喝辣了，所以就自立門戶，成立新黨。</span><span class="s7"><br>
+<br>
+B</span><span class="s1">，趙少康怎麼會沒有把柄？他的把柄，關乎黨產，應該多得是。</span><span class="s7"><br>
+<br>
+C</span><span class="s1">，在我眼裏，趙秀才怎麼是「戲子綜藝咖」？</span><span class="s7"><br>
+<br>
+</span><span class="s1">他很會作秀，做的是大買賣，不是做</span><span class="s7"> (</span><span class="s1">娛樂</span><span class="s7">) </span><span class="s1">效果。雞雞黨那一類的人，才是綜藝咖，趙少康不是。他文武雙全，又會秀，又會做買賣，是「宋盼仔」</span><span class="s7">(</span><span class="s1">宋楚瑜</span><span class="s7">) </span><span class="s1">那一型，屬大內高手。當年鬥輸宋盼仔，經過多年的冰凍與「反省」，這回調整了思想，思想淨化了，愛台灣了，民主自由了，因此捲土重來。</span><span class="s7"><br>
+<br>
+D</span><span class="s1">，趙秀才變成媒體大亨，當然不是因為他有什麼媒體本事，而是因為政治使然，手腕好，搶到肥肉。</span><span class="s7"><br>
+<br>
+E</span><span class="s1">，韓國瑜並沒有「把一手好棋玩成廢局」。而是剛好相反，他把一盤死棋玩出新局，但卻功敗垂成，被藍綠聯手給翻桌。往後還有沒有轉敗為勝的機會，我不敢說，因為我基本上還是不會輕忽潛藏於人心之中善的力量或反抗的力量。</span><span class="s7"><br>
+<br>
+</span><span class="s1">我之前寫道，韓如果抬舉趙，以之為師，或與之結盟，韓流將會消失，並非說它消失無蹤，而是說它在可預見的未來將不再顯現。但是，人心反抗壓迫的力量不會就此消失於無形。</span><span class="s7"><br>
+<br>
+</span><span class="s1">我沒法想像，怎麼會有人對趙秀才那樣一種高高在上且精打細算的傲慢投機政治人物產生熱情。就跟曾經捲起風潮的阿扁一樣，大多數人也許會被欺弄一時，但很快就會覺醒。只有像韓國瑜那樣一種出於利它精神的熱情，才有可能點燃人們潛藏的熱情。但是，當這樣一種熱情失去了純粹，多出了一些算計與傲慢，熱情就會隨之黯淡。愛情也是這麼一回事。</span><span class="s7"><br>
+<br>
+</span><span class="s1">在我與前輩一整個下午的談話中，他一直提到藍綠背後有個很可怕的真正操盤手，隨便下個條子就能操縱政治人物；想栽培誰或安插誰到哪臥底，就連國家律師考試都能洩題給他，讓他考出第一名的成績。</span><span class="s7"><br>
+<br>
+</span><span class="s1">前輩提到共濟會，我不確定他所指的背後暗黑操控勢力是否就是所謂共濟會。如果是的話，那我就沒法茍同了。我覺得所謂共濟會之無孔不入，那是好萊塢電影看太多的後遺症。但我確切知道，真正無孔不入的是</span><span class="s7"> CIA</span><span class="s1">。島內政治與選舉，不過就是</span><span class="s7">CIA</span><span class="s1">操控的一盤棋，以為這是什麼民主自由，實在是腦殘到令人無言。</span></p>
+<p class="p9"><span class="s1">Lucy   |  2021.02.03 21:42   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40285"><span class="s13">#</span></a></span></p>
+<p class="p11"><span class="s1">趙秀才？－－－先生拿水澆息我的熱情了！</span><span class="s7"><br>
+</span><span class="s1">美國改朝換代，就準備要民進黨捲舖蓋走人，是嗎？美國，為什麼屬意趙少康？</span><span class="s7"><br>
+<br>
+</span><span class="s1">一個曾經不願留在國民黨吃香喝辣而另組更深藍政黨的政治金童，幾十年來不曾有把柄落入執政者手裡，在政論壇上始終擁有一席之地的媒體人，在先生眼裡竟如同戲子綜藝枷一般，且遠不及＂把一手好棋玩成殘局廢局＂的韓國瑜，我十分不解。</span></p>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.03 18:47   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=1#FORUM40284"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">與前輩一席談</span><span class="s7">(18)<br>
+<br>
+<br>
+</span><span class="s1">陳真</span><span class="s7"><br>
 <br>
 2021. 02. 03.<br>
 <br>
 <br>
-</span><span class="s5">一些國家有所謂「嘉年華」</span><span class="s7"> (Carnival)</span><span class="s5">，例如義大利、巴西、法國與日本等等。它的原始意義是什麼，我也不是很清楚，反正就是流傳至今已經變成一種狂歡節。比較特別的是義大利的威尼斯嘉年華人們得戴著面具。</span><span class="s7"><br>
+</span><span class="s1">一些國家有所謂「嘉年華」</span><span class="s7"> (Carnival)</span><span class="s1">，例如義大利、巴西、法國與日本等等。它的原始意義是什麼，我也不是很清楚，反正就是流傳至今已經變成一種狂歡節。比較特別的是義大利的威尼斯嘉年華人們得戴著面具。</span><span class="s7"><br>
 <br>
-</span><span class="s5">幹嘛要戴面具？我看一些簡介提到，中古世紀階級分明，一方面有教會貴族與封建菁英階層，一方面則有平民百姓與農奴，兩者地位高低天壤之別。主子怎麼好意思跟家裏的奴隸玩在一起？高高在上作威作福的宗教領袖與政治領導，又怎麼可能放下神聖身段與小老百姓一塊嘻鬧？</span><span class="s7"><br>
+</span><span class="s1">幹嘛要戴面具？我看一些簡介提到，中古世紀階級分明，一方面有教會貴族與封建菁英階層，一方面則有平民百姓與農奴，兩者地位高低天壤之別。主子怎麼好意思跟家裏的奴隸玩在一起？高高在上作威作福的宗教領袖與政治領導，又怎麼可能放下神聖身段與小老百姓一塊嘻鬧？</span><span class="s7"><br>
 <br>
-</span><span class="s5">這時候，戴上個面具，問題就解決了，彼此不知道誰是誰，眾生平等。但是也就平等這麼一天而已。在這解放的一天，看你愛幹啥幹啥，主子跟我一樣大了。可是，一天狂歡過後，一切恢復日常，當奴隸的當奴隸，威風凜凜的依舊威風凜凜，扯爛污的繼續扯爛污，魚肉鄉民鬼話連篇的神棍，照樣魚肉鄉民鬼話連篇，什麼也沒變。</span><span class="s7"><br>
+</span><span class="s1">這時候，戴上個面具，問題就解決了，彼此不知道誰是誰，眾生平等。但是也就平等這麼一天而已。在這解放的一天，看你愛幹啥幹啥，主子跟我一樣大了。可是，一天狂歡過後，一切恢復日常，當奴隸的當奴隸，威風凜凜的依舊威風凜凜，扯爛污的繼續扯爛污，魚肉鄉民鬼話連篇的神棍，照樣魚肉鄉民鬼話連篇，什麼也沒變。</span><span class="s7"><br>
 <br>
-</span><span class="s5">三十幾年前我就注意到這個事情，感覺挺像所謂民主選舉。於是寫了許多文章說，台灣的選舉不就是這麼回事嗎？選前叫爹喊娘，選後操你爸幹你娘，什麼事都幹得出來；選前喊為民服務，選後只為自己與財團服務，選民滾一邊去吃萊豬吧，沒叫你吃屎就不錯了。所謂平等，也就只是選舉那天一人一票，讓你爽一下，嚐一下「做主人」的感覺，待下午四點投票過後，面具就摘下來了，各自恢復原狀。</span><span class="s7"><br>
+</span><span class="s1">三十幾年前我就注意到這個事情，感覺挺像所謂民主選舉。於是寫了許多文章說，台灣的選舉不就是這麼回事嗎？選前叫爹喊娘，選後操你爸幹你娘，什麼事都幹得出來；選前喊為民服務，選後只為自己與財團服務，選民滾一邊去吃萊豬吧，沒叫你吃屎就不錯了。所謂平等，也就只是選舉那天一人一票，讓你爽一下，嚐一下「做主人」的感覺，待下午四點投票過後，面具就摘下來了，各自恢復原狀。</span><span class="s7"><br>
 <br>
-</span><span class="s5">不過，這還只是一種內部機制的玩法。三十幾年前，我只看出「選舉嘉年華」的內在本質。十幾年後，我才發現外部權力結構的皇朝真相。真正的皇上，始終不曾戴上面具，而他們才是這島嶼真正的主子，而且永不改選。那就是美國人。</span><span class="s7"><br>
+</span><span class="s1">不過，這還只是一種內部機制的玩法。三十幾年前，我只看出「選舉嘉年華」的內在本質。十幾年後，我才發現外部權力結構的皇朝真相。真正的皇上，始終不曾戴上面具，而他們才是這島嶼真正的主子，而且永不改選。那就是美國人。</span><span class="s7"><br>
 <br>
-</span><span class="s5">黎少康說，他之所以回歸國民黨，是因為韓國瑜的「勸進」與「支持」。講這樣就太假了，把我們當白痴。黎少康算盤打得那麼精，沒有美國主子的支持，他會重操舊業？你看，他今天就老實說了。</span><span class="s7"><br>
+</span><span class="s1">黎少康說，他之所以回歸國民黨，是因為韓國瑜的「勸進」與「支持」。講這樣就太假了，把我們當白痴。黎少康算盤打得那麼精，沒有美國主子的支持，他會重操舊業？你看，他今天就老實說了。</span><span class="s7"><br>
 <br>
-</span><span class="s5">他說，他之「回歸國民黨，是要救國民黨。救國民黨是為了要救台灣、救國家。連美國在台協會（</span><span class="s7">AIT</span><span class="s5">）都找過我，表達對台灣沒有強力在野黨的擔心；希望台灣政黨輪替，而不是一黨獨大。連</span><span class="s7">AIT</span><span class="s5">官員定期或不定期來看我時，都很擔心沒有強力在野黨來制衡，『民進黨已經淪為幫派式的分贓』。」</span><span class="s7"><br>
+</span><span class="s1">他說，他之「回歸國民黨，是要救國民黨。救國民黨是為了要救台灣、救國家。連美國在台協會（</span><span class="s7">AIT</span><span class="s1">）都找過我，表達對台灣沒有強力在野黨的擔心；希望台灣政黨輪替，而不是一黨獨大。連</span><span class="s7">AIT</span><span class="s1">官員定期或不定期來看我時，都很擔心沒有強力在野黨來制衡，『民進黨已經淪為幫派式的分贓』。」</span><span class="s7"><br>
 <br>
-</span><span class="s5">簡單說就是，趙少康是美國所授意或支持回到國民黨來幹一票。目的當然不是因為什麼「美國很憂心民進黨已經淪為幫派分贓」。美國人就是台灣最大隻的政治寄生蟲，長年以來吸食台灣的血，吃台灣的肉，由他來分派骨頭給走狗們吃。</span><span class="s7"><br>
+</span><span class="s1">簡單說就是，趙少康是美國所授意或支持回到國民黨來幹一票。目的當然不是因為什麼「美國很憂心民進黨已經淪為幫派分贓」。美國人就是台灣最大隻的政治寄生蟲，長年以來吸食台灣的血，吃台灣的肉，由他來分派骨頭給走狗們吃。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我在《與前輩一席談</span><span class="s7">(16)</span><span class="s5">》裏頭如此寫道，我再貼一次：</span><span class="s7"><br>
+</span><span class="s1">我在《與前輩一席談</span><span class="s7">(16)</span><span class="s1">》裏頭如此寫道，我再貼一次：</span><span class="s7"><br>
 <br>
-</span><span class="s5">「我絲毫不懷疑趙少康能『拯救』國民黨，如果再加上</span><span class="s7">CIA</span><span class="s5">線民朱立倫以及不擇手段財大氣粗的大草包郭董，那就更有重返執政的希望了。問題是，這有意義嗎？蔣家以前控制情治單位的作法就是養幾條狗，讓牠們彼此之間互相不爽，互揭瘡疤搞鬥爭，避免單一勢力獨大。美國也一樣，豢養藍綠兩條狗，讓牠們互咬，有時疼這隻，有時疼那隻，只要乖乖聽話，輪流都有骨頭吃。島內政治基本上就是這麼一回事。」</span><span class="s7"><br>
+</span><span class="s1">「我絲毫不懷疑趙少康能『拯救』國民黨，如果再加上</span><span class="s7">CIA</span><span class="s1">線民朱立倫以及不擇手段財大氣粗的大草包郭董，那就更有重返執政的希望了。問題是，這有意義嗎？蔣家以前控制情治單位的作法就是養幾條狗，讓牠們彼此之間互相不爽，互揭瘡疤搞鬥爭，避免單一勢力獨大。美國也一樣，豢養藍綠兩條狗，讓牠們互咬，有時疼這隻，有時疼那隻，只要乖乖聽話，輪流都有骨頭吃。島內政治基本上就是這麼一回事。」</span><span class="s7"><br>
 <br>
-</span><span class="s5">我知道我的想法很難在島內找到認同者，但我所言只是一個根本事實。</span><span class="s7"><br>
+</span><span class="s1">我知道我的想法很難在島內找到認同者，但我所言只是一個根本事實。</span><span class="s7"><br>
 <br>
-</span><span class="s5">前輩過去貢獻良多，但他所信奉的那套戴著嘉年華面具、所謂「一人一票」的美式民主，倘若如其所願，實施於大陸，大陸毫無疑問將重演八國聯軍或日軍侵華、西方列強割據佔領的百年血腥悲慘歷史，因為這基本上就是強者藉以侵略弱者的一套騙局。</span><span class="s7"><br>
+</span><span class="s1">前輩過去貢獻良多，但他所信奉的那套戴著嘉年華面具、所謂「一人一票」的美式民主，倘若如其所願，實施於大陸，大陸毫無疑問將重演八國聯軍或日軍侵華、西方列強割據佔領的百年血腥悲慘歷史，因為這基本上就是強者藉以侵略弱者的一套騙局。</span><span class="s7"><br>
 <br>
-</span><span class="s5">美式民主如果那麼棒，美國怎麼不在他自己佔有八成股份的台積電實施民主？美式民主如果那麼神聖，各級學校為何不也來民主化一番、一人一票選出校長？</span></p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.03 11:28   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40283"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">與前輩一席談</span><span class="s7">(17)<br>
+</span><span class="s1">美式民主如果那麼棒，美國怎麼不在他自己佔有八成股份的台積電實施民主？美式民主如果那麼神聖，各級學校為何不也來民主化一番、一人一票選出校長？</span></p>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.03 11:28   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40283"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">與前輩一席談</span><span class="s7">(17)<br>
 <br>
-</span><span class="s5">陳真</span><span class="s7"><br>
+</span><span class="s1">陳真</span><span class="s7"><br>
 <br>
 2021. 02. 02.<br>
 <br>
 <br>
-</span><span class="s5">前輩似乎很看重一個東西，這東西不容易說明，大約是類似「公眾性」或「知名度」或「曝光度」等等，接近早年黨外人士常講的一個詞叫做「政治資源」，簡單說就是「籌碼」、「身價」。</span><span class="s7"><br>
+</span><span class="s1">前輩似乎很看重一個東西，這東西不容易說明，大約是類似「公眾性」或「知名度」或「曝光度」等等，接近早年黨外人士常講的一個詞叫做「政治資源」，簡單說就是「籌碼」、「身價」。</span><span class="s7"><br>
 <br>
-</span><span class="s5">九零年代以後，政治已經不可怕，所以各種蒼蠅蚊子蟑螂全急著混進所謂「反對陣營」</span><span class="s7">(</span><span class="s5">也就是當年的綠營</span><span class="s7">)</span><span class="s5">，藉著累積所謂「政治資源」來抬高身價與知名度，進而變賣成為一種奪取功名利祿與權位的晉身階與敲門磚。</span><span class="s7"><br>
+</span><span class="s1">九零年代以後，政治已經不可怕，所以各種蒼蠅蚊子蟑螂全急著混進所謂「反對陣營」</span><span class="s7">(</span><span class="s1">也就是當年的綠營</span><span class="s7">)</span><span class="s1">，藉著累積所謂「政治資源」來抬高身價與知名度，進而變賣成為一種奪取功名利祿與權位的晉身階與敲門磚。</span><span class="s7"><br>
 <br>
-</span><span class="s5">累積「政治資源」的方法就是，在一種事實上安全無虞甚至是和對方配合打假球的情況下，發起各種做秀性質的「抗爭」，製造各種「假衝突」，或是發動各種所謂「改革」與「論述」，創造媒體聲量與知名度及話語權，然後當然就是從政當官或參選，最少也能有助於個人前途。</span><span class="s7"><br>
+</span><span class="s1">累積「政治資源」的方法就是，在一種事實上安全無虞甚至是和對方配合打假球的情況下，發起各種做秀性質的「抗爭」，製造各種「假衝突」，或是發動各種所謂「改革」與「論述」，創造媒體聲量與知名度及話語權，然後當然就是從政當官或參選，最少也能有助於個人前途。</span><span class="s7"><br>
 <br>
-</span><span class="s5">這也就是為什麼台灣的所謂社運團體或什麼學運或所謂「公共型知識份子」如此令人不齒的原因，因為參與者特別是那些帶頭者，並不是真的關心什麼工運農運婦運或環保、人權或任何所謂公義，全是鬼扯蛋，他關心的是自己的「政治資源」或「政治籌碼」與「政治話語權」，以便能夠把這些「資源」給轉化為權位私利</span><span class="s7"> </span><span class="s5">。</span><span class="s7"><br>
+</span><span class="s1">這也就是為什麼台灣的所謂社運團體或什麼學運或所謂「公共型知識份子」如此令人不齒的原因，因為參與者特別是那些帶頭者，並不是真的關心什麼工運農運婦運或環保、人權或任何所謂公義，全是鬼扯蛋，他關心的是自己的「政治資源」或「政治籌碼」與「政治話語權」，以便能夠把這些「資源」給轉化為權位私利</span><span class="s7"> </span><span class="s1">。</span><span class="s7"><br>
 <br>
-</span><span class="s5">你看，那些人渣黨的尾巴黨例如什麼屎袋力量或什麼雞雞黨，幾乎都是這種人，滿口理想理念，什麼民主自由與人權，講得天花亂墜，其實全是鬼扯蛋。而且，通常很會做秀，伶牙利齒；很會包裝，創造形象。但是，形象和真實樣貌的落差往往非常巨大，大到不可思議，宛如好萊塢電影般的戲劇化。</span><span class="s7"><br>
+</span><span class="s1">你看，那些人渣黨的尾巴黨例如什麼屎袋力量或什麼雞雞黨，幾乎都是這種人，滿口理想理念，什麼民主自由與人權，講得天花亂墜，其實全是鬼扯蛋。而且，通常很會做秀，伶牙利齒；很會包裝，創造形象。但是，形象和真實樣貌的落差往往非常巨大，大到不可思議，宛如好萊塢電影般的戲劇化。</span><span class="s7"><br>
 <br>
-</span><span class="s5">比方說，公開形象總是美美的，帥帥的，好溫柔好甜美好斯文喔。但是實際上呢，歪嘴叼洋煙，天天打牌、泡湯、玩女人，講起話來，即便是女生，照樣滿口「操」、「幹」、「機八」；關心的話題全是權力與利益。但是，一來到鎂光燈前就馬上變了一個人，變得清新，變得一副充滿理想；台詞也變了，變成救國救民，愛鄉愛土，犧牲奉獻。</span><span class="s7"><br>
+</span><span class="s1">比方說，公開形象總是美美的，帥帥的，好溫柔好甜美好斯文喔。但是實際上呢，歪嘴叼洋煙，天天打牌、泡湯、玩女人，講起話來，即便是女生，照樣滿口「操」、「幹」、「機八」；關心的話題全是權力與利益。但是，一來到鎂光燈前就馬上變了一個人，變得清新，變得一副充滿理想；台詞也變了，變成救國救民，愛鄉愛土，犧牲奉獻。</span><span class="s7"><br>
 <br>
-</span><span class="s5">別說一般人，許多時候連我也會上當。過去所謂社運人士或投入所謂反對運動的人，幾乎全是這樣。我是說「幾乎」，我不打算一竿子打翻一船人，問題是，到底有幾個人不是這樣？有幾個人真的內外一致、言行如一？鳳毛麟角，少之又少。</span><span class="s7"><br>
+</span><span class="s1">別說一般人，許多時候連我也會上當。過去所謂社運人士或投入所謂反對運動的人，幾乎全是這樣。我是說「幾乎」，我不打算一竿子打翻一船人，問題是，到底有幾個人不是這樣？有幾個人真的內外一致、言行如一？鳳毛麟角，少之又少。</span><span class="s7"><br>
 <br>
-</span><span class="s5">前輩希望各方分散的力量可以集結起來，成為藍綠之外的第三勢力。在這樣的目標底下，撿到籃子裡就是菜；我能理解前輩為何會推出一些什麼雞雞黨的人成為政治新星，因為他在這些作秀天王的身上看見了「籌碼」，看到一種可以轉化為政治權力的素質。</span><span class="s7"><br>
+</span><span class="s1">前輩希望各方分散的力量可以集結起來，成為藍綠之外的第三勢力。在這樣的目標底下，撿到籃子裡就是菜；我能理解前輩為何會推出一些什麼雞雞黨的人成為政治新星，因為他在這些作秀天王的身上看見了「籌碼」，看到一種可以轉化為政治權力的素質。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我的想法是：如果不揚棄這種以奪權為目標的「資源觀」或「籌碼觀」，我們其實永遠只會在原地踏步，甚至持續沉淪。這些所謂資源或籌碼其實全是空的，它只是圖利個人而已，對公眾毫無意義。也就是說，如果所謂改革，只是這個人渣換成另一個更渣更卑鄙更厲害的人渣，那我們何必改革？我們就停留在蔣家王朝的年代豈不是還更好？</span><span class="s7"><br>
+</span><span class="s1">我的想法是：如果不揚棄這種以奪權為目標的「資源觀」或「籌碼觀」，我們其實永遠只會在原地踏步，甚至持續沉淪。這些所謂資源或籌碼其實全是空的，它只是圖利個人而已，對公眾毫無意義。也就是說，如果所謂改革，只是這個人渣換成另一個更渣更卑鄙更厲害的人渣，那我們何必改革？我們就停留在蔣家王朝的年代豈不是還更好？</span><span class="s7"><br>
 <br>
-</span><span class="s5">也許這就是所謂美式民主的一個結構性弊病，越噁爛越卑鄙無恥或是越庸俗越懂得迎合主流的人反而越容易獲得群眾的支持。今天，如果台積電或中研院也採用民主選舉，選出領導人，我看，館長或</span><span class="s7">3Q</span><span class="s5">哥很可能會當選。</span><span class="s7"><br>
+</span><span class="s1">也許這就是所謂美式民主的一個結構性弊病，越噁爛越卑鄙無恥或是越庸俗越懂得迎合主流的人反而越容易獲得群眾的支持。今天，如果台積電或中研院也採用民主選舉，選出領導人，我看，館長或</span><span class="s7">3Q</span><span class="s1">哥很可能會當選。</span><span class="s7"><br>
 <br>
-</span><span class="s5">蔣家年代有幾位官員對台灣貢獻巨大，例如孫運璿，例如趙耀東，例如李國鼎。這些人，如果出來參加民主選舉，選三百年也選不上。我想說的是，迎合既定的弊病來改革畢竟是荒唐的，那就好像當年很多黨外人士反對國民黨賄選，於是自己也大量賄選來反對國民黨一樣。當你爛得青出於藍時，你就贏了，可是，這樣一種贏，有意義嗎？</span><span class="s7"><br>
+</span><span class="s1">蔣家年代有幾位官員對台灣貢獻巨大，例如孫運璿，例如趙耀東，例如李國鼎。這些人，如果出來參加民主選舉，選三百年也選不上。我想說的是，迎合既定的弊病來改革畢竟是荒唐的，那就好像當年很多黨外人士反對國民黨賄選，於是自己也大量賄選來反對國民黨一樣。當你爛得青出於藍時，你就贏了，可是，這樣一種贏，有意義嗎？</span><span class="s7"><br>
 <br>
-</span><span class="s5">我不是說你一定非得排斥知名度或話語權等等所謂「政治資源」不可，而是說，那些東西頂多只是一種手段，而非目的。當你把手段當成目的，那不是很奇怪嗎？那何必改革？</span><span class="s7"><br>
+</span><span class="s1">我不是說你一定非得排斥知名度或話語權等等所謂「政治資源」不可，而是說，那些東西頂多只是一種手段，而非目的。當你把手段當成目的，那不是很奇怪嗎？那何必改革？</span><span class="s7"><br>
 <br>
-</span><span class="s5">我比較相信甘地說的，「只要走在正確的道路上，遲早就會走到目的地」。也許你會說，「遲早」是多遲啊？人生只有幾十年而已。我跟前輩說，所謂成就的「分母」不是一個人的生命長度，而是應該再拉長一點，該當千百年就千百年。你看，西班牙的「聖家族教堂」蓋了一百多年至今還在蓋，我去現場看過，裏頭真的還在施工。它的建築設計師高第</span><span class="s7"> (Gaudi)</span><span class="s5">，生前面對質疑時回答說：「我的客戶</span><span class="s7"> (</span><span class="s5">指上帝</span><span class="s7">)</span><span class="s5">都不急，你急什麼？」</span></p>
-<p class="p6"><span class="s5">qegg   |  2021.02.02 14:32   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40282"><span class="s6">#</span></a></span></p>
-<p class="p9"><span class="s4">洋洋，</span><span class="s5"><br>
+</span><span class="s1">我比較相信甘地說的，「只要走在正確的道路上，遲早就會走到目的地」。也許你會說，「遲早」是多遲啊？人生只有幾十年而已。我跟前輩說，所謂成就的「分母」不是一個人的生命長度，而是應該再拉長一點，該當千百年就千百年。你看，西班牙的「聖家族教堂」蓋了一百多年至今還在蓋，我去現場看過，裏頭真的還在施工。它的建築設計師高第</span><span class="s7"> (Gaudi)</span><span class="s1">，生前面對質疑時回答說：「我的客戶</span><span class="s7"> (</span><span class="s1">指上帝</span><span class="s7">)</span><span class="s1">都不急，你急什麼？」</span></p>
+<p class="p9"><span class="s1">qegg   |  2021.02.02 14:32   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40282"><span class="s13">#</span></a></span></p>
+<p class="p4"><span class="s12">洋洋，</span><span class="s1"><br>
 <br>
-</span><span class="s4">提到长者，我常常在油管上重温这段</span><span class="s5">Aloha Oe</span><span class="s4">的视</span><span class="s10">频。当时是江第一次访美过境夏威夷，而屋外就是反华团体组织的示威抗议。</span><span class="s5"><br>
+</span><span class="s12">提到长者，我常常在油管上重温这段</span><span class="s1">Aloha Oe</span><span class="s12">的视</span><span class="s16">频。当时是江第一次访美过境夏威夷，而屋外就是反华团体组织的示威抗议。</span><span class="s1"><br>
 <br>
-<a href="https://www.youtube.com/watch?v=1yQ5OxOXyi4"><span class="s8"><i>https://www.youtube.com/watch?v=1yQ5OxOXyi4</i></span></a></span></p>
-<p class="p6"><span class="s4">洋洋</span><span class="s5">   |  2021.02.01 22:01   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40281"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">西方利用鏡頭醜化的手法很多，以江澤民的遭遇為例</span><span class="s7"><br>
+<a href="https://www.youtube.com/watch?v=1yQ5OxOXyi4"><span class="s4"><i>https://www.youtube.com/watch?v=1yQ5OxOXyi4</i></span></a></span></p>
+<p class="p9"><span class="s12">洋洋</span><span class="s1">   |  2021.02.01 22:01   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40281"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">西方利用鏡頭醜化的手法很多，以江澤民的遭遇為例</span><span class="s7"><br>
 <br>
-</span><span class="s5">江</span><span class="s10">泽民圖樣圖森破</span><span class="s7"><br>
-<a href="https://youtu.be/ygARoqMJyto"><span class="s5"><i>https://youtu.be/ygARoqMJyto</i></span></a><br>
+</span><span class="s1">江</span><span class="s16">泽民圖樣圖森破</span><span class="s7"><br>
+<a href="https://youtu.be/ygARoqMJyto"><span class="s15"><i>https://youtu.be/ygARoqMJyto</i></span></a><br>
 <br>
-</span><span class="s5">鏡頭前的江顯然被記者的發問激怒，霹靂啪啦說了一堆，大紀元是這樣描繪當時的場景</span><span class="s7"><br>
-2000</span><span class="s5">年</span><span class="s7">10</span><span class="s5">月</span><span class="s7">27</span><span class="s5">日</span><span class="s7"> </span><span class="s5">中共黨魁江澤民在香港媒體面前公然出醜，不顧體面地大罵女記者「</span><span class="s7">too young too simple</span><span class="s5">」。</span><span class="s7"><br>
+</span><span class="s1">鏡頭前的江顯然被記者的發問激怒，霹靂啪啦說了一堆，大紀元是這樣描繪當時的場景</span><span class="s7"><br>
+2000</span><span class="s1">年</span><span class="s7">10</span><span class="s1">月</span><span class="s7">27</span><span class="s1">日</span><span class="s7"> </span><span class="s1">中共黨魁江澤民在香港媒體面前公然出醜，不顧體面地大罵女記者「</span><span class="s7">too young too simple</span><span class="s1">」。</span><span class="s7"><br>
 <br>
-</span><span class="s5">事隔</span><span class="s7">20</span><span class="s5">年反送中之後，重溫這段影片，底下許多香港人留言盛讚長者的睿智。</span><span class="s7"><br>
-</span><span class="s5">影片中江提到他談笑風生地接受</span><span class="s7">CBS</span><span class="s5">記者華萊士專訪。</span><span class="s7"><br>
+</span><span class="s1">事隔</span><span class="s7">20</span><span class="s1">年反送中之後，重溫這段影片，底下許多香港人留言盛讚長者的睿智。</span><span class="s7"><br>
+</span><span class="s1">影片中江提到他談笑風生地接受</span><span class="s7">CBS</span><span class="s1">記者華萊士專訪。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我找到那段影片</span><span class="s7"><br>
-</span><span class="s5">江</span><span class="s10">泽民談笑風生</span><span class="s7"><br>
-<a href="https://youtu.be/TFJALt7PPuI"><span class="s5"><i>https://youtu.be/TFJALt7PPuI</i></span></a><br>
+</span><span class="s1">我找到那段影片</span><span class="s7"><br>
+</span><span class="s1">江</span><span class="s16">泽民談笑風生</span><span class="s7"><br>
+<a href="https://youtu.be/TFJALt7PPuI"><span class="s15"><i>https://youtu.be/TFJALt7PPuI</i></span></a><br>
 <br>
-</span><span class="s5">鏡頭從頭到尾故意用特寫將江整個臉框進去，有這樣拍人的嗎</span><span class="s7"> ?</span></p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.01 21:05   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40278"><span class="s6">#</span></a></span></p>
-<p class="p8"><span class="s5">謝謝哲文，</span><span class="s7"><br>
+</span><span class="s1">鏡頭從頭到尾故意用特寫將江整個臉框進去，有這樣拍人的嗎</span><span class="s7"> ?</span></p>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.01 21:05   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40278"><span class="s13">#</span></a></span></p>
+<p class="p11"><span class="s1">謝謝哲文，</span><span class="s7"><br>
 <br>
-</span><span class="s5">不用按門鈴，我家門鈴故障很久了。來</span><span class="s7">AIT</span><span class="s5">就能看到我啊，要看幾眼都行哦。運氣好的話，還能看到一家三口。下回靜站是</span><span class="s7">2</span><span class="s5">月</span><span class="s7">27</span><span class="s5">日，一樣是下午三點到五點。</span><span class="s7"><br>
+</span><span class="s1">不用按門鈴，我家門鈴故障很久了。來</span><span class="s7">AIT</span><span class="s1">就能看到我啊，要看幾眼都行哦。運氣好的話，還能看到一家三口。下回靜站是</span><span class="s7">2</span><span class="s1">月</span><span class="s7">27</span><span class="s1">日，一樣是下午三點到五點。</span><span class="s7"><br>
 <br>
-</span><span class="s5">家人親友顏色不同，無須對立。我與人渣黨勢不兩立，但我從不敵視人渣黨的支持者，畢竟不知者無罪，腦殘比較像是一種智能上的缺陷或誤區，而不是一種道德上的罪。</span><span class="s7"><br>
+</span><span class="s1">家人親友顏色不同，無須對立。我與人渣黨勢不兩立，但我從不敵視人渣黨的支持者，畢竟不知者無罪，腦殘比較像是一種智能上的缺陷或誤區，而不是一種道德上的罪。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我的作法是儘可能與顏色不同者避談政治，以免傷感情。但是，如果有人一定要我談，我就會給他一個當頭棒喝，讓他知道我的真面目。我的真面目就是我絕不背離基本的善與人性。而我的真面目，理當也是所有人的原始容貌才對。</span><span class="s7"><br>
+</span><span class="s1">我的作法是儘可能與顏色不同者避談政治，以免傷感情。但是，如果有人一定要我談，我就會給他一個當頭棒喝，讓他知道我的真面目。我的真面目就是我絕不背離基本的善與人性。而我的真面目，理當也是所有人的原始容貌才對。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我只在乎一些理當毫無爭議的事情。凡是見仁見智的事物，我都不感興趣。我在意一加一是否等於二，但我不在意一斤芒果該值上多少錢。</span></p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.01 20:18   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40277"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">我也看了從輔貼的視頻，搞笑有餘，技術還差很遠，應該很難被</span><span class="s7">BBC</span><span class="s5">錄取，可以考慮去</span><span class="s7"> "</span><span class="s5">三民自</span><span class="s7">" </span><span class="s5">試試。</span><span class="s7"><br>
+</span><span class="s1">我只在乎一些理當毫無爭議的事情。凡是見仁見智的事物，我都不感興趣。我在意一加一是否等於二，但我不在意一斤芒果該值上多少錢。</span></p>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.01 20:18   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40277"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">我也看了從輔貼的視頻，搞笑有餘，技術還差很遠，應該很難被</span><span class="s7">BBC</span><span class="s1">錄取，可以考慮去</span><span class="s7"> "</span><span class="s1">三民自</span><span class="s7">" </span><span class="s1">試試。</span><span class="s7"><br>
 <br>
-</span><span class="s5">台灣人通常都以為西方媒體很棒，很可靠。就某種表面修辭來看也許如此，不至於太低能，不至於像台灣這樣赤裸裸地、前言不罩後語地胡扯瞎掰。但也因為多了這樣一層修辭煙霧，使得它之造假本質更難被識破。</span><span class="s7"><br>
+</span><span class="s1">台灣人通常都以為西方媒體很棒，很可靠。就某種表面修辭來看也許如此，不至於太低能，不至於像台灣這樣赤裸裸地、前言不罩後語地胡扯瞎掰。但也因為多了這樣一層修辭煙霧，使得它之造假本質更難被識破。</span><span class="s7"><br>
 <br>
-</span><span class="s5">這就如同走狗文人與</span><span class="s7">3Q</span><span class="s5">哥、館長或剛被罷免的什麼浩呆之差別一樣，後者言論低級可笑，不太容易洗腦大眾。但是，走狗文人雖然一樣低能可笑，卻比較會包裝，會講一些什麼中國因素或什麼主義論述的，講得連自己都聽不懂，但腦殘們聽了卻以為好棒，好有學問。</span></p>
-<p class="p6"><span class="s4">鄭豐遠</span><span class="s5">   |  2021.02.01 19:58   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40276"><span class="s6">#</span></a></span></p>
-<p class="p8"><span class="s5">從輔貼的那個有點搞笑，不過西方媒體就是這樣幹的，很陰的，透過各種鏡頭技巧、調色，胡亂翻譯和背景音樂，可以把光明正大的事拍成卑鄙下流。之前觀察者網有篇文章也是談這個</span><span class="s7">:<br>
+</span><span class="s1">這就如同走狗文人與</span><span class="s7">3Q</span><span class="s1">哥、館長或剛被罷免的什麼浩呆之差別一樣，後者言論低級可笑，不太容易洗腦大眾。但是，走狗文人雖然一樣低能可笑，卻比較會包裝，會講一些什麼中國因素或什麼主義論述的，講得連自己都聽不懂，但腦殘們聽了卻以為好棒，好有學問。</span></p>
+<p class="p9"><span class="s12">鄭豐遠</span><span class="s1">   |  2021.02.01 19:58   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40276"><span class="s13">#</span></a></span></p>
+<p class="p11"><span class="s1">從輔貼的那個有點搞笑，不過西方媒體就是這樣幹的，很陰的，透過各種鏡頭技巧、調色，胡亂翻譯和背景音樂，可以把光明正大的事拍成卑鄙下流。之前觀察者網有篇文章也是談這個</span><span class="s7">:<br>
 <br>
-<a href="https://user.guancha.cn/main/content?id=454409&amp;;page=0"><span class="s8"><i>https://user.guancha.cn/main/content?id=454409&amp;;page=0</i></span></a><br>
+<a href="https://user.guancha.cn/main/content?id=454409&amp;;page=0"><span class="s1"><i>https://user.guancha.cn/main/content?id=454409&amp;;page=0</i></span></a><br>
 <br>
-</span><span class="s5">其實，我覺得中國人還是太單純了，對西方人鏡頭功夫的理解還是太幼稚了，人家的技術哪裡只是這種程度</span><span class="s7">? </span><span class="s5">真正厲害的是各種綿密的敘事以及針對視覺聽覺的操弄以及混然天成、全身心投入的</span><span class="s7">"</span><span class="s5">演出</span><span class="s7">"</span><span class="s5">，那種洗腦效果，並不是什麼換換鏡頭位置，調調顏色就能解釋的。</span><span class="s7"><br>
+</span><span class="s1">其實，我覺得中國人還是太單純了，對西方人鏡頭功夫的理解還是太幼稚了，人家的技術哪裡只是這種程度</span><span class="s7">? </span><span class="s1">真正厲害的是各種綿密的敘事以及針對視覺聽覺的操弄以及混然天成、全身心投入的</span><span class="s7">"</span><span class="s1">演出</span><span class="s7">"</span><span class="s1">，那種洗腦效果，並不是什麼換換鏡頭位置，調調顏色就能解釋的。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我大約從</span><span class="s7"> 1997 </span><span class="s5">年開始，就陸陸續續在工作上需要進行影片拍攝和剪接，雖然稱不上專業，但二十幾年下來，也不是完全的門外漢，所以我知道西方這一套究竟在搞什麼，非常反感。這是一門陰暗的事業，讓善惡易位，使是非顛倒，和與惡魔做交易沒什麼兩樣，出賣靈魂，泯滅人性。而這卻是西方最正宗的傳統文化精髓。</span></p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.01 19:52   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40275"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">與前輩一席談</span><span class="s7">(16)<br>
+</span><span class="s1">我大約從</span><span class="s7"> 1997 </span><span class="s1">年開始，就陸陸續續在工作上需要進行影片拍攝和剪接，雖然稱不上專業，但二十幾年下來，也不是完全的門外漢，所以我知道西方這一套究竟在搞什麼，非常反感。這是一門陰暗的事業，讓善惡易位，使是非顛倒，和與惡魔做交易沒什麼兩樣，出賣靈魂，泯滅人性。而這卻是西方最正宗的傳統文化精髓。</span></p>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.01 19:52   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum&amp;iPage=2#FORUM40275"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">與前輩一席談</span><span class="s7">(16)<br>
 <br>
-</span><span class="s5">陳真</span><span class="s7"><br>
+</span><span class="s1">陳真</span><span class="s7"><br>
 <br>
 2021. 02. 01.<br>
 <br>
 <br>
 <br>
-</span><span class="s5">趙少康外號黎少康，黎智英的黎，兩人一搭一唱，最佳拍檔。其實，叫郭少康也挺合適，郭台銘的郭。</span><span class="s7"><br>
+</span><span class="s1">趙少康外號黎少康，黎智英的黎，兩人一搭一唱，最佳拍檔。其實，叫郭少康也挺合適，郭台銘的郭。</span><span class="s7"><br>
 <br>
-</span><span class="s5">少康中興，說要選國民黨黨主席，韓國瑜居然發表聲明「強烈支持」及「強烈感謝」他出來「拯救國民黨」。</span><span class="s7"><br>
+</span><span class="s1">少康中興，說要選國民黨黨主席，韓國瑜居然發表聲明「強烈支持」及「強烈感謝」他出來「拯救國民黨」。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我很佩服韓國瑜的胸襟，人家這樣搞他黑他，他並不記仇，唾面自乾。但是，這樣一種政治判斷力卻只能打零分。我常覺得，好人通常有個缺點就是不太懂得奸詐，就跟林義雄一樣，林義雄也是個好人，但他卻總是支持一些人渣惡棍從政。</span><span class="s7"><br>
+</span><span class="s1">我很佩服韓國瑜的胸襟，人家這樣搞他黑他，他並不記仇，唾面自乾。但是，這樣一種政治判斷力卻只能打零分。我常覺得，好人通常有個缺點就是不太懂得奸詐，就跟林義雄一樣，林義雄也是個好人，但他卻總是支持一些人渣惡棍從政。</span><span class="s7"><br>
 <br>
-</span><span class="s5">不過，國民黨要怎麼爛，基本上已經是毫無意義的一件事。我絲毫不懷疑趙少康能「拯救」國民黨，如果再加上</span><span class="s7">CIA</span><span class="s5">線民朱立倫以及不擇手段財大氣粗的大草包郭董，那就更有重返執政的希望了。問題是，這有意義嗎？</span><span class="s7"><br>
+</span><span class="s1">不過，國民黨要怎麼爛，基本上已經是毫無意義的一件事。我絲毫不懷疑趙少康能「拯救」國民黨，如果再加上</span><span class="s7">CIA</span><span class="s1">線民朱立倫以及不擇手段財大氣粗的大草包郭董，那就更有重返執政的希望了。問題是，這有意義嗎？</span><span class="s7"><br>
 <br>
-</span><span class="s5">蔣家以前控制情治單位的作法就是養幾條狗，讓牠們彼此之間互相不爽，互揭瘡疤搞鬥爭，避免單一勢力獨大。美國也一樣，豢養藍綠兩條狗，讓牠們互咬，有時疼這隻，有時疼那隻，只要乖乖聽話，輪流都有骨頭吃。島內政治基本上就是這麼一回事，就連新黨似乎也快被圈養了。</span><span class="s7"><br>
+</span><span class="s1">蔣家以前控制情治單位的作法就是養幾條狗，讓牠們彼此之間互相不爽，互揭瘡疤搞鬥爭，避免單一勢力獨大。美國也一樣，豢養藍綠兩條狗，讓牠們互咬，有時疼這隻，有時疼那隻，只要乖乖聽話，輪流都有骨頭吃。島內政治基本上就是這麼一回事，就連新黨似乎也快被圈養了。</span><span class="s7"><br>
 <br>
-</span><span class="s5">前輩找我一席談，提到「三分天下」，希望集結力量搶下其中之一。問題是，搶下權力究竟是為了什麼？或者說，到底是要憑什麼樣的信念搶奪權力？如果只是在既有的殖民體制下玩權力分贓遊戲，有何意義可言？</span><span class="s7"><br>
+</span><span class="s1">前輩找我一席談，提到「三分天下」，希望集結力量搶下其中之一。問題是，搶下權力究竟是為了什麼？或者說，到底是要憑什麼樣的信念搶奪權力？如果只是在既有的殖民體制下玩權力分贓遊戲，有何意義可言？</span><span class="s7"><br>
 <br>
-</span><span class="s5">所謂民眾黨就是這樣，在既有的權力縫隙之間尋找覓食機會，種種盤算，除了權力，還是權力。</span><span class="s7"><br>
+</span><span class="s1">所謂民眾黨就是這樣，在既有的權力縫隙之間尋找覓食機會，種種盤算，除了權力，還是權力。</span><span class="s7"><br>
 <br>
-</span><span class="s5">幾十年來，每當有人跟我提什麼「第三勢力」，我就很想打瞌睡。我被騙過幾次，比方說</span><span class="s7">1996 </span><span class="s5">年我所參與創立的「綠黨」就是個例子，什麼第三路線，什麼國際綠色思想，什麼反戰，什麼非暴力抗爭，它媽的全是鬼扯蛋，事實上就只是人渣黨的一個尾巴黨。</span><span class="s7"><br>
+</span><span class="s1">幾十年來，每當有人跟我提什麼「第三勢力」，我就很想打瞌睡。我被騙過幾次，比方說</span><span class="s7">1996 </span><span class="s1">年我所參與創立的「綠黨」就是個例子，什麼第三路線，什麼國際綠色思想，什麼反戰，什麼非暴力抗爭，它媽的全是鬼扯蛋，事實上就只是人渣黨的一個尾巴黨。</span><span class="s7"><br>
 <br>
-</span><span class="s5">與其說趙少康是個政治人物，不如說他是個政治「秀才」，作秀的秀，算盤打得特別精，心裏頭哪會有芸芸眾生的一席之地？韓國瑜真的是腦袋進水了，太不會看人。這也許也預告了韓流的終結。道理很簡單，就跟愛情一樣，因為熱情而起的人事物，也會因為熱情的消失而消失。</span><span class="s7"><br>
+</span><span class="s1">與其說趙少康是個政治人物，不如說他是個政治「秀才」，作秀的秀，算盤打得特別精，心裏頭哪會有芸芸眾生的一席之地？韓國瑜真的是腦袋進水了，太不會看人。這也許也預告了韓流的終結。道理很簡單，就跟愛情一樣，因為熱情而起的人事物，也會因為熱情的消失而消失。</span><span class="s7"><br>
 <br>
-</span><span class="s5">權力競逐遊戲的基礎核心就是利益盤算，一旦有了盤算，熱情就會逐漸煙消雲散。</span><span class="s7"><br>
+</span><span class="s1">權力競逐遊戲的基礎核心就是利益盤算，一旦有了盤算，熱情就會逐漸煙消雲散。</span><span class="s7"><br>
 <br>
-</span><span class="s5">當然，我講的「消失」，指的是權力以外的事物。事實上，國民黨這樣一種墮落，恰恰也正是它再度奪得權力的手段。當年民進黨就是這樣，當它越墮落時，離權力就越近。</span><span class="s7"><br>
+</span><span class="s1">當然，我講的「消失」，指的是權力以外的事物。事實上，國民黨這樣一種墮落，恰恰也正是它再度奪得權力的手段。當年民進黨就是這樣，當它越墮落時，離權力就越近。</span><span class="s7"><br>
 <br>
-1998</span><span class="s5">年或</span><span class="s7">1999</span><span class="s5">年我忘了，我從英國寄了一封聖誕賀卡到民進黨中央黨部，那時候的黨主席就是我出國念書的四位推薦人之一的林義雄。我在賀卡上寫說：「貴黨以光速般的速度腐化，看來，貴黨離執政之路應該不遠了。」不久之後，「天下第一大壞蛋」</span><span class="s7">(</span><span class="s5">我從</span><span class="s7">1990 </span><span class="s5">年起，給阿扁取的綽號</span><span class="s7">) </span><span class="s5">就當選了總統，民意支持度一度高達八成，開啟台灣長達二十年的沉淪之路。</span><span class="s7"><br>
+1998</span><span class="s1">年或</span><span class="s7">1999</span><span class="s1">年我忘了，我從英國寄了一封聖誕賀卡到民進黨中央黨部，那時候的黨主席就是我出國念書的四位推薦人之一的林義雄。我在賀卡上寫說：「貴黨以光速般的速度腐化，看來，貴黨離執政之路應該不遠了。」不久之後，「天下第一大壞蛋」</span><span class="s7">(</span><span class="s1">我從</span><span class="s7">1990 </span><span class="s1">年起，給阿扁取的綽號</span><span class="s7">) </span><span class="s1">就當選了總統，民意支持度一度高達八成，開啟台灣長達二十年的沉淪之路。</span><span class="s7"><br>
 <br>
-</span><span class="s5">那時候，我的說法根本無人採信，以為我發神經，否則怎麼會去批評給台灣帶來「愛與希望」的民主救星</span><span class="s7">--</span><span class="s5">阿扁？怎麼會去批評「勤政清廉愛鄉土」的偉大民進黨？</span></p>
-<p class="p10"><br></p>
-<p class="p6"><span class="s4">王修亮</span><span class="s5">   |  2021.02.01 19:29   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40274"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">清澈的冬夜，寒氣如絲如縷，難以察覺的侵入骨肉與思維，潛藏著行蹤凍結斗室的一切。</span><span class="s7"><br>
-</span><span class="s5">熊姐忽然推椅而起，盪碎凍結，無聲移步，去，頃刻，來。</span><span class="s7"><br>
-</span><span class="s5">手端一杯微甜的蜂蜜酒，在玻璃的晶瑩中閃爍。</span><span class="s7"><br>
-</span><span class="s5">玉碗盛來琥珀光。</span><span class="s7"><br>
+</span><span class="s1">那時候，我的說法根本無人採信，以為我發神經，否則怎麼會去批評給台灣帶來「愛與希望」的民主救星</span><span class="s7">--</span><span class="s1">阿扁？怎麼會去批評「勤政清廉愛鄉土」的偉大民進黨？</span></p>
+<p class="p12"><br></p>
+<p class="p9"><span class="s12">王修亮</span><span class="s1">   |  2021.02.01 19:29   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40274"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">清澈的冬夜，寒氣如絲如縷，難以察覺的侵入骨肉與思維，潛藏著行蹤凍結斗室的一切。</span><span class="s7"><br>
+</span><span class="s1">熊姐忽然推椅而起，盪碎凍結，無聲移步，去，頃刻，來。</span><span class="s7"><br>
+</span><span class="s1">手端一杯微甜的蜂蜜酒，在玻璃的晶瑩中閃爍。</span><span class="s7"><br>
+</span><span class="s1">玉碗盛來琥珀光。</span><span class="s7"><br>
 <br>
-</span><span class="s5">在淺嚐中微語：「上次和朋友聚會，第一次親見半杯啤酒倒之後的難堪。醉，是怎樣的可懼！我當下的震撼，遠超越你平日告誡我的強烈。」</span><span class="s7"><br>
+</span><span class="s1">在淺嚐中微語：「上次和朋友聚會，第一次親見半杯啤酒倒之後的難堪。醉，是怎樣的可懼！我當下的震撼，遠超越你平日告誡我的強烈。」</span><span class="s7"><br>
 <br>
-</span><span class="s5">醉，是怎樣的可懼與難堪？</span><span class="s7"><br>
-</span><span class="s5">是自觀還是旁觀？</span><span class="s7"><br>
-</span><span class="s5">生平僅醉過一次，不僅是因為酒量之能，而是能戒慎恐懼。即使是那一次的醉，也因為在不得已之下，備足了護衛與後路。</span><span class="s7"><br>
+</span><span class="s1">醉，是怎樣的可懼與難堪？</span><span class="s7"><br>
+</span><span class="s1">是自觀還是旁觀？</span><span class="s7"><br>
+</span><span class="s1">生平僅醉過一次，不僅是因為酒量之能，而是能戒慎恐懼。即使是那一次的醉，也因為在不得已之下，備足了護衛與後路。</span><span class="s7"><br>
 <br>
-</span><span class="s5">「聽聞的震憾確實遠不如親見，百聞不如一見並不只是個通俗知識，而是讀萬卷書與行萬里路的均衡。聽聞，無論如何都是親見的簡化，甚至是極端簡化。」</span><span class="s7"><br>
+</span><span class="s1">「聽聞的震憾確實遠不如親見，百聞不如一見並不只是個通俗知識，而是讀萬卷書與行萬里路的均衡。聽聞，無論如何都是親見的簡化，甚至是極端簡化。」</span><span class="s7"><br>
 <br>
-</span><span class="s5">「簡化是歸納重點，語言或文字的表達能抓住重點是好的，可以快速掌握知識。聽到和親眼看到並不是本質的嚴重性不同，而是衝擊力。你對我的家教很好，所以我會認真對待所聽聞的事物，所以我會用想像或強制的方式，將我所聽聞的塑造成模擬。」</span><span class="s7"><br>
-</span><span class="s5">「將我所聽聞的塑造成模擬？這是甚麼意思？」</span><span class="s7"><br>
-</span><span class="s5">人的間接經驗不都是推論的模擬嗎？</span><span class="s7"><br>
+</span><span class="s1">「簡化是歸納重點，語言或文字的表達能抓住重點是好的，可以快速掌握知識。聽到和親眼看到並不是本質的嚴重性不同，而是衝擊力。你對我的家教很好，所以我會認真對待所聽聞的事物，所以我會用想像或強制的方式，將我所聽聞的塑造成模擬。」</span><span class="s7"><br>
+</span><span class="s1">「將我所聽聞的塑造成模擬？這是甚麼意思？」</span><span class="s7"><br>
+</span><span class="s1">人的間接經驗不都是推論的模擬嗎？</span><span class="s7"><br>
 <br>
-</span><span class="s5">「我若只是把你的話當成一段文字放在腦子裡，就只是那一段知識，沒有動態的真實之感，也就沒有切身的震撼。所以我會把語言文字轉化成立體實境。這方法會有許多捉不到的空隙、疏漏，但是我能去創造那些空隙疏漏，把模擬補足成更完整更真實。可這樣的方式能使我因而深刻理解並戒慎恐懼，卻仍然不如現場直觀的震撼。」</span><span class="s7"><br>
-</span><span class="s5">「額！你這是把間接經驗和直接經驗同情同理，連結融合起來創造為自我新經驗！我還沒有這樣自覺的思想過這種學習歷程，滿有趣的。但是不論如何補充創造，透過人工語文甚至畫面的描述，對照現場親觀，有無數細節是無法甚至想不到需要去表達的。所以這些細節的多寡，才是震撼感的深刻度吧！」</span><span class="s7"><br>
+</span><span class="s1">「我若只是把你的話當成一段文字放在腦子裡，就只是那一段知識，沒有動態的真實之感，也就沒有切身的震撼。所以我會把語言文字轉化成立體實境。這方法會有許多捉不到的空隙、疏漏，但是我能去創造那些空隙疏漏，把模擬補足成更完整更真實。可這樣的方式能使我因而深刻理解並戒慎恐懼，卻仍然不如現場直觀的震撼。」</span><span class="s7"><br>
+</span><span class="s1">「額！你這是把間接經驗和直接經驗同情同理，連結融合起來創造為自我新經驗！我還沒有這樣自覺的思想過這種學習歷程，滿有趣的。但是不論如何補充創造，透過人工語文甚至畫面的描述，對照現場親觀，有無數細節是無法甚至想不到需要去表達的。所以這些細節的多寡，才是震撼感的深刻度吧！」</span><span class="s7"><br>
 <br>
-</span><span class="s5">「聽聞的時候，這些細節不會被描述，說寫者可能覺得不是那麼重要，不列為表達的重點，或是說寫的時間受限制，我因此無可知道、連結、創造。所以即使我會嚴肅對待聽聞的事件，卻也缺乏深刻震撼。能使我震撼的，是那些彷彿無關的，大家沒想到要描述的、似乎不重要的現場細節。」</span><span class="s7"><br>
-</span><span class="s5">所以拍攝電影或寫小說時，主線情節之下，某些貌似不重要的細節描述，才是真能震撼人心的嗎？</span><span class="s7"><br>
-</span><span class="s5">「妹妹，現實是不可預測的，當說寫這件事實時，通常已經是個過去的、已經完成的事件，整體是可預期的結果，所以結果與事件有某種程度的切割，也就缺乏更強的震撼力。」</span><span class="s7"><br>
+</span><span class="s1">「聽聞的時候，這些細節不會被描述，說寫者可能覺得不是那麼重要，不列為表達的重點，或是說寫的時間受限制，我因此無可知道、連結、創造。所以即使我會嚴肅對待聽聞的事件，卻也缺乏深刻震撼。能使我震撼的，是那些彷彿無關的，大家沒想到要描述的、似乎不重要的現場細節。」</span><span class="s7"><br>
+</span><span class="s1">所以拍攝電影或寫小說時，主線情節之下，某些貌似不重要的細節描述，才是真能震撼人心的嗎？</span><span class="s7"><br>
+</span><span class="s1">「妹妹，現實是不可預測的，當說寫這件事實時，通常已經是個過去的、已經完成的事件，整體是可預期的結果，所以結果與事件有某種程度的切割，也就缺乏更強的震撼力。」</span><span class="s7"><br>
 <br>
-</span><span class="s5">「對，現場發生時，尤其我親身在那裏時，完全不可預期會發生甚麼，整個情緒跟著事件發展因此步步驚心，情緒波動得非常極端，震撼強記憶也深刻。」</span><span class="s7"><br>
-</span><span class="s5">「就如戰爭啊！不論電影甚至是紀錄片，一般人就只能透過自身經驗與價值觀，隔閡著疏離著聽聞，彷彿都只是一段虛妄的故事，無法產生恐懼警惕的震撼，更無法認真去推想如何避免戰爭。何況笨到以為戰爭只會在遠方發生，不會親臨己身的眾人。」</span><span class="s7"><br>
+</span><span class="s1">「對，現場發生時，尤其我親身在那裏時，完全不可預期會發生甚麼，整個情緒跟著事件發展因此步步驚心，情緒波動得非常極端，震撼強記憶也深刻。」</span><span class="s7"><br>
+</span><span class="s1">「就如戰爭啊！不論電影甚至是紀錄片，一般人就只能透過自身經驗與價值觀，隔閡著疏離著聽聞，彷彿都只是一段虛妄的故事，無法產生恐懼警惕的震撼，更無法認真去推想如何避免戰爭。何況笨到以為戰爭只會在遠方發生，不會親臨己身的眾人。」</span><span class="s7"><br>
 <br>
-</span><span class="s5">「是啊！我從沒想過會親眼看到醉酒的可懼，我們總是以為生活是萬年常態。」</span><span class="s7"><br>
+</span><span class="s1">「是啊！我從沒想過會親眼看到醉酒的可懼，我們總是以為生活是萬年常態。」</span><span class="s7"><br>
 <br>
-</span><span class="s5">我們總是以為生活是萬年常態，以為時間無論推移十年、三十年、一百年，空間裡的此時此境都是常態的永恆。</span><span class="s7"><br>
-</span><span class="s5">逝者如斯夫！流水常態的時間下，埋藏的是怎樣可驚可懼的非常態。</span><span class="s7"><br>
+</span><span class="s1">我們總是以為生活是萬年常態，以為時間無論推移十年、三十年、一百年，空間裡的此時此境都是常態的永恆。</span><span class="s7"><br>
+</span><span class="s1">逝者如斯夫！流水常態的時間下，埋藏的是怎樣可驚可懼的非常態。</span><span class="s7"><br>
 <br>
-</span><span class="s5">攀附時間的遺忘本能，原是美好的天然療育，使人能從悲傷或憤怒中平靜，但卻又使人連恐懼與警惕都遺忘。</span><span class="s7"><br>
+</span><span class="s1">攀附時間的遺忘本能，原是美好的天然療育，使人能從悲傷或憤怒中平靜，但卻又使人連恐懼與警惕都遺忘。</span><span class="s7"><br>
 <br>
-</span><span class="s5">又能如何呢？</span><span class="s7"><br>
-</span><span class="s5">也只好不斷警醒於潛藏入骨的寒意侵襲，在戒慎恐懼中不時起身思動，盪碎環境的凍結。</span><span class="s7"><br>
+</span><span class="s1">又能如何呢？</span><span class="s7"><br>
+</span><span class="s1">也只好不斷警醒於潛藏入骨的寒意侵襲，在戒慎恐懼中不時起身思動，盪碎環境的凍結。</span><span class="s7"><br>
 <br>
-</span><span class="s5">酒不是為醉，是為了警醒思動。</span></p>
-<p class="p6"><span class="s4">孫從輔</span><span class="s5">   |  2021.02.01 14:58   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40273"><span class="s6">#</span></a></span></p>
-<p class="p8"><span class="s5">我想推薦一個在微博瘋傳的幽默諷刺短片「如何當好</span><span class="s7">BBC</span><span class="s5">記者？」</span><span class="s7"><br>
+</span><span class="s1">酒不是為醉，是為了警醒思動。</span></p>
+<p class="p9"><span class="s12">孫從輔</span><span class="s1">   |  2021.02.01 14:58   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40273"><span class="s13">#</span></a></span></p>
+<p class="p11"><span class="s1">我想推薦一個在微博瘋傳的幽默諷刺短片「如何當好</span><span class="s7">BBC</span><span class="s1">記者？」</span><span class="s7"><br>
 <br>
-<a href="https://youtu.be/ucpi8JSO2i4"><span class="s8"><i>https://youtu.be/ucpi8JSO2i4</i></span></a><br>
+<a href="https://youtu.be/ucpi8JSO2i4"><span class="s1"><i>https://youtu.be/ucpi8JSO2i4</i></span></a><br>
 <br>
-</span><span class="s5">裡面是一個叫大漠叔叔的大叔自稱要應徵</span><span class="s7">BBC</span><span class="s5">記者，然後他秀了一手如何拍出</span><span class="s7">"BBC</span><span class="s5">等級</span><span class="s7">"</span><span class="s5">的中國報導的技巧，最後展示成果。我從頭笑到尾，並為最後正片的「水平」拍案叫絕。祝大家能暫時忘卻苦悶的日子。</span></p>
-<p class="p6"><span class="s4">李哲文</span><span class="s5">   |  2021.02.01 10:43   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40272"><span class="s6">#</span></a></span></p>
-<p class="p7"><span class="s5">首次留言，抱歉甘擾清聽，有些話很想說卻找不到人說。</span><span class="s7"><br>
+</span><span class="s1">裡面是一個叫大漠叔叔的大叔自稱要應徵</span><span class="s7">BBC</span><span class="s1">記者，然後他秀了一手如何拍出</span><span class="s7">"BBC</span><span class="s1">等級</span><span class="s7">"</span><span class="s1">的中國報導的技巧，最後展示成果。我從頭笑到尾，並為最後正片的「水平」拍案叫絕。祝大家能暫時忘卻苦悶的日子。</span></p>
+<p class="p9"><span class="s12">李哲文</span><span class="s1">   |  2021.02.01 10:43   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40272"><span class="s13">#</span></a></span></p>
+<p class="p10"><span class="s1">首次留言，抱歉甘擾清聽，有些話很想說卻找不到人說。</span><span class="s7"><br>
 <br>
-</span><span class="s5">我關注本站大約五年了，也搜尋過陳真本人，雖然外表一整個亂糟糟的樣子，但無損於我的景仰。</span><span class="s7"><br>
+</span><span class="s1">我關注本站大約五年了，也搜尋過陳真本人，雖然外表一整個亂糟糟的樣子，但無損於我的景仰。</span><span class="s7"><br>
 <br>
-</span><span class="s5">雖然長期就不喜歡民進黨的調調，但我這幾年才看得更清楚，民進黨的所做所為根本難以稱之為「人」之所為，根本就一群蛆才幹得出來的髒事；當一個人信仰民進黨，對他們有好感甚至加入民進黨甘願為之喉舌後，即便原來是親人，我也再難與之相處，連見面都不願。所以我雖然不熱衷政治，不會在群體裡站出來大聲疾呼，但我盡可能的讓我的親人們不要變成綠蛆，免得親情不再。</span><span class="s7"><br>
+</span><span class="s1">雖然長期就不喜歡民進黨的調調，但我這幾年才看得更清楚，民進黨的所做所為根本難以稱之為「人」之所為，根本就一群蛆才幹得出來的髒事；當一個人信仰民進黨，對他們有好感甚至加入民進黨甘願為之喉舌後，即便原來是親人，我也再難與之相處，連見面都不願。所以我雖然不熱衷政治，不會在群體裡站出來大聲疾呼，但我盡可能的讓我的親人們不要變成綠蛆，免得親情不再。</span><span class="s7"><br>
 <br>
-</span><span class="s5">這是一個什麼垃圾政黨，可以讓人性扭曲至此？</span><span class="s7"><br>
+</span><span class="s1">這是一個什麼垃圾政黨，可以讓人性扭曲至此？</span><span class="s7"><br>
 <br>
-</span><span class="s5">我也是高雄人，現在台北工作，今天突然好想衝回高雄去按陳真家的門鈴，看一眼也好。</span><span class="s7"><br>
+</span><span class="s1">我也是高雄人，現在台北工作，今天突然好想衝回高雄去按陳真家的門鈴，看一眼也好。</span><span class="s7"><br>
 <br>
-</span><span class="s5">原諒我的胡言亂語，幼稚想法，明明我</span><span class="s7">51</span><span class="s5">歲了，也不年輕，但就是突然有這個想法。。。</span><span class="s7"><br>
+</span><span class="s1">原諒我的胡言亂語，幼稚想法，明明我</span><span class="s7">51</span><span class="s1">歲了，也不年輕，但就是突然有這個想法。。。</span><span class="s7"><br>
 <br>
 </span></p>
-<p class="p6"><span class="s4">陳真</span><span class="s5">   |  2021.02.01 01:40   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40271"><span class="s6">#</span></a></span></p>
-<p class="p8"><span class="s5">鬼島還有人性和理性嗎？</span><span class="s7">(</span><span class="s5">三</span><span class="s7">)<br>
+<p class="p9"><span class="s12">陳真</span><span class="s1">   |  2021.02.01 01:40   |   <a href="http://palinfo.habago.org/Entry?Command=Information_PrintForum#FORUM40271"><span class="s13">#</span></a></span></p>
+<p class="p11"><span class="s1">鬼島還有人性和理性嗎？</span><span class="s7">(</span><span class="s1">三</span><span class="s7">)<br>
 <br>
-</span><span class="s5">陳真</span><span class="s7"><br>
+</span><span class="s1">陳真</span><span class="s7"><br>
 <br>
 2021. 02. 01.<br>
 <br>
 <br>
-</span><span class="s5">幾年前搬來高雄，買了一間十多年的中古屋，就在高雄最精華地段的美術館附近，原因無它，因為這地方相對比較乾淨整齊，而且有一大片公園。我家在高樓層，平常去陽台看風景並不需要急著隨手關門，因為蚊子很難飛這麼高。可是，這幾天卻被蚊子咬得連續好幾天沒法睡。現在是冬天，哪來這麼多蚊子？</span><span class="s7"><br>
+</span><span class="s1">幾年前搬來高雄，買了一間十多年的中古屋，就在高雄最精華地段的美術館附近，原因無它，因為這地方相對比較乾淨整齊，而且有一大片公園。我家在高樓層，平常去陽台看風景並不需要急著隨手關門，因為蚊子很難飛這麼高。可是，這幾天卻被蚊子咬得連續好幾天沒法睡。現在是冬天，哪來這麼多蚊子？</span><span class="s7"><br>
 <br>
-</span><span class="s5">而且，最近不是一連串寒流來襲嗎，僅僅兩天的氣候放暖，居然就跑出這麼多蚊子。夏天一來，豈不是完蛋？過去幾年都沒有蚊子，怎麼今年連冬天都這麼多蚊蟲？還好很久沒下雨，要不然，如果依照美術館附近「第三世界」般亂七八糟、毫無安全考量的施工狀況，到處是坑洞、雜物與垃圾，就像戰爭場景，一旦下雨，蚊子勢必氾濫成災。</span><span class="s7"><br>
+</span><span class="s1">而且，最近不是一連串寒流來襲嗎，僅僅兩天的氣候放暖，居然就跑出這麼多蚊子。夏天一來，豈不是完蛋？過去幾年都沒有蚊子，怎麼今年連冬天都這麼多蚊蟲？還好很久沒下雨，要不然，如果依照美術館附近「第三世界」般亂七八糟、毫無安全考量的施工狀況，到處是坑洞、雜物與垃圾，就像戰爭場景，一旦下雨，蚊子勢必氾濫成災。</span><span class="s7"><br>
 <br>
-</span><span class="s5">藉此只是想說，人渣們「光復」了高雄，是不是就從此高枕無憂，想怎麼扯爛污就怎麼扯爛污，想怎麼擺爛就怎麼擺爛？想怎麼貪贓枉法就怎麼貪贓枉法？事實顯然就是這樣。對付韓國瑜就是無時無刻百般抹黑，無中生有，造謠生事，對待「自己人」就完全自由了，想怎麼幹都行，而且百般吹捧；像陳什麼邁的，那麼苛薄傲慢囂張無情高高在上的一個人，卻捧成它媽的什麼「暖男」，完全就是睜眼說瞎話。</span><span class="s7"><br>
+</span><span class="s1">藉此只是想說，人渣們「光復」了高雄，是不是就從此高枕無憂，想怎麼扯爛污就怎麼扯爛污，想怎麼擺爛就怎麼擺爛？想怎麼貪贓枉法就怎麼貪贓枉法？事實顯然就是這樣。對付韓國瑜就是無時無刻百般抹黑，無中生有，造謠生事，對待「自己人」就完全自由了，想怎麼幹都行，而且百般吹捧；像陳什麼邁的，那麼苛薄傲慢囂張無情高高在上的一個人，卻捧成它媽的什麼「暖男」，完全就是睜眼說瞎話。</span><span class="s7"><br>
 <br>
-</span><span class="s5">高雄其實就跟台南一樣，市政毫無基本作為，滿意度卻永遠一百分。南部這些綠油油的城市，包括屏東，基本上就像活在文明的界線之外那種感覺，相當「蠻荒」，缺乏現代文化意識，顏色與利益分贓幾乎凌駕了一切善惡是非；綠油油的民眾就像古時候的臣民那樣，絕對效忠於皇室。</span><span class="s7"><br>
+</span><span class="s1">高雄其實就跟台南一樣，市政毫無基本作為，滿意度卻永遠一百分。南部這些綠油油的城市，包括屏東，基本上就像活在文明的界線之外那種感覺，相當「蠻荒」，缺乏現代文化意識，顏色與利益分贓幾乎凌駕了一切善惡是非；綠油油的民眾就像古時候的臣民那樣，絕對效忠於皇室。</span><span class="s7"><br>
 <br>
-</span><span class="s5">時局若此，常感無言。</span><span class="s7"><br>
+</span><span class="s1">時局若此，常感無言。</span><span class="s7"><br>
 <br>
-</span><span class="s5">【後記】</span><span class="s7"><br>
+</span><span class="s1">【後記】</span><span class="s7"><br>
 <br>
-</span><span class="s5">常有人說我為什麼不再「站出來」「拯救台灣」？意思是說，為什麼我不再「站出來」投入政治，成為一名公眾人物？反而儘可能避免鎂光燈，避免成為公眾人物？這個質疑，應該分兩部份來講，首先，我並沒有「站出來」的問題，因為我始終不曾「縮回去」，只是我「站出來」的方式跟黨外時代不一樣而已。</span><span class="s7"><br>
+</span><span class="s1">常有人說我為什麼不再「站出來」「拯救台灣」？意思是說，為什麼我不再「站出來」投入政治，成為一名公眾人物？反而儘可能避免鎂光燈，避免成為公眾人物？這個質疑，應該分兩部份來講，首先，我並沒有「站出來」的問題，因為我始終不曾「縮回去」，只是我「站出來」的方式跟黨外時代不一樣而已。</span><span class="s7"><br>
 <br>
-</span><span class="s5">至於避免成為公眾人物，確實如此。原因是什麼？其實是一種純粹個人的「存在」</span><span class="s7">(existential) </span><span class="s5">意義問題。我沒法用簡單的話說明，這世上說不定只有三、五個人才會相信或理解。哪三、五個人呢？學姐是其一，范光棣應該也是其一，至於其他朋友，我不知道他們是否了解或相信。曾有位哲學家，如此形容維根斯坦，說他「終其一生，儘可能避免成為公眾人物」，我心亦如是。</span><span class="s7"><br>
+</span><span class="s1">至於避免成為公眾人物，確實如此。原因是什麼？其實是一種純粹個人的「存在」</span><span class="s7">(existential) </span><span class="s1">意義問題。我沒法用簡單的話說明，這世上說不定只有三、五個人才會相信或理解。哪三、五個人呢？學姐是其一，范光棣應該也是其一，至於其他朋友，我不知道他們是否了解或相信。曾有位哲學家，如此形容維根斯坦，說他「終其一生，儘可能避免成為公眾人物」，我心亦如是。</span><span class="s7"><br>
 <br>
-</span><span class="s5">這部份有點「形而上」的「存在」問題，就跳過不說了，姑且光說「形而下」的東西：</span><span class="s7"><br>
+</span><span class="s1">這部份有點「形而上」的「存在」問題，就跳過不說了，姑且光說「形而下」的東西：</span><span class="s7"><br>
 <br>
-</span><span class="s5">威權時代，我並不介意什麼演講啦、開記者會啦、成立團體、組織群眾啦，或是到處串聯與抗爭等等等這些作為，因為我知道當我這樣做的時候是有意義的。為什麼呢？因為在那樣一種恐怖肅殺的年代，誰敢吭聲，誰就倒大楣，甚至小命難保。當幾乎所有人都飽受極度的威嚇恐懼而根本不敢出聲時，你只要敢於不要命，敢公開說兩句，你馬上就會造成很大的衝擊，對既有的權力體制產生一定的殺傷力。</span><span class="s7"><br>
+</span><span class="s1">威權時代，我並不介意什麼演講啦、開記者會啦、成立團體、組織群眾啦，或是到處串聯與抗爭等等等這些作為，因為我知道當我這樣做的時候是有意義的。為什麼呢？因為在那樣一種恐怖肅殺的年代，誰敢吭聲，誰就倒大楣，甚至小命難保。當幾乎所有人都飽受極度的威嚇恐懼而根本不敢出聲時，你只要敢於不要命，敢公開說兩句，你馬上就會造成很大的衝擊，對既有的權力體制產生一定的殺傷力。</span><span class="s7"><br>
 <br>
-</span><span class="s5">比方說，我雖然辯論能力很好，自認所向無敵，但我其實完全不會單向演講，毫無煽動性，就像白開水一樣，溫吞，緩慢，柔軟，無味，單調，甚至連抑揚頓挫與基本修辭都沒有。即使是學術演講也一樣，我只會依照自己事先寫好的稿子照本宣科。世界上大概很難找到比我更不會演講的人了。</span><span class="s7"><br>
+</span><span class="s1">比方說，我雖然辯論能力很好，自認所向無敵，但我其實完全不會單向演講，毫無煽動性，就像白開水一樣，溫吞，緩慢，柔軟，無味，單調，甚至連抑揚頓挫與基本修辭都沒有。即使是學術演講也一樣，我只會依照自己事先寫好的稿子照本宣科。世界上大概很難找到比我更不會演講的人了。</span><span class="s7"><br>
 <br>
-</span><span class="s5">但是，你知道嗎？在黨外的群眾場合，我經常才一站上講台，底下很多群眾就馬上開始哭了；當我講完走下台，群眾經常就像潮水一樣，朝著我湧過來，非常激動。並不是因為我講了什麼感人的話，而是因為我就像飛娥撲火那樣，自願投身火海，因此能感動人心。</span><span class="s7"><br>
+</span><span class="s1">但是，你知道嗎？在黨外的群眾場合，我經常才一站上講台，底下很多群眾就馬上開始哭了；當我講完走下台，群眾經常就像潮水一樣，朝著我湧過來，非常激動。並不是因為我講了什麼感人的話，而是因為我就像飛娥撲火那樣，自願投身火海，因此能感動人心。</span><span class="s7"><br>
 <br>
-</span><span class="s5">可是，現在這個垃圾資訊徹底壟斷大腦的時代，這個由人渣與網紅當家、俗不可耐的低級時代呢？你怎麼「站出來」？怎麼「拯救台灣」？我看你得先拯救自己才對。因為，就如甘地所說，人渣與網軍與主流綠媒一開始將會完全忽略你，把你當空氣，把你徹底封殺；當你產生一定的「選票實力」時，他們就會隨時對你進行人格毀滅。你恐怕得每天忙著澄清永遠澄清不完的謠言，應付層出不窮的各種抹黑與造謠。</span><span class="s7"><br>
+</span><span class="s1">可是，現在這個垃圾資訊徹底壟斷大腦的時代，這個由人渣與網紅當家、俗不可耐的低級時代呢？你怎麼「站出來」？怎麼「拯救台灣」？我看你得先拯救自己才對。因為，就如甘地所說，人渣與網軍與主流綠媒一開始將會完全忽略你，把你當空氣，把你徹底封殺；當你產生一定的「選票實力」時，他們就會隨時對你進行人格毀滅。你恐怕得每天忙著澄清永遠澄清不完的謠言，應付層出不窮的各種抹黑與造謠。</span><span class="s7"><br>
 <br>
-</span><span class="s5">更重要的是，人們根本不需要你「站出來」，人們根本不覺得自己需要被「拯救」，反而還覺得自己活在什麼民主社會好幸福呢。</span><span class="s7"><br>
+</span><span class="s1">更重要的是，人們根本不需要你「站出來」，人們根本不覺得自己需要被「拯救」，反而還覺得自己活在什麼民主社會好幸福呢。</span><span class="s7"><br>
 <br>
-</span><span class="s5">少數人也許會堅定支持你，但是，絕大多數的人會對你產生懷疑，感到厭惡，你恐怕每天得隨時被腦殘學生羞辱，被網軍糟蹋抹黑；隨便一個網路匿名綠蛆或低能網紅比方說什麼</span><span class="s7">3Q</span><span class="s5">哥，或是館長、雞排妹或什麼男神女神之類的草包，都能任意羞辱你，糟蹋你，抹黑你。你的家人並且也將會被拖下水，被抹黑，被羞辱。</span><span class="s7"><br>
+</span><span class="s1">少數人也許會堅定支持你，但是，絕大多數的人會對你產生懷疑，感到厭惡，你恐怕每天得隨時被腦殘學生羞辱，被網軍糟蹋抹黑；隨便一個網路匿名綠蛆或低能網紅比方說什麼</span><span class="s7">3Q</span><span class="s1">哥，或是館長、雞排妹或什麼男神女神之類的草包，都能任意羞辱你，糟蹋你，抹黑你。你的家人並且也將會被拖下水，被抹黑，被羞辱。</span><span class="s7"><br>
 <br>
-</span><span class="s5">然後呢？你承受了這些窩囊透頂的痛苦代價，達成了什麼目標？什麼也沒有。就算讓你選上某種職位，那又能怎麼樣？有何深刻意義與價值？你只能忙著跟蟑螂打架，跟蛆鬥嘴，忙著澄清永遠澄清不完的抹黑與栽贓不是嗎？</span><span class="s7"><br>
+</span><span class="s1">然後呢？你承受了這些窩囊透頂的痛苦代價，達成了什麼目標？什麼也沒有。就算讓你選上某種職位，那又能怎麼樣？有何深刻意義與價值？你只能忙著跟蟑螂打架，跟蛆鬥嘴，忙著澄清永遠澄清不完的抹黑與栽贓不是嗎？</span><span class="s7"><br>
 <br>
-</span><span class="s5">一直常有人勸我「站出來」，說我根正苗「綠」，血統純正，無懈可擊。自余束髮以來，即追隨自己從事革命，歷經四十年不改其志，又是早年所謂學運領袖，又是黨外元老，又是民進黨</span><span class="s7">(1986)</span><span class="s5">與綠黨</span><span class="s7">(1996)</span><span class="s5">建黨黨員，又是台灣各大社運組織創始人</span><span class="s7">(</span><span class="s5">之一</span><span class="s7">)</span><span class="s5">，又是台獨叛亂犯與政治受難者；又是高學歷，</span><span class="s7">IQ</span><span class="s5">破表，能言善道，辯才無礙；又是醫生，又是哲學家，寫文章上街頭樣樣行；身先士卒孚眾望，平易近人，高貴不貴人緣好，能文能武，擁有專家等級的廣泛國際知識與國際運動參與經驗；不貪不取，高度道德潔癖，行善天下，悲憫眾生，不為己謀；又會買菜又會洗碗，不煙不酒不嫖從未上酒家；生平崇拜維根斯坦與沈從文，視之為知己；會打桌球、踢毽子；數學競試獲獎無數；生活習慣尚稱優良，挖鼻屎絕不亂射，尿完都會記得把馬桶蓋放下；台南望族後人，身世傳奇而坎坷，出身富裕卻又長年赤貧，自力更生，白手起家</span><span class="s7">...</span><span class="s5">優點多如天上繁星。</span><span class="s7"><br>
+</span><span class="s1">一直常有人勸我「站出來」，說我根正苗「綠」，血統純正，無懈可擊。自余束髮以來，即追隨自己從事革命，歷經四十年不改其志，又是早年所謂學運領袖，又是黨外元老，又是民進黨</span><span class="s7">(1986)</span><span class="s1">與綠黨</span><span class="s7">(1996)</span><span class="s1">建黨黨員，又是台灣各大社運組織創始人</span><span class="s7">(</span><span class="s1">之一</span><span class="s7">)</span><span class="s1">，又是台獨叛亂犯與政治受難者；又是高學歷，</span><span class="s7">IQ</span><span class="s1">破表，能言善道，辯才無礙；又是醫生，又是哲學家，寫文章上街頭樣樣行；身先士卒孚眾望，平易近人，高貴不貴人緣好，能文能武，擁有專家等級的廣泛國際知識與國際運動參與經驗；不貪不取，高度道德潔癖，行善天下，悲憫眾生，不為己謀；又會買菜又會洗碗，不煙不酒不嫖從未上酒家；生平崇拜維根斯坦與沈從文，視之為知己；會打桌球、踢毽子；數學競試獲獎無數；生活習慣尚稱優良，挖鼻屎絕不亂射，尿完都會記得把馬桶蓋放下；台南望族後人，身世傳奇而坎坷，出身富裕卻又長年赤貧，自力更生，白手起家</span><span class="s7">...</span><span class="s1">優點多如天上繁星。</span><span class="s7"><br>
 <br>
-</span><span class="s5">可是，這就叫做「無懈可擊」嗎？人渣們打擊你抹黑你還需要「懈」嗎？他直接造謠抹黑栽贓無中生有不就好了？他如果還會在乎事實，那就不叫做人渣了。</span><span class="s7"><br>
+</span><span class="s1">可是，這就叫做「無懈可擊」嗎？人渣們打擊你抹黑你還需要「懈」嗎？他直接造謠抹黑栽贓無中生有不就好了？他如果還會在乎事實，那就不叫做人渣了。</span><span class="s7"><br>
 <br>
-</span><span class="s5">在這個意義上，我其實不贊成任何好人「站出來」，比方說韓國瑜。何必呢？好好一個學養俱佳文采豐盛、有為有守、悲天憫人的政治家，台灣政壇大概也只有陳定南可以與之相比，卻居然被抹黑成惡棍、草包，抹黑成低能智障與人渣，到處被鄙視被嘲笑被羞辱。</span><span class="s7"><br>
+</span><span class="s1">在這個意義上，我其實不贊成任何好人「站出來」，比方說韓國瑜。何必呢？好好一個學養俱佳文采豐盛、有為有守、悲天憫人的政治家，台灣政壇大概也只有陳定南可以與之相比，卻居然被抹黑成惡棍、草包，抹黑成低能智障與人渣，到處被鄙視被嘲笑被羞辱。</span><span class="s7"><br>
 <br>
-</span><span class="s5">然後呢？你能「拯救」什麼？你連自己最基本的人格與榮譽都拯救不了不是嗎？承受如此毀滅性的人格代價，你又能達成什麼目標？你連好不容易選上的職位，沒幾天就又被人渣們給「光復」了。</span><span class="s7"><br>
+</span><span class="s1">然後呢？你能「拯救」什麼？你連自己最基本的人格與榮譽都拯救不了不是嗎？承受如此毀滅性的人格代價，你又能達成什麼目標？你連好不容易選上的職位，沒幾天就又被人渣們給「光復」了。</span><span class="s7"><br>
 <br>
-</span><span class="s5">一個完全受制於美、日主子的社會，一個殖民小島，每天玩著「茶壺裏的風暴」，費這麼大的力氣，為了勝選，必須刻意模糊公義是非與基本理念，進行極其有限的權力爭奪，有意義嗎？台灣所謂「總統」，就如阿扁所說，不過就是「美軍在台軍政府」的一個執行者，「隨便一個</span><span class="s7">AIT</span><span class="s5">人員都能對你頤指氣使」。</span><span class="s7"><br>
+</span><span class="s1">一個完全受制於美、日主子的社會，一個殖民小島，每天玩著「茶壺裏的風暴」，費這麼大的力氣，為了勝選，必須刻意模糊公義是非與基本理念，進行極其有限的權力爭奪，有意義嗎？台灣所謂「總統」，就如阿扁所說，不過就是「美軍在台軍政府」的一個執行者，「隨便一個</span><span class="s7">AIT</span><span class="s1">人員都能對你頤指氣使」。</span><span class="s7"><br>
 <br>
-</span><span class="s5">二十年前，面對人渣黨的無惡不作，我寫過一系列文章叫做《選舉不是惟一的路》，意思大約就是這樣。並非說選舉或權力全然無用，而是說，這樣一種社會，道德崩盤，價值解體，方方面面的折騰實在太低級，太窩囊，太缺乏意義。尤其是當媒體與教育掌握在「他們」手上時，公義與價值、道德與理性蕩然無存，剩下的就只是一種缺乏內涵、無甚意義甚至齷齪不堪的的權力爭奪與分贓。</span><span class="s7"><br>
+</span><span class="s1">二十年前，面對人渣黨的無惡不作，我寫過一系列文章叫做《選舉不是惟一的路》，意思大約就是這樣。並非說選舉或權力全然無用，而是說，這樣一種社會，道德崩盤，價值解體，方方面面的折騰實在太低級，太窩囊，太缺乏意義。尤其是當媒體與教育掌握在「他們」手上時，公義與價值、道德與理性蕩然無存，剩下的就只是一種缺乏內涵、無甚意義甚至齷齪不堪的的權力爭奪與分贓。</span><span class="s7"><br>
 <br>
-</span><span class="s5">哪天，如果需要烈士，我會願意再「站出來」。但是，如果「站出來」就只是跟蟑螂打架，跟蛆鬥嘴，跟低能網紅比賽大小聲，然後搞得自己滿身污泥，臭不可聞，我不知道這樣一種「站出來」有何意義可言？我們並不是怕蛆怕蟑螂，而是我們跟他們根本不對等，根本不應該站到同一個平面上。要打，也該打這些危害社會的昆蟲背後的主子才對。</span><span class="s7"><br>
+</span><span class="s1">哪天，如果需要烈士，我會願意再「站出來」。但是，如果「站出來」就只是跟蟑螂打架，跟蛆鬥嘴，跟低能網紅比賽大小聲，然後搞得自己滿身污泥，臭不可聞，我不知道這樣一種「站出來」有何意義可言？我們並不是怕蛆怕蟑螂，而是我們跟他們根本不對等，根本不應該站到同一個平面上。要打，也該打這些危害社會的昆蟲背後的主子才對。</span><span class="s7"><br>
 <br>
-</span><span class="s5">當然，我還是很欽佩像韓國瑜那樣一種願意「站出來」選舉，願意讓人渣糟蹋的自我犧牲，但是，選舉或奪權若要有所價值，那就是應該藉此宣揚並站穩根本理念才對，而不是為了勝選，總是得迎合主流老講些違反事實的反中濫調或什麼「捍衛台灣主權」之類的蠢話屁話。如果要反中，如果要捍衛什麼台灣主權卻爭相當美國人與日本人的狗，那就直接投票給人渣黨不就好了？何必選你？</span><span class="s7"><br>
+</span><span class="s1">當然，我還是很欽佩像韓國瑜那樣一種願意「站出來」選舉，願意讓人渣糟蹋的自我犧牲，但是，選舉或奪權若要有所價值，那就是應該藉此宣揚並站穩根本理念才對，而不是為了勝選，總是得迎合主流老講些違反事實的反中濫調或什麼「捍衛台灣主權」之類的蠢話屁話。如果要反中，如果要捍衛什麼台灣主權卻爭相當美國人與日本人的狗，那就直接投票給人渣黨不就好了？何必選你？</span><span class="s7"><br>
 <br>
-</span><span class="s5">為了取得權力或保有權力而放棄根本價值與理念是錯的，那只是讓台灣社會永遠在瑣瑣碎碎的權力爭奪中持續沉淪而根本看不到將來。</span><span class="s7"><br>
+</span><span class="s1">為了取得權力或保有權力而放棄根本價值與理念是錯的，那只是讓台灣社會永遠在瑣瑣碎碎的權力爭奪中持續沉淪而根本看不到將來。</span><span class="s7"><br>
 <br>
-</span><span class="s5">退而求其次，就算僅僅只是在一種島內意義上的政治改革，也絕不是什麼「路平燈亮」之類的施政，更不是講究什麼「興利不除弊」的所謂「和諧」，反而是應該傾全力抓弊除奸，有多少弊案就抓多少人，讓政治清明。如果只是要鋪橋造路，找個技術人員來當領導就行。</span></p>
-<p class="p11"><br></p>
+</span><span class="s1">退而求其次，就算僅僅只是在一種島內意義上的政治改革，也絕不是什麼「路平燈亮」之類的施政，更不是講究什麼「興利不除弊」的所謂「和諧」，反而是應該傾全力抓弊除奸，有多少弊案就抓多少人，讓政治清明。如果只是要鋪橋造路，找個技術人員來當領導就行。</span></p>
+<p class="p13"><br></p>
 </body>
 </html>
