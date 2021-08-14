@@ -1,0 +1,83 @@
+🔴🇩🇪💉🇮🇱1⃣️劑BNT疫苗有效防新冠死亡 60萬人真實世界數據出爐
+ https://youtu.be/AZaIa3ZIwH4 ／ https://reurl.cc/eEnn8M ／  https://reurl.cc/6ankGZ
+
+🔴🐲🇨🇳💉🇹🇭逾600名醫護接種科興疫苗卻仍染疫 泰國宣布補打AZ疫苗
+The Central News Agency 中央通訊社 2021年7月11日 週日 下午8:51
+
+（中央社曼谷11日綜合外電報導）泰國衛生部今日表示，目前已有逾600名完整接種2劑中國科興疫苗的醫護人員確診。當局正考慮是否針對這個高風險群群體施打第3劑其他疫苗，以提高保護力。
+
+路透社報導，據泰國衛生部4月至7月的統計資料，在完成接種2劑科興疫苗的67萬7348名醫護人員中，有618人感染2019冠狀病毒疾病（COVID-19），其中1名護理師病故，還有1人情況危急。
+
+一名高階官員在記者會上表示，專家小組建議讓醫護人員施打第3劑疫苗，以提高免疫力，且「第3劑疫苗將是不同廠牌，不是阿斯特捷利康藥廠（AstraZeneca）的AZ疫苗，就是泰國近期會收到的信使核糖核酸（mRNA）疫苗」。政府將於12日就上述建議展開研議。
+
+泰國疫情嚴峻，10日有91人病故，今日又通報9418 例新增確診，這2個數字都打破了疫情爆發以來的紀錄。迄今共累積33萬6371人染疫、2711人死亡。（譯者：施施/核稿：林治平）1100711 https://reurl.cc/0jnn8x
+
+文章來源：Thailand will give health workers a mix of Chinese and Western vaccines. https://reurl.cc/1YzzV8
+
+
+【以下都是用最嚴格標準來計算，計算所用的數字均來自於以上報導所呈現的數據】
+🔵【已知】完成接種2劑科興疫苗的67萬7348名泰國醫護人員。
+🔵【保護力】免於感染的防護力約略為：（677348 - 618）÷ 677348 × 100％ ＝ 99.9087618181496％；
+🔵【預防重症／住院的防護力】 （677348 - 1）÷ 677348 × 100％ ＝ 99.9998523654015％
+	（The worst case： （677348 - 618）÷ 677348 × 100％ ＝ 99.9087618181496％）
+🔵【預防冠病患者死亡的有效率】（677348 - 1）÷ 677348 × 100％ ＝ 99.9998523654015％
+	（The worst case： （677348 - 618）÷ 677348 × 100％ ＝ 99.9087618181496％）
+
+🐲🇨🇳💉🇹🇭科興（泰國）／🇩🇪💉🇮🇱輝瑞（以色列）的接種比較
+───────────────────────────────────────── 
+                      🐲🇨🇳💉🇹🇭科興        🇩🇪💉🇮🇱輝瑞
+─────────────────────────────────────────
+【保護力】  99.91％ ～ 99.99      (避免一般新冠症狀)57％ ～ 94％
+                                                         (預防確診)               46％ ～ 92％
+                                                         (預防住院治療)       74％ ～ 87％
+─────────────────────────────────────────
+【預防重症】99.90％～99.99％    62％ ～ 92%
+─────────────────────────────────────────
+【預防死亡】99.9999％                 72% ～ 99.9985％
+─────────────────────────────────────────
+
+
+🐲🇨🇳💉科興疫苗為何勝出❓❗❗
+wleemc  Jun 04 Fri 2021
+
+澳洲學者用一套統計模式計算各種疫苗注射後人體產生Neutralizing antibody的保護力(不受病毒感染的能力)。
+https://www.nature.com/articles/s41591-021-01377-8
+
+這篇文章於5/17刊登出來，許多醫師在網路上數落科興疫苗(CoronaVac)，但華爾街日報得到內幕消息，於5/31報導第二篇巴西小鎮(Serrana)接種科興疫苗的Real world study，該鎮4萬5000人，75%接種兩劑科興疫苗，全鎮死亡率降低95%。6/1科興CoronaVac即被WHO納入緊急使用的疫苗名單。
+https://www.wsj.com/articles/brazilian-towns-mass-vaccination-creates-oasis-of-well-being-11620392401 (5/7 第一篇報導)
+
+https://www.wsj.com/articles/brazils-experiment-to-vaccinate-town-with-chinese-coronavac-reduced-covid-19-deaths-by-95-11622479864 (5/31 第二篇報導)
+
+Nature Medicine那篇文章在講Neutralizing antibody，我問過許多醫學生，甚麼叫做Neutralizing antibody，一問全愣住了，幾乎沒有人知道。醫學生時期沒搞清楚，當上醫師之後也不會想去搞懂，反正Neutralizing antibody高，就是保護力好的意思。
+
+Nature Medicine原文摘要中提及：
+
+We analyzed the relationship between in vitro neutralization levels and the observed protection from severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection using data from seven current vaccines and from convalescent cohorts.
+
+Neutralizing antibody是在實驗室中(in vitro)用細胞去檢測血清抗體與病毒結合之後就失去感染細胞的能力；抗體與病毒結合就能讓病毒失去感染力，才叫Neutralizing antibody。
+
+若抗體與病毒結合後，病毒仍能感染細胞，這抗體叫Binding antibody，在T cell immunity時很有用。
+
+CoronaVac注射兩劑後，in vitro neutralization level只有50%的保護力能防止被感染，為何在巴西小鎮能降低95%的死亡率？
+
+Nature Medicine文章中有一張圖：
+
+	https://reurl.cc/rgEljO
+
+CoronaVac被打成落水狗，還被剛出道的NVX-CoV2373(Subunit疫苗)甩得遠遠的，為何能在巴西小鎮翻身？CoronaVac是滅活疫苗，為了大量製造完整的病毒，病毒Genome上的Spike protein mRNA不能隨便更動，也就是說疫苗中的Spike protein是自然狀態下的蛋白。其它疫苗的Spike protein沒跟病毒自然下的外膜Lipid形成複合體，為了讓Spike protein穩定，在Spike protein動了手腳，如下文中的prefusion-stabilized SARS-CoV-2 spikes：
+https://science.sciencemag.org/content/369/6510/1501
+
+請注意「prefusion」這字，一旦Spike protein在重組蛋白中cDNA被動了手腳，該Spike protein結構就被鎖死，雖變穩定，但失去與胞膜上ACE結合並融入(Fuse into)胞膜的能力，這是病毒所需但疫苗不需的能力。
+
+科興疫苗(CoronaVac)是死病毒疫苗，打進身體的是死病毒，若你願意接受這種疫苗，你無須擔心它沒效，也無須擔心它有長期的副作用，它會誘導B cell產生抗體，也會誘導T cell immunity (Th→DC→Tc)。從Nature Medicine的研究可知，CononaVac的強項不在產生Neutralizing antibody，但它確實也能誘導B cell產生抗體。當你感染新冠病毒後，B cell會分泌很多很多Non-specific antibodies with a variety of binding abilities to the virus)，這些又多又雜的抗體可延緩病毒向外擴散，然後Treg與Macrophage(M2)分泌TGF-b吸引Fibroblast過來分泌Collagen fiber把病毒包圍起來。
+
+Neutralizing antibody像訓練有素的狙擊手，Binding antibody像只會扣板機的傻步兵，在傳統大兵團作戰中，一兩千名傻步兵朝進攻的敵軍齊扣板機比十幾名狙擊手瞄準一個一個擊中更具阻嚇力。因此一旦病毒進入細胞，Neutralizing antibody的用處比不上成千上萬的Binding antibody。科興疫苗本來就有許多研究顯示in vitro neutralization level比其它疫苗差，代表注射科興疫苗後，感染新冠病毒的機率比其它疫苗高。但感染之後呢？Nature Medicine文章的作者沒說。
+
+注射科興疫苗，目的不在產生Neutralizing antibody，而在誘導T cell immunity及T cell memory，尤其是某些老人在年輕時應該有CD8⁺ T cell可辨識新冠病毒為外來抗原，隨著年齡增長，該T cell變遲鈍，注射科興疫苗把這種老人的CD8⁺ T cell重新喚醒，就能在病毒入侵呼吸道上皮細胞後，提前備戰，把病毒攔截在上呼吸道，慢慢弄死，不進入肺臟引起肺炎重症。
+
+打RNA疫苗能誘導B cell產生Higher level neutralizing antibody，這很容易檢測，但是否能誘導T cell immunity？無法測，但看印度裔的美國傳染病專家注射兩劑輝瑞疫苗後，回到印度仍然染疫死亡，便知Higher level neutralizing antibody對變種病毒無效，而輝瑞疫苗可能無法誘導T cell immunity (這點蠻重要的)，他在感染印度變種後，沒有CD8⁺ T cell把病毒攔截在上呼吸道，最後病毒進入肺臟，他因肺炎重症死亡。
+
+T cell immunity比B cell產生的Neutralizing antibody更有用的原因是T cell receptor能辨識Non-self antigen (非我族類的抗原)而讓T cell活化，並分泌Cytokines把B cell、T cell、Dendritic cell、Macrophage、Fibroblast帶到被感染的上呼吸道，這層級已經遠遠超越Neutralizing antibody了。幾個狙擊手(Neutralizing antibody)是無法在大兵團作戰中發揮功能的。
+
+國藥(Sinopharm)與科興(SinoVac)的滅活疫苗(BBIBP-CorV與CoronaVac)先後被WHO認證為緊急使用疫苗，台灣的高端與聯亞做Subunit疫苗想Bypass三期臨床試驗，前景堪慮。 https://reurl.cc/Q92Djq
+
