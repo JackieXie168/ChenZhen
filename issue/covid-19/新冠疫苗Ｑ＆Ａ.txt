@@ -4344,6 +4344,575 @@ https://tinyurl.com/2p8at8jz
 
 ───────────────────
 
+訪客 於 2021/12/05 10:52
+
+如果Omicron在演化上趨向流感病毒並與人類細胞更接近，其對人體的影響也將變得更像一般流感？謝謝
+
+Omicron持續擴散累計43國！ 竟含感冒病毒！恐大幅增加傳染力
+https://tinyurl.com/8avp48dd
+
+─────────────
+
+版主認為，SARS-CoV-2最後會突變成Inactive mutant消失，或Non-pathogenic mutant--跟其它Coronavirus(CoV)一樣，下一次CoV大流行可能在50或100年後。原因是Influenza virus RNA genome是8 segment RNA，CoV genome是一條2.9 Kb RNA。Influenza virus RNA genome容易重組，CoV genome極難重組。
+https://wleemc.pixnet.net/blog/post/120490984
+wleemc 於 2021/12/05 18:01 回覆
+
+───────────────────
+
+訪客 於 2021/12/05 14:43
+
+請教版主，翁啟惠的去醣化mRNA的意思
+
+─────────────
+
+把Spike protein上與Glycan接合的胺基酸用Site-directed mutagenesis突變成無法接Glycan的胺基酸。
+wleemc 於 2021/12/05 18:03 回覆
+
+───────────────────
+
+訪客 於 2022/05/03 17:09
+
+教授：
+請問您認為，我們有這個條件學國外搞共存嗎？
+因上海封城的作法，今日確診數已降到5000+了
+https://tinyurl.com/mr36zc88
+
+─────────────
+
+可以搞共存，但要有心理準備，台灣會死亡0.02-0.04%的人口，相當於一年流感死亡的人數。如果你不曾擔心流感死亡，就不用擔心新冠死亡。
+wleemc 於 2022/05/03 17:19 回覆
+
+───────────────────
+
+訪客 於 2022/05/02 18:22
+
+請問教授，
+病毒侵犯呼吸道黏膜淺層或深層的細胞決定的因素是什麼?如果有人只侵犯到淺層細胞，然後又形成類似共生病毒狀態，那他會不會成為長期會傳染別人的帶原者?謝謝
+
+─────────────
+
+1. 決定的因素是免疫系統基因的多樣性。
+2. 病毒會與某些人共生，HBV與HCV即是。
+wleemc 於 2022/05/02 19:23 回覆
+
+───────────────────
+
+訪客 於 2022/05/02 20:36
+
+請問教授，
+決定的因素是免疫系統基因的多樣性。
+
+免疫系統基因的多樣性越多，是不是越能將病毒擋在越表層，越能以無症狀表現嗎？
+這個免疫系統是指Natural Ab 和NK cell嗎？謝謝
+
+─────────────
+
+Natural Ab 和 NK cell，加上CTL的辨識度，三者都因人而異。NK cell與CTL猶如狙擊手，如果NK cell能殲滅病毒，就用不到CTL，如果CTL能殲滅病毒，就用不到CD4+ T cell。CD4+ T cell參與越少，症狀越輕微。
+wleemc 於 2022/05/03 08:23 回覆
+
+───────────────────
+
+訪客 於 2022/05/03 08:34
+
+教授早安：有一說法，打疫苗的人如果再次感染，病毒會進入巨噬細胞及單褐體細胞繁殖，會很慘，登革熱也是類似這樣
+那沒打疫苗的人，如果再次感染，不會有上述問題，對不對？
+謝謝回覆
+
+─────────────
+
+新冠病毒是是組織感染，不會有ADE，即使有，Macrophage很快就會回復常態。
+https://wleemc.pixnet.net/blog/post/121095866
+https://wleemc.pixnet.net/blog/post/121127134
+wleemc 於 2022/05/03 13:00 回覆
+https://tinyurl.com/5xd7x6f7
+
+───────────────────
+
+訪客 於 2022/04/29 06:31
+
+SARS-CoV-2 vaccination can elicit a CD8 T-cell dominant hepatitis
+https://www.journal-of-hepatology.eu/article/S0168-8278(22)00234-3/fulltext
+
+請問這篇文章和版主說的 CTL 對自體細胞攻擊是同一件事情嗎？
+
+─────────────
+
+是的。CTL即CD8+ T cell。
+wleemc 於 2022/04/29 06:40 回覆
+
+───────────────────
+
+訪客 於 2022/04/29 08:49
+
+請問版主：記憶型T細胞是如何運作的？打疫苗對記憶型T細胞有幫助嗎？
+Memory T cell需要特殊的Transcription factors(許多種)表現特殊的Cell membrane proteins(Markers)才會Homing to T cell zone of lymphoid tissues。
+
+─────────────
+
+打疫苗只能產生辨識Spike protein為外來抗原的Memory T cell。新冠病毒有20~種蛋白，自然感染可產生 "許多種" 辨識新冠病毒為外來抗原的Memory T cell。
+wleemc 於 2022/04/29 09:24 回覆
+
+───────────────────
+
+智聰陳 於 2022/03/29 19:01
+
+請問 如果沒有打針但感染了病毒 康復後會不會跟打（滅活疫苗）一樣的結果呢？
+
+─────────────
+
+如果你25歲，原則上，99.99%的機率，感染後會完全康復。如果你是0.01%的例外，打疫苗會增加感染機率，而且一旦感染，必然是重症，若僥倖活下來，肺部可能會有嚴重的纖維化。
+wleemc 於 2022/03/29 19:55 回覆
+
+───────────────────
+
+訪客 於 2022/03/29 22:28
+
+如果這例外還打了疫苗，正好是版主的病人，看診中確定會往呼吸道重症發展，或者在過程中快速轉為呼吸道重症。
+
+若死馬當活馬醫，盡人事給予藥物治療，版主認為最佳的可行投與藥物為何？
+
+
+
+wleemc 於 2022/03/29 19:55 回覆
+如果你25歲，原則上，99.99%的機率，感染後會完全康復。如果你是0.01%的例外，打疫苗會增加感染機率，而且一旦感染，必然是重症，若僥倖活下來，肺部可能會有嚴重的纖維化。
+
+─────────────
+
+https://www.nejm.org/doi/full/10.1056/NEJMoa2021436
+wleemc 於 2022/03/29 22:47 回覆
+
+───────────────────
+
+智聰陳 於 2022/03/29 22:41
+
+打科興滅活疫苗也會重症嗎？它不會像mRNA這麼多副作用？
+
+─────────────
+
+打科興滅活疫苗也會重症嗎？
+Ans: 如果你25歲，且是例外的0.01%，打科興滅活疫苗會增加感染機率，一旦感染，註定會演變成重症。
+
+科興滅活疫苗沒有mRNA疫苗的Autoimmune CTL效應，沒有ds DNA插入染色體的效應，沒有終身表現Spike protein的效應，沒有Prion-like protein聚集的效應。
+wleemc 於 2022/03/29 22:52 回覆
+
+───────────────────
+
+智聰陳 於 2022/03/29 23:00
+
+還未變重症的是因為每個人時辰不同？？
+
+─────────────
+
+因為 Innate immunity 夠好
+wleemc 於 2022/03/29 23:03 回覆
+
+───────────────────
+
+智聰陳 於 2022/03/29 23:14
+
+那就不是必然和注定是重症啦？
+
+─────────────
+
+Innate immunity 夠好，就不會感染，但會越過Innate immunity才叫致病病毒，一旦感染，你若是0.01%的例外，註定會演變成重症。如果新冠病毒對你不是致病病毒，你永遠不會被感染。
+
+https://www.chinatimes.com/realtimenews/20220319003566-260405?chdtv
+wleemc 於 2022/03/29 23:26 回覆
+
+───────────────────
+
+訪客 於 2022/03/31 00:19
+訪客
+可以將版主最新回覆的「 重症用 IV Arithromycin + PPI(nexium)」視為先前諸多重症留言回覆的Dexamethasone及其他說法的修訂最終定板重症照護基本用藥指南嗎？
+
+
+wleemc 於 2020/03/27 12:32 回覆
+Azithromycin對COVID-19也會有效, 機轉很有趣, 事實上, 實驗室用來抑制V-type ATPase的Macrolide antibiotics是Bafilomycin及Concanamycin A, 結構與Erythromycin也很像, 但Bafilomycin及Concanamycin A對V-type ATPase抑制太強(100% inhibition), Endosome及Lysosome都受影響, 副作用太大, 不能拿來當藥吃, Erythromycin則不同, 它對V-type ATPase只有20-30%的抑制效果, 只影響Endosome pH, 不影響Lysosome pH, 因此Arithromycin與HCQ併用可經由提升Endosome pH來抑制病毒自Endosome釋出RNA至Cytosol.
+
+版主則建議COVID-19輕症用 Oral Erythromycin + PPI, 重症用 IV Arithromycin + PPI.
+HCQ用來治療COVID-19, 200 mg TID 的副作用並非人人能忍受.
+
+
+wleemc 於 2022/03/29 22:47 回覆
+https://www.nejm.org/doi/full/10.1056/NEJMoa2021436
+
+
+訪客 於 2022/03/29 22:28
+如果這例外還打了疫苗，正好是版主的病人，看診中確定會往呼吸道重症發展，或者在過程中快速轉為呼吸道重症。
+
+若死馬當活馬醫，盡人事給予藥物治療，版主認為最佳的可行投與藥物為何？
+
+
+wleemc 於 2022/03/29 19:55 回覆
+如果你25歲，原則上，99.99%的機率，感染後會完全康復。如果你是0.01%的例外，打疫苗會增加感染機率，而且一旦感染，必然是重症，若僥倖活下來，肺部可能會有嚴重的纖維化。
+
+
+wleemc 於 2022/03/16 20:35 回覆
+呼吸道病毒引發的「重症」沒有藥可治療。
+
+
+訪客 於 2022/03/16 14:43
+版主的Nexium 與Erythromycin是良心醫德好藥，這是無庸置疑的！
+
+但所謂"無藥可治"如果是真的，就不會有上面這句話被留言在這兒給版主看了…
+
+按藥理的不可救藥，不等於一條待救的命無藥可治 - 兩者的間距是救人一命的決心！
+
+
+
+wleemc 於 2022/03/16 08:30 回覆
+呼吸道病毒引發的重症沒有藥可治療，T cell immunity若圍堵不住病毒，病人必死，若沒死，活下來肺纖維化也非常痛苦。只有在鼻咽喉黏膜淺層攔截病毒才能防止重症及死亡。最好的藥是Nexium 與Erythromycin在鼻咽喉阻擋病毒複製。
+
+─────────────
+
+病毒引發的肺炎重症，只要能防止Cytokine的外溢效應(Cytokine release syndrome=Cytokine storm)擴大，就有機會活下來，其它藥物治療效果十分有限，如果抗病毒藥物有效，香港就不會死那麼多人。香港死亡人數超過總人口0.05%，原因是疫苗破壞免疫系統，尤其是老人的免疫功能只剩三成，再減少5-10%就不夠用了。
+wleemc 於 2022/03/31 08:15 回覆
+
+───────────────────
+
+訪客 於 2022/03/31 05:41
+
+版主您好，本人在去年八月中打完第二針BNT疫苗後，去年9月底曾劇烈胃痛一個月，十一月檢查出喉嚨長了會厭囊腫，有可能是疫苗造成的嗎？另外，請問五年、十年後，身體可能會面臨哪些疫苗造成的副作用？本人是25歲女性。
+
+─────────────
+
+請問五年、十年後，身體可能會面臨哪些疫苗造成的副作用？
+Ans: 只能聽天由命，新冠疫苗的傷害擴及全身器官，傷害程度因人而異。如果你發生早年失智，只能認命。
+wleemc 於 2022/03/31 08:18 回覆
+
+───────────────────
+
+訪客 於 2022/03/31 07:49
+
+成人T cell receptor的基因重組已被上帝鎖死。
+所以舉凡“各種”過去嬰幼兒時期已接種過的疫苗，如今身上都沒有抗體，也不需要再補打任何疫苗，這理解對嗎？
+
+─────────────
+
+成人不需要補打任何疫苗。
+wleemc 於 2022/03/31 08:18 回覆
+
+───────────────────
+
+訪客 於 2022/03/31 11:03
+
+版主好!
+
+在微博上看到一篇文章，作者背景"HIV & COVID-19 viral immunologist in SF. Former postdoc fellow at NIH and Harvard. Empower the public with scientific data and hard evidence. Views are my own."。
+
+以下是他關於Ba.2的文章，也想請問版主的看法，謝謝!
+--文章轉貼--
+我理解更多人关心政策，因为我一讨论病毒学许多人就用政策回应我，但从病毒学和流行病学角度考虑，Omicron BA.2（奥米克戎）已经不是同一种病毒了，这对于所有处于疫情之中的大众而言，都是个关键信息。知己知彼，百战不殆。忽视病毒的本身属性的防疫战斗是盲目的。
+
+我从11月底开始研究Omicron病毒学和免疫学，已经研究了整整4个月，我还转评了几百篇Omicron的顶级期刊文献。虽然从病毒学分类角度这么说不严谨，毕竟目前的5种VOC突变株都是SARS-CoV-2 B.1谱系病毒，但我们从实验设计角度都认为Omicron这个病毒和其他SARS-CoV-2已经完全不是同一种病毒，因为它的病毒特性尤其决定其感染和传播能力的S蛋白特征、血清学特征及免疫逃逸、传播能力、致病性、临床表现和流行病学特征已经和2020年初武汉流行的新型冠状病毒SARS-CoV-2野生型完全不同了。
+
+就像我上条微博中说的，Sutter Health估计Omicron传播系数R0=7.0，因而推算出BA.2的R0高达9.1，而野生型R0=2.79。R0=9.1意味着在无防疫措施的情况下，一个人可以传播给9个人，结合潜伏期3天，倍增时间（doubling time）2-3.3天，因此无疫情防控措施该突变株可见指数型增长。但目前上海和全国的增长被没有呈现指数型增长，说明在防疫措施和各种因素的作用下，病毒实际传播系数Rt很低。因此从这个角度来看上海和全国的防疫措施都是奏效的。
+
+我说Omicron已经是一种新病毒，是因为BA.1 R0=7.0，使Omicron的传播系数达到了高传染性的腮腺炎的水平。但是腮腺炎疫苗接种可以起到持久免疫的作用，而Omicron却可以发生免疫逃逸，它和疫苗所使用的SARS-CoV-2原始野生型的血清学特征完全是截然不同的两个病毒，这是因为Omicron S蛋白上有32个突变。所以Omicron相较于原始野生型，相当于发生了抗原漂移（antigen drift）的两种不同血清型的流感病毒。
+
+Omicron在很多国家引起的主要是无症状感染，在南非85.3%感染是无症状感染；在疫苗接种率较高的英国其病死率已经低于流感（微博正文），而两年前，SARS-CoV-2原始野生型造成的病死率是流感的34-68倍（微博正文）。另外Omicron具有明显的鼻嗜性，缺乏肺嗜性。因此，这些再次印证了虽然Omicron和SARS-CoV-2原始野生型，引起的是两种不同疾病。
+
+所以上条微博中，认为对待R0=2.79和9.1，病死率差距几十倍的两种病毒采取同样的公共卫生方法显然是没有看到敌我两方中敌方的发展和变化。虽然上文中我说目前的公共卫生方法奏效，但随着R0上升，它的代价也越来越高。另外我之前说过，严格的lockdown方法应对R0超过9的病毒会遇到挑战，这种方法会使病毒感染者数量不会出现指数型激增，但也不会迅速形成免疫屏障从而出现拐点，因此这种日增感染会持续。
+
+最后，疫情已经进入第三年了，还是希望很多大家能记住一些流行病学基本概念比如R0，从而对疫情有自己的判断。而不是仅仅看了更多公众号和微博的疫情相关时政文章。
+
+Science is to empower the public, misinformation is to drive a wedge within the public — 子陵在听歌
+
+─────────────
+
+RNA editing對大多數醫師及防疫專家都是陌生的概念。版主認為Omicron "主要" 來自SARS-CoV-2 "原始野生型" 經由人類細胞RNA editing的作用衍生出來。如果人類沒打新冠疫苗，Omicron對大多數人類可能在Innate immunity (Natural antibody + NK cell) 階段就被清除。打疫苗降低Innate immunity，造成Innate immunity不易清除Omicron病毒，於是如上文所述，Omicron傳播速度(R0>7)較原始病毒(R0=2.8)快。對華人而言，版主推測 Omicron 的特性如下：
+1. Omicron對沒打疫苗的人是非致病病毒，Innate immunity即可清除。
+2. Omicron對打過疫苗的人仍有致病性，因為病毒會穿越Innate immunity，CTL必須接招，天生沒有抗新冠CTL的人，容易引發肺炎重症；老人抗新冠CTL若降低(或因打疫苗而降低)，感染Omicron也容易引發肺炎重症。
+
+以上1. 2. 可解釋香港新冠疫情造成死亡人數已大於總人口的0.1%。武漢及萬華的死亡率是0.04%。
+
+Innate immunity就像水一般重要，重要到你每天喝水卻不知水很重要！你不常生病，是因為Innate immunity讓你遠離身旁的細菌與病毒。
+打新冠疫苗會降低Innate immunity：
+https://wleemc.pixnet.net/blog/post/121344170
+wleemc 於 2022/03/31 12:39 回覆
+
+───────────────────
+
+訪客 於 2022/03/31 21:28
+
+Prion diseases are transmissible but not contagious: no risk to carers or partners. They are not sexually transmissible and there is no evidence to date for maternal transmission
+這段話說Prion蛋白不具傳染性（只在kuru或accidental inoculation看到）不會經由性行為傳染，也不會經由胎盤傳給胎兒
+請問版主的看法 謝謝
+
+─────────────
+
+透過Exosome就可以。搜尋「Prion Exosome」便知。
+大部分的醫師不知道Exosome是甚麼。
+wleemc 於 2022/03/31 22:02 回覆
+
+───────────────────
+
+訪客 於 2022/03/31 22:09
+
+請教版主吃耐適恩+紅黴素後排便變恨順暢的原因大概是什麼？
+
+月中的時候感覺要長唇皰疹，先吃了兩次耐適恩+紅黴素，唇皰疹就沒長出來。不過至今排便都很順暢，一天1-3次（非水瀉）。在這之前偶爾會便秘、偶爾會腹瀉。
+
+平常是否應該補充益生菌，或是是否可以日後便秘時再吃耐適恩+紅黴素幫助排便？
+
+謝謝版主
+
+─────────────
+
+紅黴素會刺激某些人的腸道蠕動。
+
+吃益生菌OK
+
+耐適恩+紅黴素沒病不要隨便吃，兩藥都會抑制Vacuolar-type ATPase，引起Lysosome stress及ER stress，抗病毒作用會產生Reactive oxygen species，對身體不好。
+wleemc 於 2022/03/31 22:19 回覆
+
+───────────────────
+
+布魯斯威利罹患失語症，將退休 於 2022/04/01 08:50
+
+
+布魯斯威利罹患失語症，將退休
+
+─────────────
+
+只要你想到一個打新冠疫苗之後產生的疾病，醫學期刊都有病例報告。
+Aphasia seven days after second dose of an mRNA-based SARS-CoV-2 vaccine
+https://pubmed.ncbi.nlm.nih.gov/34192245/
+
+Aphasia 失語症
+wleemc 於 2022/04/01 13:32 回覆
+
+───────────────────
+
+J2906 於 2022/04/02 11:25
+
+請問版主：
+
+Innate immunity 是否像 CTL 一樣，需要能夠識別抗原，才有效果？
+不同個體之間的 Innate immunity 能力，是否因為基因重組而不同？在成年前後是否有明顯區別？
+mRNA 疫苗的「Autoimmune CTL 效應」，是否有論文/醫學期刊探討？
+
+謝謝！
+
+─────────────
+
+Innate immunity主要是Natural antibody/complement (Ab/C)與Natural killer cell (NK cell)，識別作用猶如步兵，打不準，但100個步兵一起朝目標開槍，威力也很強。CTL用TCR識別peptide-HLA(I)，識別作用猶如狙擊手。
+
+Natural antibody由B1b cell產生，在骨髓發育時有Immunoglobulin Heavy chain VDJ/Light chain VJ 基因重組，複雜度超過10的10次方。
+
+mRNA 疫苗的「Autoimmune CTL 效應」
+心肌炎，腎炎，腦炎，肝炎，胰臟炎，血管炎，肺間質纖維化，都是Autoimmune CTL attack引起，這是Basic immunology，我不知道你需要怎樣的期刊？你隨便搜尋一個疾病如Carditis, CTL, COVID vaccine就會有許多期刊，如
+https://www.tandfonline.com/doi/pdf/10.1080/14779072.2022.2044305
+wleemc 於 2022/04/02 11:58 回覆
+
+───────────────────
+
+J2906 於 2022/04/02 13:56
+
+感謝版主回答。
+
+版主回答了 Innate immunity 與 CTL 之間的區別，不過相對於 CTL 來自遺傳基因與成年前的基因重組，更想知道個體之間的 Innate immunity 差異來自何處？
+
+不考慮打疫苗降低 Innate immunity 的前提下，哪些人的 Innate immunity 會比較容易被 Covid-19 突破？
+
+只要 Innate immunity 夠強，即使是缺乏針對 Covid-19 的 CTL 的人，也不須要擔心染疫，可惜沒辦法檢測個體的 Innate immunity 對 Covid-19 的抵抗能力... 除了保持適量運動，飲食作息正常，好像也沒辦法去強化 Innate immunity 的樣子...
+
+心肌炎和心包炎是常見的 mRNA 疫苗副作用，醫界與藥廠都有承認是由疫苗引起的。但不知道醫界與藥廠是否認同「導致心肌炎和心包炎的機轉屬於 Autoimmune CTL」？
+
+─────────────
+
+個體之間的 Innate immunity 差異來自何處？
+A: 來自染色體DNA內32億對鹼基的差異，就像有人能當學霸，有人能拿奧運金牌。你不可能叫學霸去拿奧運金牌，奧運選手也很少是天生的學霸。
+
+哪些人的 Innate immunity 會比較容易被 Covid-19 突破？
+A: 老人，有慢性病的人，先天Innate immunity差的人。
+
+導致心肌炎和心包炎的機轉屬於 Autoimmune CTL--->這是Basic Immunology，但mRNA疫苗施打前，全球醫界知道這項Basic Immunology的人不多。版主在疫苗施打前就寫過好幾篇文章寫mRNA疫苗會引發Autoimmune CTL attack。
+wleemc 於 2022/04/02 14:15 回覆
+
+───────────────────
+
+訪客 於 2022/04/03 10:57
+
+版主，您好。感謝您的分享~~
+
+知道疫苗的諸多副作用，以及很多人親身分享眾多案例~
+
+有一點很困惑，疫苗會降低人的自然免疫力（很多有輕重不一的症狀），但還是很多人打了三劑疫苗，確又突破感染了Omicron病毒，有人尚可無症狀感染或很輕的輕症，這是什麼樣的機轉可達到，或因O病毒的毒性真的不強？另再多劑疫苗後感染O病毒痊癒後，免疫系統可能有什麼樣的轉變？？感謝！！
+
+─────────────
+
+若人類沒打疫苗，且Innate immunity夠好，Omicron對這些人應該是非致病病毒。打疫苗破壞Innate immunity，Innate immunity破壞至某個程度(因人而異)，Omicron便不再是非致病病毒，病毒突破Innate immunity，CTL必須出來應戰，若T cell immunity能將病毒局部化，就是輕症或無症。病毒突破Innate immunity，若沒有CTL及CT4+ T cell能辨識Omicron 為外來抗原，就會發生重症。如果你有這樣的CTL及CT4+ T cell，Omicron對你永遠只是輕症或無症。如果你沒打疫苗，Omicron很難突破Innate immunity。打越多劑疫苗，Innate immunity損失越多，越容易感染Omicron。台灣於2020年很容易維持每日零確診，現在77%的人打完兩劑疫苗，零確診已經回不去了。中國大陸也面臨同樣的問題。
+wleemc 於 2022/04/03 17:09 回覆
+
+───────────────────
+
+訪客 於 2022/04/03 17:53
+
+https://youtu.be/gm2Vk9Y4yeQ
+這位醫生說ppi長期增加新冠風險，跟教授提到的輕症短期可用耐恩適＋抗生素，是不是不一樣？
+
+─────────────
+
+完全不一樣。我反對長期服用PPI來治療胃食道逆流及消化性潰瘍。Nexium或Erythromycin單獨使用，抗病毒效果不好。
+wleemc 於 2022/04/03 18:33 回覆
+
+───────────────────
+
+訪客 於 2022/04/03 20:17
+
+中國大陸也面臨同樣的問題。
+教授：中國大陸不是打科興或國藥（滅活疫苗），這兩種也把中國大陸人的免疫力打弱了，這樣理解對嗎？
+
+─────────────
+
+成人打疫苗，不僅沒用，還可能破壞免疫系統，Omicron流行，中國大陸清零越來越困難。台灣也一樣。
+wleemc 於 2022/04/03 21:17 回覆
+
+───────────────────
+
+#48 給妙音 於 2022/04/04 14:28
+
+https://t.me/VigilantFox/3742
+
+Robert Malone轉念了喔，Bobby Kennedy Jr就是指children health defense的Robert Kennedy Jr.
+
+Dr. Malone: If There's Anybody That Deserves the Nobel Peace Prize, It's Bobby Kennedy Jr.
+
+"I think there's a good chance [Bobby is right]. As a vaccinologist, I'm embarrassed now to learn what the actual data are about the efficacy of vaccines and what has really caused the decline in infectious disease in children. The data are quite clear. That decline basically parallels the improvement in sanitation prior to the implementation of the vaccines for almost all of these pediatric diseases. And if I live long enough, I suspect that we're going to see Bobby Kennedy totally vindicated."
+
+───────────────────
+
+訪客 於 2022/04/05 11:08
+
+教授：#48寫的是什麼意思？
+
+─────────────
+
+Bobby Kennedy反對注射新冠疫苗。
+兒童感染率低是因為衛生習慣好，例如兒童會遵守老師的規定，戴口罩、勤洗手。
+wleemc 於 2022/04/05 11:43 回覆
+
+───────────────────
+
+e:#52 於 2022/04/05 12:24
+
+Bobby Kennedy 反對所有疫苗，他常會爆料Bill gates以往在非洲印度等第三世界國家拿人家做疫苗實驗的事情，所以非洲人受夠了，不會再信這些新冠毒針，施打率很低。
+Robert Malone應該講的是除了新冠疫苗以外的其他疫苗，連他是疫苗學家過往專門研發疫苗的，都很慚愧原來自己以前以為疫苗助人，但是其實疫苗沒有用。
+
+─────────────
+
+1. 學齡前打疫苗才有用。
+2. 疫苗研發至少需十年，嚴重不良副作用必須小於50萬分之一。
+3. 成人不能打疫苗，打越多疫苗，平均壽命越短。
+wleemc 於 2022/04/05 12:40 回覆
+
+───────────────────
+
+哈利 於 2022/04/07 08:25
+
+請問版主: Nexium + Erythromycin(or日舒) 這個藥方可用於(IgA腎病變)的人身上嗎? 有親戚想要備藥，但是有此病又會擔心。
+
+─────────────
+
+發燒、全身酸痛、有死亡預感又沒藥可吃時，再看看吧！
+wleemc 於 2022/04/07 08:32 回覆
+
+───────────────────
+
+訪客 於 2022/04/09 13:51
+
+「Nexium 40mg 1# + Erythromycin 500 mg 早晚各吃一次，吃三天。」
+請問教授「1#」是什麼意思？
+
+另外70~75歲有慢性病的老人也適用這個處方籤嗎？
+還是要換成日舒錠(Azithromycin)？
+
+如果老人有慢性病也適用這個處方籤，慢性病藥如高血壓可以一起服用嗎？還是要分開吃？
+
+謝謝。
+
+─────────────
+
+1# 是指一顆
+
+要不要換成Azithromycin，請自行決定。
+
+有感冒症狀，感覺嚴重時，先吃Nexium/Erythromycin，再吃其它藥，間隔多久，請自行決定。
+wleemc 於 2022/04/09 14:43 回覆
+
+───────────────────
+
+訪客 於 2022/04/29 06:31
+
+SARS-CoV-2 vaccination can elicit a CD8 T-cell dominant hepatitis
+https://www.journal-of-hepatology.eu/article/S0168-8278(22)00234-3/fulltext
+
+請問這篇文章和版主說的 CTL 對自體細胞攻擊是同一件事情嗎？
+
+─────────────
+
+是的。CTL即CD8+ T cell。
+wleemc 於 2022/04/29 06:40 回覆
+
+───────────────────
+
+訪客 於 2022/05/03 12:57
+
+請問教授，
+您說反對長期服用PPI來治療胃食道逆流及消化性潰瘍。
+請問治療胃食道逆流及消化道潰瘍有什麼好方法呢？謝謝
+
+─────────────
+
+管好腸氣、糞便、腸道細菌，就能治好九成以上的胃食道逆流及消化性潰瘍。
+wleemc 於 2022/05/03 13:04 回覆
+
+───────────────────
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
