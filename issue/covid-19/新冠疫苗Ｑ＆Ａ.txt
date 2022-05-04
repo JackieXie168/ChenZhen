@@ -1556,6 +1556,93 @@ wleemc 於 2021/09/24 20:27 回覆
 
 ──────────────────────────────
 
+訪客 於 2022/01/11 03:30
+
+Hi 教授請問
+
+非洲大部分什么疫苗、口罩、醫療資源都沒有，他們病例這模少，人口結構為金字塔狀，是否跟其基因也有關。
+
+另外，中國武漢時期還有中醫介入治療使用清肺排毒湯，網上搜到歐美打壓早期治療方案，就是為了方便推疫苗，瑞德西韋副作用大，所以造成死亡數巨大，未來世界會不會對西藥失去信心，還是政客加緊利用醫療來控制社會，您怎么看
+
+─────────────
+
+1. 人類對抗病毒是數萬年的基因篩選，非洲人可能經由另一病毒的篩選，也適用於新冠病毒。
+
+2. 任何藥物都無法對抗全球性的病毒大流行，包括西藥。病毒其實很脆弱，當在人類找不到宿主時，流行就會中止，病毒會突變流向野生動物，不再感染人類。流感病毒就是這樣在人類與野生動物之間每年循環。流感病毒的RNA是8個小Segment，重組容易，可以每年重返人類。新冠病毒是一條29000個鹼基的RNA，下一次大流行可能要等數十年或數百年之後。
+wleemc 於 2022/01/11 08:26 回覆
+
+──────────────────────────────
+
+妙音 於 2022/01/14 12:07
+
+教授您估計的0.5% 應該是針對未打疫苗的人口？我擔心，現在很多國家都打了七八九成，我們整體的免疫系統已經受到傷害。而另一方面，新冠病毒也會感染動物。想請問教授，未來是否可以預見，在動物身上演化出的變種病毒又傳染給人，一個整體免疫不如從前的群體，到時的傷亡，是否就可能超過0.5%？謝謝您。(Re: #6,#9,#11)
+
+─────────────
+
+新冠病毒是人類面對病毒大流行，致死率較小的一次。1918年西班牙流感，全球死亡率2%，約5000萬人死亡，在沒有疫苗情況下，病毒兩年後自然消失。
+wleemc 於 2022/01/15 08:56 回覆
+
+──────────────────────────────
+
+#15 請教版主 於 2022/01/14 12:23
+
+In its Week 42 “COVID-19 vaccine surveillance report,” the U.K. Health Security Agency admitted on page 23 that “N antibody levels appear to be lower in people who acquire infection following two doses of vaccination.” It goes on to explain that this antibody drop is basically permanent.
+(N antibody=anti-nucleocapsid Antibody)
+
+What does this mean? 
+
+https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1027511/Vaccine-surveillance-report-week-42.pdf
+
+─────────────
+
+Vaccinated people failed to develop B cell-coupled Th2 that recognizes nucleocapsid (N) as a foreign antigen and helps corresponding B cell produce anti-N antibody.
+wleemc 於 2022/01/14 21:42 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/14 16:13
+
+請問教授：這波o毒傳染得蠻快的 ，是不是這些確診者的身體被之前打的疫苗，把身體的抵抗力打差了 ？(否則傳播速度怎麼會這麼快 ？（人類的愚蠢自做孽）
+
+─────────────
+
+有此可能。
+wleemc 於 2022/01/14 21:45 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/14 21:25
+
+以色列免疫學家終於也出來講話了
+https://www.zerohedge.com/covid-19/doomed-fail-top-immunologist-blasts-global-covid-response-driven-false-propaganda
+
+──────────────────────────────
+
+請教版主 於 2022/01/15 09:43
+
+original antigenic sin這個說法您怎麼看？
+
+─────────────
+
+Original antigenic sin是說原本對抗武漢原始病毒Spike protein的Neurtalizing Ab1，遇到Delta or Omicron就只是Binding antibody，沒有Neutralizng作用，反而佔據因自然感染Delta or Omicron而產生的Neutralizing Ab2的Epitope(抗體結合的部位)，使Neutralizing Ab2失效。這種理論太強調Neutralizing Ab的功能，真實的Innate immunity還包括Natural Ab + NK cell + RNA editing。
+
+人一生中會罹患數十次流感，只有極少數人會發生肺炎重症，T cell immunity 扮演關鍵性的角色。
+wleemc 於 2022/01/15 10:41 回覆
+
+──────────────────────────────
+
+#15 於 2022/01/15 11:53
+
+打兩劑仍感染並且顯示難以對nucleocapsid (N)生成抗體者，本來就是屬於那0.5%無法辨識新冠病毒為外來抗原的人嗎？
+
+─────────────
+
+不是！
+正常情況下，95%以上的人(可能高達99%)感染新冠病毒後，會有T cell辨識N為外來抗原而活化，Th2/Tfh活化B cell產生Anti-N Ab。那麼多打兩劑仍感染，且無法產生大量Anti-N Ab，奇怪在此。即使打兩劑以Spike protein為抗原的疫苗，發生突破感染也應該有九成以上的人會產生大量Anti-N Ab。
+wleemc 於 2022/01/15 12:49 回覆
+
+──────────────────────────────
+
 訪客 於 2022/02/12 21:55
 
 教授好，
@@ -1565,6 +1652,598 @@ wleemc 於 2021/09/24 20:27 回覆
 
 適不適合做疫苗，因病毒而異。如果人類有5%的人得麻疹會死亡，趁小時候Thymus還在時打疫苗，可將抗麻疹病毒T cell immunity提升至99.9%，這樣的疫苗就是有用的疫苗。如果99.99% 50歲以下的華人天生就有抗新冠病毒的T cell immunity，靠打疫苗產生抗體，當病毒發生變異後，抗體就會沒用，反而是天生的T cell immunity有用，打疫苗反而會被副作用及後遺症搞死。
 wleemc 於 2022/02/12 22:14 回覆
+
+──────────────────────────────
+
+#15 於 2022/01/15 13:08
+
+所以巴克迪教授說的，T cell表現spike protein在胞膜引發其他T celL辨識出是敵人而自相殘殺，是不是有這個可能性了？
+
+─────────────
+
+已知CTL不會攻擊表現外來抗原的Antigen-presenting cell (Macrophage, Dendritic cell, B cell)
+
+CD4+ T cell表現外來抗原會不會被CTL(CD8+ T cell)攻擊? 目前只有HIV-infected CD4+ T cell有研究，答案是 "會"。 
+
+CD4+ T cell 表現Spike protein會不會被CTL(CD8+ T cell)攻擊? 應該有人正在研究，如果 "會"，那就麻煩了，怪不得AZ、Moderna、BNT、高端疫苗死亡率那麼高 。Spike protein可能會促使CTL攻擊CD4+ T cell。
+wleemc 於 2022/01/15 13:36 回覆
+
+──────────────────────────────
+
+#15 於 2022/01/15 13:49
+
+CTL(CD8+ T cell)表現外來抗原會不會被CTL(CD8+ T cell)自己攻擊自己弟兄? 
+這一點目前是否還沒有研究？
+因為如果有，會是人類史上第一次對嗎？
+
+─────────────
+
+目前只有HIV感染CD4+ T cell有這方面的研究，CTL會攻擊HIV-infected CD4+ T cell。
+
+目前沒有CD4+ T cell表現Spike protein遭CTL攻擊的文章。
+wleemc 於 2022/01/15 13:56 回覆
+
+──────────────────────────────
+
+請教版主 於 2022/01/15 14:04
+
+現在這麼多人打過這毒針，如果要檢驗: (1)Th(CD4+ T cell)表現外來抗原會不會被CTL(CD8+ T cell)攻擊 (2)CTL(CD8+ T cell)表現外來抗原會不會被CTL(CD8+ T cell)自己攻擊
+可以如何設計實驗？
+觀察哪些指標可以初步看出趨勢？？
+
+─────────────
+
+血液中淋巴球的比例，不同人，不同時間差異很大，大致約如下:
+CD4+ T cell: 30%
+CD8+ T cell: 20%
+NK cell: 15%
+B cell: 35%
+
+1. 用Anti-CD4, anti-CD8 antibody；從血液經由Flow cytometry分離CD4+ T cell及CD8+ T cell。
+2. 將CD4+ T cell 與 mRNA疫苗混合，讓CD4+ T cell表現Spike protein。
+3. 將CD8+ T cell用PHA及IL-2活化，看CD8+ T cell會不會毒殺CD4+ T cell。
+
+現在沒有方法知道疫苗怎樣影響CD4+ T cell，可以確信的是，打越多劑，身體損傷越大。
+wleemc 於 2022/01/15 19:50 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/16 16:18
+
+請問這波omicron的傳播，是傳播快，但症狀會較輕，是嗎？請問教授如和看待ㄋ？我們要如何因應ㄋ？謝謝您
+
+─────────────
+
+看美國每日死亡人數仍增加，可以推測，疫苗降低Innate immunity，造成感染人數爆增，但並不影響天生就有抗病毒T cell immunity的人。Omicron只是較易突破Innate immunity。
+
+備好Nexium + Erythromycin，其它順其自然。
+wleemc 於 2022/01/16 17:43 回覆
+
+──────────────────────────────
+
+請教版主 於 2022/01/16 22:40
+
+疫苗似乎降低innate immunity, CTL可能攻擊表現spike protein的NK cell?(前提是NK cell會表現spike protein)
+Natural Ab可能因為B cell被CTL 攻擊而減少嗎？
+
+─────────────
+
+影響層面可能超乎我們想像，一味把某種抗體提高，卻忽略免疫平衡，最後一定弊>>>>利。
+https://www.medrxiv.org/content/10.1101/2021.05.03.21256520v1
+wleemc 於 2022/01/17 20:35 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/17 17:14
+
+請問疫苗後遺症是要看免疫科嗎？
+
+─────────────
+
+皮膚過敏看皮膚科，胸悶先看心臟科，腹脹看胃腸科，手抖看神經內科。
+wleemc 於 2022/01/17 20:28 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/18 10:44
+
+The BNT162b2 mRNA vaccine against SARS-CoV-2 reprograms both adaptive and innate immune responses
+
+是指會讓先天性免疫變弱的意思嗎?，還是先天性免疫被後天免疫給取代，從而造成其他疾病的入侵?
+
+另外編程的意思是讓本來先天再來後天的機制受到影響對嗎?，也就是破壞自然的機制，使身體產生超過或是沒有必要的免疫反應是嘛?
+
+─────────────
+
+自然感染的免疫反應在局部，但疫苗打進人體會進入全身淋巴組織包括骨髓、淋巴結、脾臟，破壞免疫平衡。局部vs全身的差別。
+wleemc 於 2022/01/18 21:16 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/18 11:34
+
+不知抗細菌跟抗病毒的疫苗差在哪, 免疫系統只會攻擊病毒不會攻擊細菌?
+
+─────────────
+
+細菌的Innate immunity是Natural Ab + Neutrophil，病毒的Innate immunity是Natural Ab + NK cell。兩者的Adaptive immunity要靠外來抗原決定，原理都一樣，都是先將外來抗原局部化，然後再想辦法殲滅。
+wleemc 於 2022/01/18 21:10 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/18 19:58
+https://tinyurl.com/jn8jv88s
+
+請問一下版主，很多新聞說得了COVID的人無論輕重症有程度不一的後遺症，包含頭痛、記憶力變差、反應變慢等，最新國外研究又表示omicron變種病毒可能形成「腦霧」，請問為何發生在肺部的肺炎會為腦部帶來影響？
+
+─────────────
+
+只有延伸至氣管以下的重感冒或重症才會有Long COVID syndrome，一部分來自自體免疫，一部分來自Spike protein。打疫苗有0.1%的人會罹患Long COVID syndrome，一部分來自自體免疫，一部分來自Spike protein。
+wleemc 於 2022/01/18 20:47 回覆
+
+──────────────────────────────
+
+韋恩 於 2022/01/19 12:41
+
+請問沈富雄說打三針不如｢染Omicron誘發免疫力一勞永逸 篩陽也不通報｣，您覺得這有依據，真的是這樣嗎？
+
+─────────────
+
+不斷清零，等歐美及南亞人種用RNA editing把病毒突變成Inactive mutant，疫情自然就會中止。打疫苗抑制Innate immunity，可能是全球疫情延長的主因。
+wleemc 於 2022/01/19 14:30 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/19 14:18
+
+🇮🇱以色列四劑疫苗仍失敗官員道歉
+🚫承認疫苗護照對Omicron無效
+
+以色列承認錯誤: https://hankrs225.pse.is/3uajuj
+
+以色列防疫醫官公開道歉，這是官方身份的發言道歉。
+
+巴伊蘭大學免疫學系主任、以色列政府疫苗諮詢委員會成員西里爾·科恩教授弗雷迪·塞耶斯說:
+
+- 綠色通行證/疫苗護照概念在 Omicron 時代不再有意義，應該逐步淘汰（他預計在以色列很快就會取消）
+
+- 他和他的同事對疫苗沒有像他們最初希望的那樣阻止傳播感到驚訝和失望（真心？）
+
+- 以色列大流行的最大錯誤是關閉學校和教育——他為此道歉
+
+- 廣泛感染現在是未來免疫的不可避免的一部分——也稱為群體免疫
+
+- Omicron 已將大流行加速到流行階段，在此階段 Covid 將“像流感一樣”
+
+──────────────────────────────
+
+We  寄信給 We 於 2022/01/19 16:11
+
+https://www.youtube.com/watch?v=bnMMYJKZvnU
+李醫師是先知，最大的實驗場以色列領導人，已經承認了天然免疫的關鍵
+
+──────────────────────────────
+
+棘蛋白存在達四個月之久 於 2022/01/19 16:32
+
+The pathologists Prof. Dr. Arne Burkhardt and Prof. Dr. Walter Lang and their team have succeeded in reliably detecting the vaccine spike protein in the vessels of a person who died 4 months after "vaccination" and who had vascular lesions and also vaccine-induced myocarditis.
+https://pathologie-konferenz.de/en 
+https://t.me/Doctorsforcovidethics/194
+
+─────────────
+
+這不太可能。如果可能，代表人造的Pseudo-uridine-mRNA非常穩定，這很可怕，因為會直接影響生殖細胞。版主認為，可能性極低，若真的發生，將是白人的災難，台灣人也蒙受其害。
+wleemc 於 2022/01/19 21:01 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/19 16:39
+
+https://t.me/moralmedia/1411
+轉發被YouTube刪除的視頻：
+
+前世衛組織的副主席在歐盟會議上說話：
+
+歐洲藥品管理局承認他們不知道這些疫苗的成份，但卻授權他們使用這些疫苗。沒有接種和停止疫苗，疫情早就結束了！ 
+根據紐倫堡法典在內的國際條約中，完全不允許強制人對實驗性產品的接種，所以投票支持強制接種實驗性產品的議員，是可以在刑事法庭上跟國際法院被起訴的，罪名就是嚴重危害人類的生命。
+Former Vice President of the World Health Organization European Advisory Group of Experts in Immunisation Professor Christian Perronne has stated that "all vaccinated people must quarantine over the winter months or risk serious illness."
+https://bluecat.media/professor-christian-perronne-unvaccinated-people-are-not-dangerous-the-vaccinated-should-be-isolated/
+
+──────────────────────────────
+
+訪客 於 2022/01/19 22:43
+
+打疫苗在2年左右會出現腦神經病變，醫生已經開始，治療去年（2020）10月份打疫苗的人，後遺症很嚴重
+三思後行⋯⋯
+還沒打疫苗的人耐心看
+已打一針的更要看，
+已打兩針的看造化了！
+因為演變愈來愈複雜
+
+*很重要*~關係您的生命健康所以請“勿必聽完”
+
+翻譯~研究新冠疫苗諾貝爾獎得主的話。發明者勸不要施打~~~
+
+https://rumble.com/vkgj1l-mrna-.html
+
+──────────────────────────────
+
+Coyoter 於 2022/01/20 08:51
+
+今天很多媒體開始強調Omicron可能帶來「腦霧（Brain Fog）」後遺症。想請教版主：
+
+這個「腦霧」症狀，會是新冠病毒引起，還是Spike Protein引起機率比較高呢？
+
+與
+
+─────────────
+
+最可能是自體免疫引起，其次是Spike protein。
+wleemc 於 2022/01/20 13:01 回覆
+
+──────────────────────────────
+
+we  寄信給 we 於 2022/01/20 11:23
+
+李醫師，請教這麼看這個最新研究數據
+https://tinyurl.com/2p8d5ewf
+
+─────────────
+
+這不是版上早就寫過，大家早就知道的東西嗎？
+99.5%以上的歐美人種，天生就可把新冠病毒攔截在上呼吸道，疫情爆發兩年，歐美死亡總人數約0.3%。
+
+──────────────────────────────
+
+訪客 於 2022/01/20 13:28
+
+請教版主，今天這個新聞很奇怪，病毒要進入血液才會到腦，四分之一的比例未免太高了。
+
+Omicron多輕症沒在怕？四分之一染疫者出現「腦霧」症狀
+https://udn.com/news/story/121707/6046770?from=udn_ch2_menu_v2_main_index
+
+─────────────
+
+99%以上的人感染後自然好，沒病也不會去做篩檢。
+wleemc 於 2022/01/20 18:43 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/21 10:11
+
+請教教授，現在好像有研究說mRNA疫苗也可以產生T細胞免疫反應，但這種T細胞免疫反應應該只能針對S蛋白，滅活是否與之有異？
+https://tw.news.yahoo.com/t細胞抗omicron機轉-疫苗抗體有效嗎-專家說分明-090043494.html
+
+─────────────
+
+mRNA疫苗本來就可能針對抗原產生T cell immunity，打一劑，T cell immunity很弱，因為沒有真正的感染，打兩劑會提升T cell immunity，但其實不用打，自然感染就會產生T cell immunity。天生若有這樣的T cell，感染後都是輕症，天生若沒有這樣的T cell，打疫苗不會生出來(華人約0.01%天生沒有，約0.04%原本有，但因年邁而降低)。現在的mRNA疫苗，打進人體產生的抗原是Spike protein，當然也只會活化辨識Spike protein為外來抗原的T cell，台灣約有0.2%的人打AZ、Moderna、BNT、高端疫苗，不會產生T cell immunity。
+
+滅活疫苗含有Spike、Nucleocapsid、Membrane、Envelope四種抗原，對T cell活化效果較其它疫苗好。
+
+wleemc 於 2022/01/21 13:15 回覆
+
+──────────────────────────────
+
+#74 訪客 於 2022/01/21 10:46
+
+李醫師，請問打了兩劑az ，出現尾指三不五時會突然彎曲無法伸直，過幾分鐘才能恢復正常，請問有解嗎？謝謝
+
+─────────────
+
+無解
+wleemc 於 2022/01/21 13:17 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/21 12:44
+
+李醫生您好，想請問您，我是女性53歲，在10歲的時候感染德國麻疹病毒當時身上只有出疹子，半年之後發現蛋白尿5個加號，醫生診斷是德國麻疹病毒去了腎臟，吃了一年四環黴素而且1年沒有吃鹽巴蛋白質，後來慢慢恢復，目前狀況還好，我是氣喘兒對灰塵過敏，去美國之後好起來，回台灣沒有再復發，但是常會有皮膚過敏，想請問醫生，我會不會是那種對新冠病毒沒有抗體的？因為當時全家都沒有被德國麻疹侵犯只有我，或者我曾經感染過德國麻疹，但畢竟還是恢復了所以沒什麼太大關係？我沒有打新冠疫苗，堅持當中，很佩服您敢說真話的風骨，救很多人，謝謝
+
+─────────────
+
+新冠病毒與德國麻疹病毒是兩回事，不相干。你有沒有抗新冠病毒的抗體，完全不重要，重要的是你是否有 "測不到" 的 "抗新冠病毒" 的 T cell immunity。
+
+你小時候的腎臟病，如果是德國麻疹病毒引起，應該是自體免疫T cell or B cell造成(Molecular mimicry)，因為感染病毒到腎臟病發生，間隔半年，如果是病毒跑到腎臟，被CTL發現而攻擊腎臟細胞，病毒感染與腎臟病會在2-4週內同時出現 。
+wleemc 於 2022/01/21 13:29 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/21 13:36
+
+請問教授：#74那是疫苗的什麼原因造成他尾指會這樣呢 ？
+
+─────────────
+
+人體每一個動作都受腦神經細胞精密的調控，當你坐著彈鋼琴時，很輕鬆地坐著，你完全不會想著自己是坐著，但當大腦某處功能喪失時，你的每一個動作都舉步維艱。你用這個觀念去想他的尾指---三不五時會突然彎曲無法伸直，過幾分鐘才能恢復正常。
+wleemc 於 2022/01/21 17:04 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/21 15:40
+
+最近新聞讀到有些男性新冠肺炎後遺症是陰莖尺寸縮小。這是不是代表病毒曾進入該病患的血液造成血管受損？如果造成血管受損的是病毒的spike protein，那打疫苗應該也會有此副作用囉？
+
+─────────────
+
+男性新冠肺炎後遺症是陰莖尺寸縮小？
+只是感覺吧，不是真的。
+
+Spike protein會引發多重疾病，版主已經寫過數十次，自然感染新冠病毒，病毒很難進入血液。T cell immunity涉入越少，感染後的自體免疫風險越低，例如風溼性心臟病(Rheumatic heart disease) 及Post-streptococcal glomerulonephritis，三四十年前很多，但現在抗生素廣泛使用，使鏈球菌感染侷限在鼻咽喉黏膜淺層，T cell immunity便不會幫助B cell產生對抗心臟瓣膜及腎絲球細胞的抗體，這兩種病在台灣幾乎絕跡。對抗Omicron，請備好Nexium + Erythromycin，把病毒侷限在鼻咽喉黏膜淺層，免疫系統自然會弄死它，它就從唾液及痰液被你吐出來，完全無Spike protein及自體免疫T cell/B cell引發的後遺症。
+wleemc 於 2022/01/21 17:19 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/21 17:18
+
+教授請問:
+理解到疫苗機制上, 滅活相對mRNA 等安全, 亦較不會有副作用。
+想問一下較個人的問題, 若初生媽媽被迫打針, 選擇滅活是否不會影響人奶的安全性?
+照機制而言, 滅活應不會對細胞及體內蛋白製造有太大影響?
+
+─────────────
+
+滅活疫苗相對安全，但不要去打，因為也會引起自體免疫疾病，流入母乳，傷害嬰兒，包括流感疫苗。成人把外來抗原往身上打，是愚蠢的行為。
+wleemc 於 2022/01/21 17:26 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/21 17:47
+
+接種新冠疫苗後，常伴隨頭痛、疲倦、手臂痠痛等副作用，
+
+不過美國研究發現，這些反應可能是「反安慰劑效應」（nocebo effect）的心理作用影響，和疫苗成份本身無關。
+
+─────────────
+
+如果做研究的人打疫苗後也發生頭痛、疲倦、手臂痠痛，結論會完全相反。
+wleemc 於 2022/01/21 19:28 回覆
+
+──────────────────────────────
+
+針後血液變稠？ 於 2022/01/21 19:04
+
+Expected Viscosity After COVID-19 Vaccination, Hyperviscosity and Previous COVID-19
+
+“According to the study, viscosity increases in all groups after vaccination (Table 1). Given the hyperviscosity occurs at a viscosity higher than 5.0 cp, 5 it seems that there will be no problem in any vaccine recipient without previous COVID-19. 
+
+However, hyperviscosity is likely to occur in any recipient who has previous COVID-19. 
+
+Based on this preliminary study, it is suggested that screening for possible previous COVID-19 before COVID-19 vaccination might be necessary for prevention of unwanted blood thrombohemostasis adverse effect.”
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8216419/#!po=64.2857
+
+@ChiefNerd
+
+─────────────
+
+這種研究沒有結論。
+單看高端疫苗打在60歲以下台灣人，死亡率2.1萬分之一(應小於五十萬分之一)，就知道Bioactive spike protein不能拿來亂打。
+wleemc 於 2022/01/21 20:39 回覆
+
+──────────────────────────────
+
+Coyoter 於 2022/01/22 02:43
+
+很多人在說新冠會帶來腦霧症狀，其實說穿了就是失智前兆。
+
+然而，仔細看資料會發現，新冠能夠穿越血腦屏障造成腦霧的，是「S1蛋白」，S蛋白就是Spike Protein，俗稱的刺突蛋白，已經有動物實驗證實會引起小鼠炎症反應。
+
+重點來了：
+
+現在市面上的疫苗，都是利用刺突蛋白當做抗原，把S蛋白打進你的身體裏面（或讓你身體自行模擬）來引發免疫反應。
+
+會不會疫苗本身才是腦霧的最大風險呢？
+
+─────────────
+
+會不會疫苗本身才是腦霧的最大風險呢？
+Ans: 是的！台灣人若感染新冠病毒，只有小於0.05%的人Spike protein可能進入血液中，當下是80%的人直接把Spike protein or mRNA打進身體。
+wleemc 於 2022/01/22 11:06 回覆
+
+──────────────────────────────
+
+請教版主 於 2022/01/22 09:04
+
+Pseudouridine是第一次使用在人類嗎？
+為何pseudouridine的mRNA會直接影響生殖？
+
+─────────────
+
+Pseudouridine少量存在於細胞RNA中，主要在tRNA, ribosomal RNA，佔1-5%，某些mRNA也有幾個Pseudouridine，它的存在仍是一個謎。用100%Pseudouridine以In vitro transcription方式製造Spike protein mRNA打進人體，這是第一次用於人類。
+
+為何pseudouridine的mRNA會直接影響生殖？
+請參考下文：
+https://wleemc.pixnet.net/blog/post/121119364
+wleemc 於 2022/01/22 11:02 回覆
+
+──────────────────────────────
+
+請教版主 於 2022/01/22 12:25
+
+Moderna/BNT是使用pseudouridine並且encode的是ˋˋˋˋˋˋˋˋˋˋˋˋˋˋS2P蛋白質
+AZ沒有使用pseudouridine並且encode的是ˋˋˋˋˋˋˋˋˋˋˋˋˋˋ原版的Spike蛋白質
+那麼AZ的cDNA/mRNA確定會被代謝掉不會常存在體內嗎?
+
+─────────────
+
+AZ的cDNA/mRNA確定會被代謝掉不會常存在體內，是這樣。
+wleemc 於 2022/01/22 13:10 回覆
+
+──────────────────────────────
+
+訪客 於 2022/01/22 21:41
+
+請教版主如何看待台灣這波疫情，雖然和感冒很像，但傳染速度很快，感覺佷難控制，會和之前一樣很快就消失了嗎？ 打新冠疫苗會影響嗎？
+
+─────────────
+
+Omicron原本不構成疫情，是因為疫苗破壞Innate immunity，不只Omicron，打過疫苗的人可能更容易罹患其它上呼吸道病毒感染，只是沒去測而已，就當小感冒過去了。假設台灣不打疫苗，Omicron可能闖不過Natural Ab + NK cell + RNA editing 這關。
+
+Omicron在美國提升3-4倍的感染機率，最可能的禍首是疫苗。Spike protein的後遺症可能漸漸浮現了。
+wleemc 於 2022/01/22 22:32 回覆
+
+──────────────────────────────
+
+145國家打毒針後背景死亡值大增 於 2022/01/22 22:43
+
+Worldwide Bayesian Causal Impact Analysis of
+Vaccine Administration on Deaths and Cases
+Associated with COVID-19: A BigData Analysis of
+145 Countries
+https://www.docdroid.com/CToaD02/worldwide-bayesian-causal-impact-analysis-pdf
+Results indicate that the treatment (vaccine administration) has a strong and statistically significant propensity to causally increase the values in either y1 or y2 over and above what would have been expected with no treatment. y1 showed an increase/decrease ratio of (+115/-13), which means 89.84% of statistically significant countries showed an increase in total deaths per million associated with COVID-19 due directly to the causal impact of treatment initiation. y2 showed an increase/decrease ratio of (+105/-16) which means 86.78% of statistically significant countries showed an increase in total cases per million of COVID-19 due directly to the causal impact of treatment initiation. Causal impacts of the treatment on y1 ranges from -19% to +19015% with an average causal impact of +463.13%. Causal impacts of the treatment on y2 ranges from -46% to +12240% with an average causal impact of +260.88%. Hypothesis 1 Null can be rejected for a large majority of countries.
+
+──────────────────────────────
+
+訪客 於 2022/01/22 23:46
+
+教授您好：
+今天有一位孔姓網紅引用英國60歲以上的確診和死亡人數，認為打滿2-3劑的防重症防死亡率還是優於完全未接種。但他所提出的數字，完全接種者確診人數是完全未接種者的27.7倍。而英國的接種率，完全接種者只有71.5%，未接種者22.4%，人數比才3.2:1。如此顯著的差異，是否顯示疫苗破壞了人體的免疫系統呢？若如此，會是短期還是永久性的影響？孔姓網紅所強調的防重症防死亡還有參考意義嗎？
+
+─────────────
+
+英國完全接種者確診人數是完全未接種者的27.7倍。而英國的接種率，完全接種者只有71.5%，未接種者22.4%。由此推算，英國完整接種疫苗的感染率，是完全未接種疫苗的8.7倍。美國今年一月每日平均確診75萬人，去年同一時間只有25萬人，美國完整接種疫苗只有五成。這些數據顯示，疫苗已經破壞數億人的免疫系統，腦、心、肺、腎等重要器官可能也在衰退。
+
+疫苗對台灣人的效用只有約0.03％，卻傷了80％的人的健康。
+
+下面新聞有英國的疫苗接種及感染Omicron的數據
+https://tw.appledaily.com/forum/20211030/NOOSAQGLG5G6PK64TMV5BLNVAU/
+wleemc 於 2022/01/23 09:09 回覆
+
+──────────────────────────────
+
+實驗針劑非疫苗 於 2022/01/23 11:10
+
+Q：打疫苗能避免染疫及重症？ A：錯
+https://telegra.ph/%E6%96%B0%E5%86%A0%E5%AF%A6%E9%A9%97%E7%94%9F%E7%89%A9%E8%A3%BD%E5%8A%91QA-01-23
+
+─────────────
+
+打疫苗只對原本有抗新冠病毒的T cell immunity，但因年老或慢性病而變鈍的人「可能」有效，台灣這樣的人約0.03％。天生沒有這種T cell immunity的人，感染後註定會死亡，打疫苗完全沒用，台灣這樣的人約0.01%。
+wleemc 於 2022/01/23 12:41 回覆
+
+──────────────────────────────
+
+妙音 於 2022/01/23 16:22
+
+因為主流媒體都說「打疫苗防重症」，所以我根據：
+UK Health Security Agency COVID-19 vaccine surveillance report Week 42
+（英國衛生安全局COVID-19 疫苗監測報告 第 42 週）
+https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1027511/Vaccine-surveillance-report-week-42.pdf
+
+Table 2 (P.13) 染疫人數
+Table 3 (P.14) 住院人數
+
+我把這兩個 table copy 去 Excel，
+然後把 (住院人數) / (染疫人數) 得到「住院率」，
+比較 [沒打疫苗] VS [打完兩劑] ，
+發現在18歲以上的每一個年齡層，[沒打疫苗的]住院率都高於[打完兩劑的]。
+
+但在60歲以下，我覺得比率沒有差很多。
+請看這是我自己算出來的表（僅供參考，請大家驗算指正）：
+https://telegra.ph/UK-Health-Data-Week-42-01-23
+
+比如：40-49歲住院率
+沒打疫苗461/13,022 = 3.5%
+打完兩劑398/106,492 = 0.4%	
+(我個人以為，3.5% 沒有比0.4% 好太多，所以應該不值得為此而打疫苗。)	
+
+比率差距較大的是老年朋友，但因分母較小時，算出來的百分比很不牢靠，所以我把三組人（age 60-69、70-79、80+）加在一起算：
+60+歲住院率
+沒打疫苗541/2,912 = 18.6%
+打完兩劑3,276/75,393 = 4.3%	
+(這個差距較明顯，但是否有值得打疫苗的眾多風險呢？)
+
+另外我注意到這份英國衛生安全局的報告有說，分析他們的數據時要小心，因為有許多因素必須考量，不能光看數字。我並非專家。很希望有公正的生物統計學專家能提供分析。
+
+──────────────────────────────
+
+訪客 於 2022/01/23 17:01
+
+美國🇺🇸印第安納州的保險公司CEO公佈2021年的死亡率增加40%而且工作族群的短、長期失能保險金申請也大幅提高⋯為什麼呢？2020年不是疫情死亡高峰期嗎🤔？
+https://rumble.com/vrxftk-2021402020.html
+這個現象是從團體保險的業者觀察到的，個人險的理賠條件比較嚴格，而團體險通常是公司給員工的福利，死亡就賠 "OneAmerica offers employers across the country group life insurance, which generally covers people 18 to 64-years-old."
+"To illustrate just how severe the current death rate is, Davison said a 1 in 200-year catastrophe would likely only cause a 10 percent increase over pre-pandemic deaths." 
+https://thehill.com/changing-america/well-being/longevity/588738-huge-huge-numbers-death-rates-up-40-percent-over-pre
+
+──────────────────────────────
+
+請教版主 於 2022/01/23 20:59
+
+J&J Janssen的有沒有用到pseudo-uridine?
+它的spike protein是不是S2P?
+
+─────────────
+
+Janssen是用Ad26的 genome 攜帶S-2P spike protein的cDNA，沒有用到pseudo-uridine。
+wleemc 於 2022/01/23 23:05 回覆
+
+──────────────────────────────
+
+再請教版主 於 2022/01/24 09:26
+
+Sputnik V用的是Ad5?
+cDNA的就不會用到pseudo-uridine，是這樣嗎?
+Sputnik V的spike protein是不是S2P?
+
+─────────────
+
+Sputnik V，第一劑打Ad26，第二劑打Ad5。
+DNA用Thymidine，RNA用Uridine。
+Sputnik V 不是S2P。
+wleemc 於 2022/01/25 12:01 回覆
+
+──────────────────────────────
+
+訪客 於 2022/02/14 16:26
+
+版主好!
+
+"如果沒有大量病毒顆粒組裝成功，就會出現無症狀感染"
+如此說來，無症狀感染者傳染他人的可能性很低但還是存在可能性(少量病毒)對嗎?
+
+另有個案例想請教版主。
+
+若有一人，很容易感冒，可感冒症狀相較他人總是輕微，身邊人也很少被他傳染，可否說此人的 1)NK Cell較弱所以容易感冒 但2)T Cell較強所以症狀不嚴重 且3)對病毒RNA-editing能力較強所以不易傳染他人?
+
+以上，謝謝版主。
+
+─────────────
+
+無症狀感染者傳染他人的可能性很低但還是存在可能性(少量病毒)對嗎?
+Ans: 是的。病毒RNA量高，不代表病毒顆粒很多。
+
+你寫的1) 2) 3) 確實可能存在。
+也有些人Innate immunity很強，活到40歲很少感冒，41歲得一次A型流感就重症死亡，因為沒有對抗A型流感病毒的T cell immunity。
+wleemc 於 2022/02/14 16:39 回覆
+
+──────────────────────────────
+
+訪客 於 2022/02/14 21:56
+
+版主好!
+
+再請教您，病毒RNA若隨飛沫被吸入口鼻，是否具致病性?又或必須是病毒顆粒才有致病性?
+
+謝謝版主!
+
+─────────────
+
+病毒RNA沒有致病性，病毒顆粒才有。
+wleemc 於 2022/02/14 22:26 回覆
+
+──────────────────────────────
+
+Wei  寄信給 Wei 於 2022/03/31 10:36
+
+教授，印尼三月份又跑出峰值。怎麼看這個群體免疫現象，是否產生變化。謝謝
+
+搜尋Google「印尼，新冠，死亡」的資料
+
+─────────────
+
+印尼今年三月確診峰值與去年八月相當，但每日平均死亡人數只有去年八月的15% ，版主認為印尼加速疫苗施打，反而推高死亡率，15%數值偏高(如果沒打疫苗，可能小於5%)，應該是疫苗破壞老人的免疫系統造成。大多數70歲以上的老人，免疫力只剩30%，疫苗再催毀5-10%，免疫力剰20-25%，感染Omicron就撐不下去了。
+wleemc 於 2022/03/31 11:25 回覆
 
 ──────────────────────────────
 
@@ -3450,13 +4129,220 @@ wleemc 於 2022/04/29 06:45 回覆
 
 ───────────────────
 
+#5 訪客 於 2022/04/28 17:10
+
+您好，我想請問教授幾個問題，我沒打疫苗，近日因工作關係作了PCR檢測陽性確診，CT值30，已服用耐適恩紅黴素3日，期間沒有症狀，沒有發燒，血氧96%
+1.這代表病毒感染只侷限在鼻咽部細胞嗎? 靠著先天免疫的NK cell和補體就擋下了嗎?
+2.這樣程度的感染會啟動後天免疫製造專一性抗體嗎? 教授曾說過病毒有20幾種蛋白，自然感染可以刺激多樣性的抗體，讓之後若病毒變種的感染也可以應付嗎? 
+3.這樣程度的感染會可以確認我的CD4/8+ T細胞可以辨識出病毒嗎? 這樣會讓T細胞有記憶可以應付下次變種嗎?
+4.這樣程度的感染需要擔心spike protein進入身體的危害或可能的後遺症嗎? 比如說日後產生纖維化，血栓、自體免疫、類澱粉沉積的問題，若有，可以做什麼補救，有些網路資料和研究顯示甘草中的甘草甜素、某些中藥的檞皮素可以中和棘蛋白，可以額外補充嗎?
+懇請教授解惑? 謝謝~
+
+─────────────
+
+1. 服藥三天， Ct 值30，沒有症狀，沒有發燒，病毒早就被T cell局部化，清除病毒是遲早的事。
+2. T cell 會幫助B cell產生抗體，只有Anti-Spike Ab(很多種，Specific或Non-specific)有用，其它(如Anti-nucleocapsid Ab)沒用。
+3. 如果你抽血能測到明顯的Anti-Spike protein或Anti-nucleocapsid，代表你的T cell能辨識新冠病毒為外來抗原。
+4. 不用擔心Spike protein的後遺症，也不必吃其它排毒藥。
+wleemc 於 2022/04/28 18:59 回覆
+
+───────────────────
+
+訪客 於 2022/04/29 07:57
+版主好!
+
+請教版主，假設如#5網友的情況，如何在當下分辨是 a)病毒已被T Cell局部化 b)潛伏期症狀還未明顯化 呢?
+
+而若一直是無症狀沒發燒，即病毒局部化，如此還有傳染力嗎?
+
+目前聽到幾個案例，大致上，成人vs小孩，成人發燒較小孩輕微，但病程走的比小孩長，請教版主其中原因?
+
+以上，謝謝版主。
+
+─────────────
+
+病毒感染的不舒服症狀來自Cytokines (TNF-alpha, IFN-gamma, IL-2等)，如果你的抗新冠病毒CTL clones種類很多，會很快就把病毒在鼻咽局部化，自然感染後可能沒有任何症狀。這樣的CTL clones越少，局部化越吃力，CTL必須分泌較多的TNF-alpha與IFN-gamma吸引並活化MALT(mucosa-associated lymphoid tissue)中的T cell/B cell/Dendritic cell過來幫忙，症狀就會出來。Cytokines分泌越多，人越不舒服。另一種情況是天生沒有這樣的CTL，病毒會長驅直入肺臟引起肺炎，等出現發燒症狀時，肺炎已經發生，此時要看CD4+ T cell是否能辨識病毒為外來抗原，如果可以，局部化就在肺臟形成，如果不行，病毒會瀰漫在整個肺臟，甚至進入血液，造成全身感染，病人在發病1-2天就可能死亡。
+
+病毒若被T cell immunity局部化，傳染力很低。
+
+"成人發燒較小孩輕微，但病程走的比小孩長"---未必如此。
+兒童三歲就可能把T cell receptor(TCR)基因重組完成(但未停止)，只要有新的抗原入侵，T cell仍可快速進行TCR基因重組，產生新的T cell來辨識外來抗原。
+wleemc 於 2022/04/29 08:45 回覆
+https://tinyurl.com/3upspnut
+
+─────────────
+
+#7 訪客 於 2022/04/28 19:39
+
+教授：打新冠疫苗，壓抑了殺手細胞，讓殺手細胞沒辦法包圍癌細胞，結果癌細胞就會多點爆發 全境擴散，這樣理解對嗎？
+跟教授抱歉，常問很白的問題。
+
+─────────────
+
+打新冠疫苗，會降低殺手細胞(CTL)的功能，但對年輕人而言，不會降到無法辨識癌細胞。80歲老人的CTL功能可能只剩30-40%，但仍可毒殺癌細胞，可是若遇上一個簡單的泌尿道感染，就可能一命嗚呼。
+wleemc 於 2022/04/29 09:44 回覆
+
+───────────────────
+
+訪客 於 2022/04/29 11:20
+
+#7的回覆
+對年輕人而言，打新冠疫苗，會降低殺手細胞(CTL)的功能，但不會降到無法辨識癌細胞。
+對80歲老人而言，他的CTL功能可能只剩30-40%，但仍可毒殺癌細胞，若打了新冠疫苗，再降低了他殺手細胞(CTL)的功能，遇上一個簡單的泌尿道感染，就可能一命嗚呼。
+
+這樣理解對嗎？
+
+─────────────
+
+對
+wleemc 於 2022/04/29 11:31 回覆
+
+───────────────────
+
+🔴Wait to live or wait to die？
+https://tinyurl.com/muc6wmrx
+
+───────────────────
+
+訪客 於 2022/04/13 12:42
+
+McCullough 博士：“在接種疫苗後 [或] 接種疫苗後不久進行屍檢的人中……我們可以在身體的任何地方看到疫苗的指紋。它在大腦中；它在 心臟。它存在於骨髓中；它存在於生殖器官和淋巴結中……我們從未有過進入人類大腦的疫苗……我們從未有過進入人類心臟的疫苗。 
+https://rumble.com/v10mcyu-61509414.html
+
+───────────────────
+
+訪客 於 2022/04/29 06:31
+
+SARS-CoV-2 vaccination can elicit a CD8 T-cell dominant hepatitis
+https://www.journal-of-hepatology.eu/article/S0168-8278(22)00234-3/fulltext
+
+請問這篇文章和版主說的 CTL 對自體細胞攻擊是同一件事情嗎？
+
+─────────────
+
+是的。CTL即CD8+ T cell。
+wleemc 於 2022/04/29 06:40 回覆
+
+───────────────────
+
+訪客 於 2022/04/29 08:49
+
+請問版主：記憶型T細胞是如何運作的？打疫苗對記憶型T細胞有幫助嗎？
+Memory T cell需要特殊的Transcription factors(許多種)表現特殊的Cell membrane proteins(Markers)才會Homing to T cell zone of lymphoid tissues。
+
+─────────────
+
+打疫苗只能產生辨識Spike protein為外來抗原的Memory T cell。新冠病毒有20~種蛋白，自然感染可產生 "許多種" 辨識新冠病毒為外來抗原的Memory T cell。
+wleemc 於 2022/04/29 09:24 回覆
+
+───────────────────
+
+訪客 於 2022/04/29 10:03
+
+全球首國！丹麥宣布暫停新冠疫苗施打
+https://tinyurl.com/4hmyahs2
+
+───────────────────
+
+#3 訪客 於 2022/04/29 13:33
+
+版主，您覺得有可能是瑞xx韋造成她後面的變化嗎？謝謝版主！
+
+醫突PO「病危通知單」嘆：輕症轉重症只有6小時 
+https://www.ettoday.net/news/20220429/2240547.htm?from=ettoday_app
+
+─────────────
+
+不是Remdesivir造成。
+wleemc 於 2022/04/29 13:54 回覆
+
+───────────────────
+
+#5 李秀滿 於 2022/04/29 13:39
+
+TO#3樓上
+可是新聞沒有說"用瑞德西韋"治療...通常是中重症才會用上
+
+───────────────────
+
+Bluelove1968  Bluelove1968 於 2022/04/29 13:58
+
+To #5
+
+該名婦人在輕症轉重症之前，新聞有描述：『⋯使用瑞德西韋藥物治療，沒想到昨天半夜輕症突然轉重症⋯ 』
 
 
+⋯該名75歲婦人本身患有糖尿病、高血壓，生活可自理，有打過疫苗，2天前確診收治醫院專責病房，原本X光顯示肺部乾淨、白血球正常、發炎指數正常，豈料在短短6、7個小時內，輕症快速轉為重症，快速掉血壓、呼吸暴喘，在此之前已使用瑞德西韋藥物救治，深夜緊急開立病危通知書。
+
+⋯本來人好好的突然就轉重症了⋯
 
 
+請教版主：這是醫生用錯藥物致死的案例嗎？還是因為有接種過疫苗，而導致免疫力被打殘也有影響？謝謝。
 
+─────────────
 
+這是典型的CTL及CD4+ T cell完全沒發現病毒已經進入肺臟繁殖，因此CRP在病毒脹破肺泡細胞前，數值正常，等到肺泡細胞大量死亡，肺積水出現時，病人才喘起來，此時會看到X光片兩側肺臟變白(積水)，跟六小時前完全不同。也許，Remdesivir + Nexium有機會逆轉病情，一如Acyclovir單獨使用治療皰疹效果很差，加上Nexium就如虎添翼。Remdesivir與Acyclovir都是Nucleoside analogue。
+wleemc 於 2022/04/29 14:30 回覆
 
+───────────────────
+
+#11 於 2022/05/01 11:57
+
+教授您說：
+自然感染新冠病毒，輕症或無症，極少會有Spike protein進入嗅神經細胞。
+
+打過新冠疫苗者有內生性PrLP 存在體內，感染時候病毒大量複製，病毒的spike protein就像火柴，丟進乾草堆(體內的內生性PrLP)，產生大量聚集->神經退化疾病發作。
+
+您記得曾經分享過一個打科興的土耳其老人CJD嗎？
+那又是怎麼回事？機率偶然下的CJD?
+
+─────────────
+
+https://cms.galenos.com.tr/Uploads/Article_50671/TYBD-0-0.pdf
+A 82-year-old female patiet with a known diagnosis of hypertension and dementia started to have tremors and weakness on the right side of her body. The patient’s findings emerged one day after the first dose of COVID-19 CoronaVac vaccine was administered. 
+她原本就有失智症，注射科興疫苗一天後出現其它神經病變，Prion aggregation可能本來就存在，疫苗的全身性發炎反應加速Prion aggregation。CSF中的14-3-3蛋白可能本來就存在。作者在Abstract有寫 Creutzfeldt–Jakob disease should be considered and the role of immunity-related conditions in the progression of the disease should be investigated.
+wleemc 於 2022/05/01 12:25 回覆
+
+───────────────────
+
+訪客 於 2022/05/03 22:19
+
+今天五例都沒打疫苗，確意外都過世了，請問是因為都有慢性病嗎？若打疫苗真的能保住性命嗎？
+
+有感冒症狀，快篩陰性，就真的沒確診嗎？
+
+─────────────
+
+2021年台灣死亡人數18萬3千餘人，在次此以前，2015-2020年，平均每年約17萬3千人死亡。
+
+打疫苗造成約1萬人死亡：
+1. 死亡有通報
+2. 死亡未通報或被認定死亡與疫苗無關，例如，打疫苗3-6個月發生心肌梗塞或腦血管梗塞。已知，Spike protein可直接促使Fibrinogen在血中Bypass凝血因子而異常聚集。
+3. 老人打疫苗後免疫力下降，罹患其它感染而死亡。
+
+有感冒症狀，快篩陰性，如果每對Nexium + Erythromycin沒過敏就先吃，去醫院做PCR是自找麻煩，即使PCR陽性，醫師也無藥可開，反而延誤抑制病毒複製的時間，增加Spike protein進入嗅神經細胞引發Prion-like protein在大腦聚集引起退化性腦神經病變的機率。
+wleemc 於 2022/05/04 07:46 回覆
+https://tinyurl.com/2p8wkz3u
+
+───────────────────
+
+訪客 於 2022/05/03 08:52
+
+教授您好，有看到您說自己也不打任何的疫苗。
+想請教您有關於現今政府對嬰幼兒推行的常規疫苗接種，舉凡五合一疫苗或輪狀病毒口服疫苗⋯等，其對人體影響是否有害？又或者幼兒不接種的風險會大於疫苗的危害嗎？
+對於covid新冠病毒，3個月以下的新生兒不能服藥，又該如何從日常預防？
+謝謝您撥空回覆與釋疑。
+
+─────────────
+
+嬰幼兒的疫苗都經過十年以上的研究，風險極小。嬰幼兒可經由T cell receptor基因重組來調整疫苗引起的免疫失衡，但仍有50-100萬分之一的嚴重不良反應，甚至死亡。
+
+三個月以下的新生兒可將藥物加在牛奶中餵食。
+Zithromax與Nexium對孕婦都是Category B藥物，嬰幼兒高燒不退，若實在沒辦法處理，可以一試。Zithromax + Nexium 可對抗細菌，也可對抗病毒，簡單的處方，可以細菌/病毒通用。
+wleemc 於 2022/05/03 13:20 回覆
+https://tinyurl.com/2p8at8jz
+
+───────────────────
 
 
 
