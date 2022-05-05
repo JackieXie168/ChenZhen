@@ -5018,6 +5018,17 @@ https://www.ettoday.net/news/20220504/2243816.htm
 4.這在確診第一天就服用Nexium+Erythromycin，有沒有機會挽救? 是否需要再加steroid避免免疫風暴? 
 懇請教授解答~
 
+─────────────
+
+1. 沒有CD4+T cell辨識病毒為外來抗原，便不會有Th1/Th2 cell幫助B cell產生抗體，事實上，她打疫苗既不會活化T cell，也不會產生測到到、有用的抗體。
+2. 腹瀉的原因可能是病毒被吞下，腸道CTL與CD4+ T cell也無法辨識病毒為外來抗原，於是病毒在腸上皮細胞繁殖。
+3. 她天生沒有CTL及CD4+ T cell辨識病毒為外來抗原，因此無法將病毒攔截在鼻咽喉 或 肺臟，於是病毒迅速從鼻咽喉進入肺臟，並瀰漫兩側肺臟，然後進入血液，循環全身。免疫細胞缺乏辨識作用，只知道外來抗原入侵，但卻無法將病毒局部化，為吸引更多的免疫細胞追緝病毒，分泌大量Cytokines導致全身器官水腫。Cytokine storm引起腸道水腫、氧氣無法通過水層、在無氧呼吸下，腸道免疫崩潰，腸道細菌於是大舉入侵，此時血中白血球在Cytokine刺激下，非常活躍，但自腸道湧入血中的細菌太多，人體靠凝血包住細菌，再由白血球吞食，但細菌是無限多的，血小板及凝血因子卻是有限的，為阻擋腸道細菌進入血液，人體耗盡血小板及凝血因子，最後病人因全身器官出血而死亡(Disseminated intravascular coagulopathy, DIC)，但是腸道細菌成功被凝血及白血球擋下。這就是敗血症---免疫系統戰勝細菌，人卻因全身出血而死亡。
+
+免疫反應的熱度七分來自TNF-a，三分來自IL-6，若想逆轉敗血症，可以試Anti-IL-6 receptor Ab (tocilizumab)，抑制三成免疫反應，降低腸道水腫，使氧氣能進入細胞，恢復腸道免疫。若抑制TNF-a，等於抑制七成免疫反應，病人死更快。
+
+4. Nexium + Erythromycin早期使用才有效，等到Cytokine storm發生，晚了，若要用，只是死馬當活馬醫。臨床上只要看到NG feeding 一變差(例如護理師一個班的紀錄，牛奶灌下去不到50 cc)，立刻用適量的Steroid(Dexamethasone)，有機會逆轉Cytokine storm。
+wleemc 於 2022/05/04 19:26 回覆
+
 ───────────────────
 
 訪客 於 2022/05/04 15:06
@@ -5280,6 +5291,250 @@ wleemc 於 2022/05/05 13:09 回覆
 https://tinyurl.com/5cebbbud
 
 ───────────────────
+
+訪客 於 2022/01/22 19:11
+
+Examining non-influenza viruses specifically, the odds of both coronavirus and human metapneumovirus in vaccinated individuals were significantly higher when compared to unvaccinated individuals (OR = 1.36 and 1.51, respectively) (Table 5). 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7126676/
+請教版主這篇
+可以說施打普通流感疫苗會增加感染任何種類冠狀病毒（包含新冠病毒）的機率嗎？
+
+─────────────
+
+這篇文章曾在之前的留言中討論過，版主也寫過數十次，打任何疫苗都會在全身淋巴結及脾臟引起免疫失衡。疫苗就像一場沒有戰爭卻動員全國役男的演習，20-40歲的役男(沒有例外)都被徵招去參加為期兩週的全國大演習(台積電就讓它停擺兩週)，經濟的損失有多大？國家不會生病嗎？
+
+打疫苗會在全身淋巴結及脾臟引起不必要的發炎反應，破壞原有的免疫平衡，並引發自體免疫反應，然而，99.9%的台灣人感染新冠病毒，只動用鼻咽Mucosa-associated lymphoid tissue (MALT)少許淋巴組織。如果自然感染動用免疫系統1分有效的兵力擊退病毒，打疫苗則動用1000分兵力，只有0.5分有效。---- 結果，打疫苗抑制Innate immunity(Adaptive immunity也可能減弱)，造成數億人無法阻擋Omicron進入細胞。
+
+施打普通流感疫苗會增加感染任何種類冠狀病毒（包含新冠病毒）的機率嗎？
+Ans: 會
+Influenza vaccine
+Vaccinated vs Unvaccinated, 
+SARS CoV-2 infection, estimated OR > 1.1 (Probably 1.2-1.4) according to the above paper, Table 5. 即打流感疫苗可能增加20-40%新冠病毒的感染機率。
+wleemc 於 2022/01/22 19:37 回覆
+
+───────────────────
+
+謝謝版主 於 2022/01/22 20:10
+
+會問是因為不知道打流感疫苗可能增加20-40%新冠病毒的感染機率這樣是很多嗎？
+
+─────────────
+
+增加20-40%---->原本每天100例新冠確診，如果所有的人都打流感疫苗，增至每天120-140例確診。
+
+版主推測，打新冠疫苗會增加Omicron感染3-4倍，美國去年一月平均每日確診約20-25萬人，今年一月平均每日確診約70-75萬人
+wleemc 於 2022/01/22 21:08 回覆
+
+───────────────────
+
+訪客 於 2022/01/22 21:02
+
+5月爆發大規模社區疫情，其中台北市的萬華地區也很嚴重，疫情過後，北市府和北醫及台大公衛學院合作，展開當地的血清抗體調查，釐清實際的感染情形，總計收案6000人，結果發現，高達97%的民眾都有體內抗體，而中和抗體也達82%，代表受試者受到感染或打疫苗產生抗體的比例極高。
+https://news.ttv.com.tw/news/11012240031500N
+請教：97%民眾體內抗體是anti-Spike Ab? 
+請問版主如何解讀此本土real world data
+
+─────────────
+
+據我所知，這是未打疫苗前的捐血檢體。
+
+97%萬華民眾體內抗體是Anti-Spike or Anti-nucleocapsid
+
+這數字與版主當時的預測吻合，版主去年五六月估算：公告確診人數是實際感染人數的100分之一。萬華人口17萬，官方確診人數約1500人，萬華約16.5萬人(17×0.97)曾感染新冠病毒。當確診人數破萬時，版主就寫過，台灣實際感染人數超過100萬。
+wleemc 於 2022/01/22 22:12 回覆
+
+───────────────────
+
+訪客 於 2022/01/29 11:39
+
+Better than VAERS-
+DMED, the Militaries’ unbiased medical code surveillance had averages of 300%-1000% INCREASES in all documented jab-related adverse events from miscarriages to cancer, than previous 5 year average including 2020! 
+According to the military, DMED is the Armed Forces Health Surveillance Branch’s (AFHSB) “web-based tool to remotely query de-identified active component personnel and medical event data contained within the Defense Medical Surveillance System (DMSS).” In other words, it contains every ICD medical billing code for any medical diagnosis in the military submitted for medical insurance billing during any given period of time. Three military doctors have presented queried data to Renz that shows a shocking and sudden spike in nearly every ICD code for common vaccine injuries in 2021. 
+
+https://www.theblaze.com/op-ed/horowitz-whistleblowers-share-dod-medical-data-that-blows-vaccine-safety-debate-wide-open
+
+─────────────
+
+新冠疫苗對美軍(健康成年人)的影響：
+myocardial infarction –269% increase
+Bell’s palsy – 291% increase
+congenital malformations (for children of military personnel) – 156% increase
+female infertility – 471% increase
+pulmonary embolisms – 467% increase
+
+請注意醫學上100% increase，指2x Normal value。新生兒先天性異常，156% increase，代表美軍家庭在注射新冠疫苗後，畸形兒的數目是以前(X)的2.56X。另外，不孕也是之前的5.71X。
+wleemc 於 2022/01/29 16:39 回覆
+
+───────────────────
+
+訪客 於 2022/01/29 23:06
+
+版主好!
+
+若DELTA的實際感染是官方數字的約110倍，那麼，OMICRON的高傳染力+接種者的先天免疫下降(台灣高覆蓋率)，OMICRON的實際感染人數應該存在更大的黑數對嗎?
+
+意即，現在做的大量匡人無法止住所謂的疫情，社區感染早就開始擴散，而絕大多數人感冒一場(或無症狀)就結束了。
+
+─────────────
+
+如果衛福部五月再做一次血清抗體篩檢，就可知道感染黑數是官方數字的X00倍。
+wleemc 於 2022/01/30 00:04 回覆
+
+───────────────────
+
+#58 IO 於 2022/05/01 15:52
+
+List of scientific papers quoted in The Viral Delusion Episode 1
+
+https://telegra.ph/List-of-scientific-papers-quoted-in-The-Viral-Delusion-Episode-1-05-01
+
+───────────────────
+
+#59 IO 於 2022/05/01 16:28
+
+加拿大這位女士Christine Massey收集了世界上一百多個國家政府的公開資訊回函：沒有新冠病毒被分離出來的證據。FOIs reveal that health/science institutions around the world (182 and counting!) have no record of SARS-COV-2 isolation/purification, anywhere, ever.
+https://www.fluoridefreepeel.ca/fois-reveal-that-health-science-institutions-around-the-world-have-no-record-of-sars-cov-2-isolation-purification/
+目前#58 留言可以找到的新冠病毒論文僅說明痰液從棉棒"分離"出來後的培養結果，並不是病毒從痰液等培養物獨立"分離"出來的證據。
+簡單說，上述論文只是標題寫"分離"出新冠病毒，實際上頂多只能說是新冠病毒培養的實驗。
+如果有呆丸同胞願意向政府要求提供這份證據，等政府回函後可以傳給Christine Massey。
+
+─────────────
+
+新冠病毒是真實的存在，它以武漢原始病毒出現在人類肺炎，最後將以Omicron的亞型之一離開人類，5-10年後可能捲土重來。
+wleemc 於 2022/05/01 17:31 回覆
+
+───────────────────
+
+Galileo 於 2022/05/01 18:48
+
+Re:#59
+
+I am still on the fence about this "ViroLIEgy". 
+https://viroliegy.com/
+
+However, Dr. Cowan and others convinced me the method used to generate the sequence of the so-called SARS-COV-2 is questionable.
+
+─────────────
+
+SARS-CoV-2 is a coronavirus that will make you sick. If you are sick once, you will feel its existence.
+wleemc 於 2022/05/01 19:04 回覆
+
+───────────────────
+
+訪客 於 2022/05/02 14:47
+
+求李大寫一篇專文
+
+─────────────
+
+台灣官方公布每年死於流感的人數約4500人，佔總人口約0.02%，加上死亡黑數，不超過0.04%。新冠病毒對華人的致死率約0.04%，跟流感差不多。SARS-CoV-2是一種Coronavirus，是致病病毒，對台灣人會造成0.02-0.04%的死亡率。柯文哲說到年底會死4萬人，版主預估只會死4500人，跟每年流感死亡人數差不多。
+wleemc 於 2022/05/02 15:04 回覆
+
+───────────────────
+
+Galileo 於 2022/05/02 17:29
+
+I don't say that viruses in general do not exist. I believe what has happened for the past two years is common cold/flu/pneumonia rebranded as COVID.
+The COVID death counts in the US/UK/Europe have already been adjusted , hence the numbers of those that "died WITH COVID" is largely reduced to the numbers of those that actually "died FROM COVID".
+No such difference exists across ethnic groups as in 歐美約0.3-0.5%，東亞約0.03-0.05%。
+
+─────────────
+
+搜尋「美國、新冠、死亡」與「新加坡、新冠、死亡」查出死亡人數，除該國總人口，乘100%，數字就出來了。
+wleemc 於 2022/05/02 18:07 回覆
+
+───────────────────
+
+IO 於 2022/05/02 18:19
+
+我換一個方式請教教授：
+在西元2020前，不管普通感冒或流行性感冒，是不是都會有一定比例的人沒有可辨識病毒抗原的CTL而進一步轉成肺炎？這個比例大約也是0.05%上下？
+
+─────────────
+
+新加坡官方公布的新冠肺炎死亡人數佔該國總人口0.02%，跟台灣每年死於流感的人口比例相同。Omicron致死率較低，大約造成台灣4500人死亡，跟流感一樣，打疫苗沒用。
+wleemc 於 2022/05/02 19:19 回覆
+
+───────────────────
+
+#72 IO 於 2022/05/02 19:25
+
+我想請教的是普通感冒或流行性感冒，人體對抗病毒的免疫學機制是否也是：有一定比例的人沒有可辨識普通感冒或流行性感冒病毒抗原的CTL而進一步轉成肺炎？這個比例大約也是0.05%上下？
+
+─────────────
+
+1. 是
+2. 是，但很少達到0.05%那麼高。
+wleemc 於 2022/05/02 19:28 回覆
+
+───────────────────
+
+ #72 於 2022/05/02 19:35
+
+謝謝教授，是說以流感來說，0.05%沒有可辨識抗原的CTL(CD8+), 但是進入肺炎以後可能有人的T helper cell (CD4+)作用了，所以死亡的只有0.02% (<0.05%)這樣嗎？
+
+─────────────
+
+無法知道幾%，只能想像。
+wleemc 於 2022/05/02 19:48 回覆
+
+───────────────────
+
+訪客 於 2022/05/03 00:30
+
+台灣從 2020年2月份迄今，幾乎沒有流感確診的通報，請問可能的原因是什麼？（其他國家似乎同樣存在流感確診數大幅下降的現象）
+
+─────────────
+
+醫院篩檢能量都被新冠病毒佔滿，沒有醫師送出流感檢驗單，當然不會通報流感死亡。
+wleemc 於 2022/05/03 07:54 回覆
+
+───────────────────
+
+訪客 於 2022/05/03 10:22
+
+版主好!
+
+您寫到"新冠病毒是真實的存在，它以武漢原始病毒出現在人類肺炎，最後將以Omicron的亞型之一離開人類，5-10年後可能捲土重來" 請問這是由過去數據統計出來的自然界規律嗎?
+
+若然，表示 2003 SARS - 2020 COVID19 中間曾出現過致病(命)率同等的冠狀病毒，只是沒大流行是嗎?
+
+謝謝版主。
+
+─────────────
+
+2012/2013年有MERS-CoV在中東流行。
+wleemc 於 2022/05/03 12:53 回覆
+
+───────────────────
+
+訪客 於 2022/05/04 10:23
+
+診所不快篩不通報 「就當感冒」 | 聯合新聞網
+https://udn.com/news/story/122190/6283345
+
+不快篩不通報 魏重耀：醫師的認知裡就是一個感冒 | 聯合新聞網
+https://udn.com/news/story/122190/6282031
+
+───────────────────
+
+ianjoedebbie 於 2022/05/05 13:52
+
+小犬在學校宿舍（大一）4/28與確診者接觸，當天開始流鼻涕、喉嚨痛、疲倦（沒發燒）,這症狀持續3天，到5/1就恢復9成，5/2室友才快篩確診，而我兒子症狀已結束，但我還是開車南下接他回家進行3+4,今天第3天，我和女兒、小犬快篩皆陰性，但我在5/3有打噴涕，先預防性吃李教授所說的藥（早就備妥等侯）,沒有過敏不適；居隔期間3人都沒有不適與症狀，有視訊中醫，我和女兒吃調整免疫力的中藥，也備妥“清冠一號”,兒子則是中醫衣症狀體質配部份新冠藥方服用，感謝李教授的救命藥方，我和2個孩子，一劑新冠都沒接種，得以保護全身免疫力！
+
+───────────────────
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
